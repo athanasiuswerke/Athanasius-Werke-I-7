@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="la">Contra gentes (Ms 44)</title>
+                <author>
+                    <persName key="pta0022">Athanasius Alexandrinus</persName>
+                </author>
+                <respStmt>
+                    <resp>transkribiert von</resp>
+                    <persName xml:id="KS">Kyriakos Savvidis</persName>
+                </respStmt>
+                <funder>Deutsche Forschungsgemeinschaft</funder>
+            </titleStmt>
+            <editionStmt>
+                <p>New transcription.</p>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Patristische Arbeitsstelle Bochum</authority>
+                <distributor>Patristic Text Archive</distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
+                </availability>
+                <date>2018</date>
+                <idno type="PTA">pta0022.pta001</idno>
+                <idno type="TLG">tlg2035.tlg001</idno>
+                <idno type="CPG">2090</idno>
+                <idno type="BHG"/>
+                <idno type="Aldama"/>
+                <idno type="Pinakes-Oeuvre">1759</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier xml:id="Cambridge_TC_B_9_7">
+                        <settlement>Cambridge</settlement>
+                        <repository>Trinity College </repository>
+                        <idno>B 9.7</idno>
+                        <altIdentifier type="diktyon">
+                            <idno>44</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="m1">
+                                <persName>Emmanuel von Monemvasia</persName>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='transcription']/tei:div[@n='$1'])"/>
+            </refsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#KS" when="2021-02-23">Transkription des Textes anhand des Mikrofilms</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-Ms44">
+                <pb n="1"/>
+                <head>
+                    <title>τοῦ ἐν ἁγίοις                        
+                        <choice>
+                            <expan>πατρὸς</expan>
+                            <abbr type="nomSac">
+                                <hi rend="overline">πρς</hi>
+                            </abbr>
+                        </choice> ἡμῶν ἀθανασίου ἀρχιεπισκόπου ἀλεξανδρείας κατὰ ἑλλήνων λόγος α' · οὗ ἡ ἀρχὴ ἡ μὲν περὶ τῆς θεοσεβείας 
+                    </title>
+                </head>
+                <pb n="2"/>
+                <div type="textpart" subtype="section" n="1">
+                <p>
+                    <choice>
+                        <expan>σταυρὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">στρον</hi>
+                        </abbr>
+                    </choice> μὴ βλάβην· ἀλλὰ θεραπείαν τῆς κτίσεως γεγονέναι· εἰ γὰρ <lb/>
+ τοῦ                    <choice>
+                        <expan>σταυροῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">στροῦ</hi>
+                        </abbr>
+                    </choice> γενομένου πᾶσα μὲν εἰδωλολατρία καθῃρέθη· πᾶσα <lb/>
+ δὲ δαιμόνων φαντασία τῷ σημείῳ τούτου ἀπελαύνεται· καὶ <lb/>
+ μόνος ὁ                    <choice>
+                        <expan>χριστὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">χς</hi>
+                        </abbr>
+                    </choice> προσκυνεῖται καὶ δι' αὐτοῦ γινώσκεται ὁ                    
+                    <choice>
+                        <expan>πατήρ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πηρ</hi>
+                        </abbr>
+                    </choice>· καὶ <lb/>
+ οἱ μὲν ἀντιλέγοντες καταισχύνονται· ὁ δὲ τῶν ἀντιλεγόντων <lb/>
+ ὅσημέραι τὰς ψυχὰς ἀφανῶς μεταπείθει; πως εἰκότως γὰρ ἄν <lb/>
+ τις εἴποι πρὸς αὐτοὺς, ἔτι                    
+                    <choice>
+                        <expan>ἀνθρώπινόν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνινόν</hi>
+                        </abbr>
+                    </choice> ἐστιν ἐπινοεῖν τὸ πρᾶγμα· καὶ <lb/>
+ οὐ μᾶλλον ὁμολογεῖν                    
+                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θυ</hi>
+                        </abbr>
+                    </choice> λόγον καὶ                    
+                    <choice>
+                        <expan>σωτῆρα</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">σρα</hi>
+                        </abbr>
+                    </choice> εἶναι τοῦ παντὸς τὸν ἐπὶ <lb/>
+ τοῦ                    <choice>
+                        <expan>σταυροῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">στροῦ</hi>
+                        </abbr>
+                    </choice> ἀναβάντα· πάσχειν δὲ καὶ οὗτοί δοκοῦσιν ὅμοιον, ὡς <lb/>
+ εἴ τις τὸν μὲν ἥλιον ἐπὶ νεφῶν σκεπόμενον διαβάλλοι· τὸ δὲ <lb/>
+ τούτου φῶς θαυμάζοι· βλέπων ὅτι πᾶσα ἡ κτίσις ὑπὸ τούτου <lb/>
+ καταλάμπεται· ὡς γὰρ καλὸν τὸ φῶς· καὶ καλλίων ὁ τοῦ φω<lb break="no"/>τὸς ἀρχηγὸς ἥλιος, οὕτως θείου πράγματος ὄντος τὸ τὴν οἰκου<lb break="no"/>μένην πᾶσαν τὴν αὐτοῦ γνώσεως πεπληρῶσθαι, ἀνάγκη τὸν <lb/>
+ ἀρχηγὸν καὶ ἡγεμόνα τοῦ τοιούτου κατορθώματος· εἶναι                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice>
+ <lb/>
+ καὶ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θυ</hi>
+                        </abbr>
+                    </choice> λόγον· λέγομεν οὖν ὡς ἐφικτὸν ἡμῖν, πρότερον <lb/>
+                    διελέ<subst>
+                        <del rend="erasure">ξα</del>
+                        <add place="above">γξα</add>
+                    </subst>ντες τὴν τῶν ἀπίστων ἀμαθίαν· ἵνα τῶν ψευδῶν <lb/>
+ διελεγχθέντων, λοιπὸν ἡ ἀλήθεια δι' ἑαυτῆς ἐπιλάμψῃ· <lb/>
+ καὶ θαρρῇς καὶ αὐτός ὦ                    <choice>
+                        <expan>ἄνθρωπε</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ανε</hi>
+                        </abbr>
+                    </choice> ὅτι ἀληθείᾳ πεπίστευκας·<lb break="no"/>καὶ τὸν                    <choice>
+                        <expan>χριστὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">χν</hi>
+                        </abbr>
+                    </choice> γινώσκων, οὐκ ἠπατήθης· πρέπειν δέ σοι ἡγοῦ <lb/>
+ μαι φιλοχρίστῳ ὄντι· τὰ περὶ                    <choice>
+                        <expan>χριστοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">χῦ</hi>
+                        </abbr>
+                    </choice> διαλέγεσθαι· ἐπεὶ καὶ <lb/>
+ πάντων τιμιωτέραν τὴν περὶ τούτου γνῶσιν καὶ πίστιν ἡγεῖσθαί <lb/>
+ σε πεπίστευκα· ἐξ ἀρχῆς μὲν, οὐκ ἦν κακία· οὐδὲ γὰρ οὐ<lb break="no"/>δὲ νῦν ἐν τοῖς ἁγίοις ἐστὶν· οὐδ' ὅλως κατ' αὐτοὺς ὑπάρχει αὕτη· <lb/>
+                    <choice>
+                        <expan>ἄνθρωποι</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">
+                                <hi rend="ekthesis">ἄ</hi>νοι 
+                            </hi>
+                        </abbr>
+                    </choice> δὲ ταύτην ὕστερον ἐπινοεῖν ἤρξαντο· καὶ καθ' ἑαυτῶν ἀνα<lb break="no"/>τυποῦσθαι· ὅθεν δὴ καὶ τὴν τῶν εἰδώλων ἐπίνοιαν ἑαυτοῖς ἀνε<lb break="no"/>πλάσαντο· τὰ οὐκ ὄντα ὡς ὄντα λογιζόμενοι· ὁ μὲν γὰρ τοῦ <lb/>
+ παντὸς δημιουργὸς καὶ παμβασιλεύς                    <choice>
+                        <expan>θεὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θς</hi>
+                        </abbr>
+                    </choice>, ὁ ὑπερέκεινα πά<lb break="no"/>σης οὐσίας καὶ                    <choice>
+                        <expan>ἀνθρωπίνης</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνίνης</hi>
+                        </abbr>
+                    </choice> ἐπινοίας ὑπάρχων· ἅτε δὴ ἀγαθὸς <lb/>
+ καὶ ὑπέρκαλος ὢν, διὰ τοῦ ἰδίου λόγου τοῦ                    <choice>
+                        <expan>σωτῆρος</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">σρς</hi>
+                        </abbr>
+                    </choice> ἡμῶν                    <choice>
+                        <expan>ἰησοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἰῦ</hi>
+                        </abbr>
+                    </choice>
+                    <choice>
+                        <expan>χριστοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">χῦ</hi>
+                        </abbr>
+                    </choice>
+                    <pb n="3"/>
+ τὸ                    <choice>
+                        <expan>ἀνθρώπινον</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνίνον</hi>
+                        </abbr>
+                    </choice> γένος κατ' ἰδίαν εἰκόνα πεποίηκε· καὶ τῶν ὄντων <lb/>
+ αὐτὸν θεωρητὴν καὶ ἐπιστήμονα διὰ τῆς πρὸς αὐτὸν ὁμοιὀ<lb break="no"/>τητος. κατεσκεύασε· δοὺς αὐτῷ καὶ τῆς, ἰδίας ἀϊδιότητος ἔν<lb break="no"/>νοιαν καὶ γνῶσιν· ἵνα τὴν ταυτότητα σώζων, μήτε τῆς περὶ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice>
+ <lb/>
+ φαντασίας ἀποστῇ, μήτε τῆς τῶν ἁγίων συζητήσεως ἀποπη <lb/>
+ δήσῃ· ἀλλ' ἔχων τὴν τοῦ δεδωκότος χάριν, ἔχων καὶ τὴν ἰδίαν <lb/>
+ ἐκ τοῦ                    <choice>
+                        <expan>πατρικοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πρικοῦ</hi>
+                        </abbr>
+                    </choice> λόγου δύναμιν, ἀγάλλεται καὶ συνομιλεἴ τῷ θε<lb break="no"/>ῷ, ζῶν τὸν ἀπήμονα καὶ μακάριον ὄντως ἀθάνατον βίον· <lb/>
+ οὐδὲν γὰρ ἔχων ἐμπόδιον εἰς τὴν περὶ τοῦ θείου γνῶσιν· θεωρεῖ <lb/>
+ μὲν ἀεὶ διὰ τῆς αὐτοῦ καθαρότητος τὴν τοῦ                    <choice>
+                        <expan>πατρὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πρς</hi>
+                        </abbr>
+                    </choice> εἰκόνα· τὸν <lb/>
+                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> λόγον· οὗ καὶ κατ' εἰκόνα γέγονεν· ὑπερεκπλήττεται <lb/>
+ δὲ κατανοῶν τὴν δι' αὐτοῦ εἰς τὸ πᾶν πρόνοιαν· ὑπὲρ ἄνω μὲν <lb/>
+ τῶν αἰσθητῶν καὶ πάσης σωματικῆς φαντασίας γινόμενος· <lb/>
+ πρὸς δὲ τὰ ἐν                    <choice>
+                        <expan>οὐρανοῖς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">οὐνοῖς</hi>
+                        </abbr>
+                    </choice> θεῖα καὶ νοητὰ, τῇ δυνάμει τοῦ νοῦ συνα<lb break="no"/>πτόμενος· ὅτε γὰρ οὐ συνομιλεῖ τοῖς σώμασιν ὁ νοῦς ὁ τῶν <lb/>
+                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice>, οὐδέ τι τῆς ἐκ τούτων ἐπιθυμίας μεμιγμένον ἔξωθεν <lb/>
+ ἔχει· ἀλλ' ὅλως ἐστὶν· ἑαυτῷ συνὼν ὡς γέγονεν ἐξ ἀρχῆς, τότε δή <lb/>
+ τὰ αἰσθητὰ, καὶ πάντα τὰ                    <choice>
+                        <expan>ἀνθρώπινα</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνίνα</hi>
+                        </abbr>
+                    </choice> διαβὰς, ἄνω μετάρσιος <lb/>
+ γίνεται· καὶ τὸν λόγον ἰδὼν, ὁρᾷ ἐν αὐτῷ καὶ τὸν τοῦ λόγου                    <choice>
+                        <expan>πατέρα</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πρα</hi>
+                        </abbr>
+                    </choice>· <lb/>
+ ἡδόμενος ἐπὶ τῇ τούτου θεωρίᾳ· καὶ ἀνακαινούμενος ἐπὶ <lb/>
+ τῷ πρὸς τοῦτον πόθῳ· ὥσπερ οὖν τὸν πρῶτον τῶν                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice>
+ <lb/>
+ γενόμενον, ὃς καὶ κατὰ τὴν ἑβραίων γλῶτταν ἀδὰμ <lb/>
+ ὠνομάσθη· λέγουσιν αἱ ἱεραὶ γραφαὶ· κατὰ τὴν ἀρχήν <lb/>
+ ἀνεπαισχύντῳ παρρησίᾳ τὸν νοῦν ἐσχηκέναι πρὸς τὸν                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice>· <lb/>
+ καὶ συνδιαιτᾶσθαι τοῖς ἁγίοις ἐν τῇ τῶν νοητῶν θεωρίᾳ· <lb/>
+ ἣν εἶχεν ἐν ἐκείνῳ τῷ τόπῳ· ὃν καὶ ὁ ἅγιος μωϋσῆς τροπι<lb break="no"/>κῶς παράδεισον ὠνόμασεν· ἱκανὴ δὲ ἡ τῆς ψυχῆς καθαρότης <lb/>
+ ἐστὶ καὶ τὸν                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> δι' αὐτῆς ἐντοπτρίζεσθαι·  καθάπερ καὶ ὁ                    <choice>
+                        <expan>κύριός</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">κς</hi>
+                        </abbr>
+                    </choice> φησί· <lb/>
+                    <g type="doubled_diple"/>
+μακάριοι οἱ καθαροὶ τῇ καρδίᾳ· ὅτι αὐτοί τόν                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> ὄψονται · οὕ<lb break="no"/>τω μὲν οὖν ὁ δημιουργὸς ὥσπερ εἴρηται τὸ τῶν                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice> γένος κατε                    <pb n="4" break="no"/>
+σκεύασε καὶ μένειν ἠθέλησεν· οἱ δὲ                    <choice>
+                        <expan>ἄνθρωποι</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνοι</hi>
+                        </abbr>
+                    </choice> κατολιγωρήσαντες τῶν κρειτ<lb break="no"/>τόνων· καὶ ὀκνήσαντες περὶ τὴν τούτων κατάληψιν, τὰ ἐγγυτέρω μᾶλ<lb break="no"/>λον ἑαυτῶν ἐζήτησαν. ἐγγύτερα δὲ τούτοις ἦν· τὸ σῶμα καὶ αἱ <lb/>
+ τούτου αἰσθήσεις· ὅθεν τῶν μὲν νοητῶν, ἀπέστησαν ἑαυτῶν τὸν νοῦν· <lb/>
+ ἑαυτοὺς δὲ κατανοεῖν ἤρξαντο. ἑαυτοὺς δὲ κατανοοῦντες· καὶ <lb/>
+ τοῦ, τε σώματος καὶ τῶν ἄλλων αἰσθητῶν ἀντιλαμβανόμενοι· καὶ <lb/>
+ ὡς ἐν ἰδίοις ἀπατώμενοι, εἰς ἑαυτῶν ἐπιθυμίαν ἔπεσον· τὰ <lb/>
+ ἴδια προτιμήσαντες τῆς πρὸς τὰ θεῖα θεωρίας· ἐνδιατρίψαν<lb break="no"/>τες δὲ τούτοις· καὶ τῶν ἐγγυτέρω μὴ ἀποστῆναι θέλοντες, ταῖς <lb/>
+ μὲν τοῦ σώματος ἡδοναῖς. συνέκλεισαν ἑαυτῶν τὴν ψυχήν <lb/>
+ τεταραγμένην καὶ πεφυρμένην πάσης ἐπιθυμίας· τέλεον <lb/>
+ δὲ ἐπελάθοντο τῆς ἐξ ἀρχῆς αὐτῶν παρὰ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> δυνάμεως· τοῦ<lb break="no"/>το δ' ἄν τις ἴδοι καὶ ἐκ τοῦ πρώτου πλασθέντος                    <choice>
+                        <expan>ἀνθρώπου</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνου</hi>
+                        </abbr>
+                    </choice> ἀληθὲς· ὡς <lb/>
+ αἱ ἱεραὶ περὶ αὐτοῦ λέγουσι γραφαὶ. κἀκεῖνος γὰρ· ἕως μὲν <lb/>
+ τὸν νοῦν εἶχε πρὸς τὸν                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> καὶ τὴν τούτου θεωρίαν, ἀπεστρέφετο <lb/>
+ τὴν πρὸς τὸ σῶμα φιλιαν· ὅτε δὲ συμβουλίᾳ τοῦ ὄφεως ἀπέστη <lb/>
+ μὲν τῆς πρὸς τὸν                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> διανοίας· ἑαυτὸν δὲ κατανοεῖν ἤρξατο, τηνικαῦ<lb break="no"/>τα καὶ εἰς ἐπιθυμίαν τοῦ σώματος ἔπεσον· καὶ ἔγνωσαν ὅτι γυ<lb break="no"/>μνοὶ ἦσαν· καὶ γνῶντες, ᾐσχύνθησαν· ἔγνωσαν δὲ ἑαυτοὺς γυ<lb break="no"/>μνοὺς· οὐ τοσοῦτον ἀπὸ ἐνδυμάτων, ἀλλ' ὅτι γυμνοὶ τῆς τῶν θείων <lb/>
+ θεωρίας γεγόνασι· καὶ πρὸς τὰ ἐναντία τὴν διάνοιαν μετήνεγκαν· <lb/>
+ ὃν ἀποστάντες γὰρ τῆς πρὸς τὸν ἕνα καὶ ὄντα                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> λέγω κατανοήσεως <lb/>
+ καὶ τοῦ πρὸς αὐτὸν πόθου, λοιπὸν εἰς διαφόρους καὶ εἰς τὰς κατὰ <lb/>
+ μέρος ἐπιθυμίας ἀνέβησαν τοῦ σώματος· εἶτα οἷα φιλεῖ γί<lb break="no"/>νεσθαι ἑκάστου καὶ πολλῶν ἐπιθυμίαν λαβόντες, ἤρξαντο καὶ <lb/>
+ τὴν πρὸς αὐτὰς σχέσιν ἔχειν· ὥστε καὶ φοβεῖσθαι ταύτας κατα<lb break="no"/>λεῖψαι· ὅθεν δὴ καὶ δειλίαι καὶ φόβοι καὶ ἡδοναὶ. καὶ θνητὰ φρονεῖν <lb/>
+ τῇ ψυχῇ προσγέγονεν· οὐ θέλουσα γὰρ ἀποστῆναι τῶν ἐπιθυ<lb break="no"/>μιῶν, φοβεῖται τὸν θάνατον καὶ τὸν χωρισμὸν τοῦ σώματος· ἐπι<lb break="no"/>θυμοῦσα δὲ καὶ μὴ τυγχάνουσα τῶν ὁμοίων, ἔμαθε φονεύειν καὶ                    <pb n="5"/>
+ ἀδικεῖν· πῶς δὲ καὶ ταῦτα ποιεῖ, εὔλογον κατὰ δύναμιν ση<lb break="no"/>μᾶναι· ἀποστᾶσα τῆς τῶν νοητῶν θεωρίας· καὶ ταῖς κατὰ μέρος <lb/>
+ τοῦ σώματος ἐνεργείαις καταχρωμένη· καὶ ἡσθεῖσα τῇ τοῦ σώ<lb break="no"/>ματος θεωρίᾳ, καὶ ἰδοῦσα καλὸν ἑαυτῇ εἶναι τὴν ἡδονήν αὐτὸ <lb/>
+ τὸ ὄντως καλὸν· ὥσπερ εἴ τις τὴν διάνοιαν παραπληγεὶς· καὶ ἀπ<lb break="no"/>αιτῶν ξίφος κατὰ τῶν ἀπαντώντων, νομίζει τοῦτο εἶναι <lb/>
+ τὸ σωφρονεῖν. ἐρασθεῖσα δὲ τῆς ἡδονῆς, ποικίλως αὐτὴν <lb/>
+ ἐνεργεῖν ἤρξατο· οὖσα γὰρ τὴν φύσιν εὐκίνητος· εἰ καὶ τὰ καλὰ <lb/>
+ ἀπεστράφη. ἀλλὰ τοῦ κινεῖσθαι οὐ παύεται· κινεῖται οὖν, οὐ<lb break="no"/>κέτι μὲν κατὰ ἀρετὴν. οὐδὲ ὥστε τὸν                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> ὁρᾶν. ἀλλὰ τὰ μὴ <lb/>
+ ὄντα λογιζομένη, τὸ ἑαυτῆς δυνατὸν μεταποιεῖ· καταχρωμένη <lb/>
+ τούτο εἰς ἃς ἐπενόησεν ἐπιθυμίας· ἐπεὶ καὶ αὐτεξούσιος <lb/>
+ γέγονε. δύναται γὰρ ὥσπερ πρὸς τὰ καλὰ νεύειν, οὕτως καὶ <lb/>
+ τὰ καλὰ ἀποστρέφεσθαι· ἀποστρεφομένη δὲ τὸ καλὸν, πάντως τὰ <lb/>
+ ἐναντία λογίζεται· παύσασθαι γὰρ καθόλου τοῦ κινεῖσθαι οὐ δύν<lb break="no"/>αται. τὴν φύσιν οὖσα ὡς προεῖπον εὐκίνητος· καὶ γινώσ<lb break="no"/>κουσα τὸ αὐτεξούσιον ἑαυτῆς, ὁρᾷ ἑαυτὴν δύνασθαι κατ' ἀ<lb break="no"/>μφότερα τοῖς τοῦ σώματος μέλεσι χρᾶσθαι· εἴς τε τὰ ὄντα καὶ <lb/>
+ τὰ μὴ ὄντα· ὄντα δέ ἐστι τά καλὰ· οὐκ ὄντα δὲ τὰ φαῦλα· ὄντα <lb/>
+ δέ φημι τά καλὰ· καίτοι ἐκ τοῦ ὄντος                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> τὰ παραδείγματα <lb/>
+ ἔχει· οὐκ ὄντα δὲ τὰ κακὰ λέγω, καθότι ἐπινοίαις                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice> οὐκ <lb/>
+ ὄντα ἀναπέπλασται· ἔχοντος γὰρ τοῦ σώματος ὀφθαλμὸς <lb/>
+ εἰς τὸ τὴν κτίσιν ὁρᾶν· καὶ διὰ τῆς παναρμονίου ταύτης συν<lb break="no"/>τάξεως, γίνωσκειν τὸν δημιουργὸν. ἔχοντος δὲ καὶ ἀκοὴν εἰς ἐπα<lb break="no"/>κρόασιν τῶν θείων λογίων καὶ τῶν τοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> νόμων. ἔχοντος δὲ καὶ <lb/>
+ χεῖρας, εἴς τε τὴν τῶν ἀναγκαίων ἐνέργειαν καὶ ἔκτασιν τῆς <lb/>
+ πρὸς τὸν                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> εὐχῆς· ἡ ψυχὴ ἀποστᾶσα τῆς πρὸς τὰ καλὰ θε<lb break="no"/>ωρίας· καὶ τῆς ἐν αὐτοῖς κινήσεως, λοιπὸν πλανωμένη <lb/>
+ κινεῖται εἰς τὰ ἐναντία· εἶτα τὸ δυνατὸν αὐτῆς ὡς προ<lb break="no"/>εῖπον ὁρῶσα· καὶ τούτῳ καταχρωμένη, ἐνενόησεν ὅτι καὶ εἰς                    <pb n="6"/>
+    τὰ ἐναντία δύναται κινεῖν τὰ τοῦ σώματος μέλη· καὶ διατοῦτο ἀντὶ τοῦ τὴν κτίσιν ὁρἄν, <lb/>
+ εἰς ἐπιθυμίας τὸν ὀφθαλμὸν ἀποστρέφει· δεικνύουσα ὅτι καὶ τοῦτο <lb/>
+ δύναται· καὶ νομίζουσα ὅτι ἅπαξ κινουμένη, σώζει τὴν ἑαυ<lb break="no"/>τῆς ἀξίαν· καὶ οὐχ ἁμαρτάνει ποιοῦσα ὃ δύναται· καὶ οὐκ εἰ<lb break="no"/>δυῖα ὅτι οὐχ ἁπλῶς κινεῖσθαι· ἀλλ' εἰς ἃ δεῖ κινεῖσθαι γέγονε· τού<lb break="no"/>του γὰρ χάριν καὶ ἀποστολικὴ φωνή παρεγγυᾷ·                    <g type="doubled_diple"/>
+πάντα ἔξεστιν, <lb/>
+                    <g type="doubled_diple"/>
+ἀλλ' οὐ πάντα συμφέρει. ἀλλὰ τῶν                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice> ἡ τόλμα, οὐκ εἰς τὸ συμφέ<lb break="no"/>ρον καὶ πρέπον· ἀλλ' εἰς τὸ δυνατὸν σκοπήσασα, τὰ ἐναντία πι<lb break="no"/>εῖν ἤρξατο· ὅθεν καὶ τὰς χεῖρας εἰς τὸ ἐναντίον κινουμένη, φο<lb break="no"/>νεύειν πεποίηκε. καὶ τὴν ἀκοὴν εἰς παρακοὴν παρήγαγε· καὶ <lb/>
+ τὰ ἄλλα μέλη εἰς τὸ μοιχεύειν ἀντὶ νομικἤς τεκνογονίας· καὶ <lb/>
+ τὴν μὲν γλῶτταν ἀντὶ εὐφημίας, εἰς βλασφημίας καὶ λοιδο<lb break="no"/>ρίας καὶ ἐπιορκείας· τὰς δὲ χεῖρας αὖ πάλιν, εἰς τὸ κλέπτειν <lb/>
+ καὶ τύπτειν τοὺς ὁμοίους                    <choice>
+                        <expan>ἀνθρώπους</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνους</hi>
+                        </abbr>
+                    </choice>· καὶ τὴν μὲν ὄσφρησιν, εἰς ὀδμῶν <lb/>
+ ἐρωτικῶν ποικιλίας· τοὺς δὲ πόδας, εἰς ὀξύτητα τοῦ ἐκχέαι <lb/>
+ αἷμα· καὶ τὴν μὲν γαστέρα, εἰς μέθην καὶ κόρον ἀπλήρω<lb break="no"/>τον· ἅπερ πάντα κακία καὶ ἁμαρτία ψυχῆς ἐστιν· αἰτία <lb/>
+ δὲ τούτων οὐδεμία· ἀλλ' ἡ τῶν κρειττόνων ἀποστροφὴ. ὡς γὰρ ἐ<lb break="no"/>ὰν ἡνίοχος ἐπιβὰς ἵπποις ἐν σταδίῳ· καταφρονήσῃ μὲν τοῦ <lb/>
+ σκοποῦ εἰς ὃν ἐλαύνειν αὐτὸν προσήκει· ἀποστραφεὶς δὲ <lb/>
+ τοῦτον, ἁπλῶς ἐλαύνῃ τὸν ἵππον ὡς ἂν δύνηται· δύναται δὲ, <lb/>
+ ὡς βούλεται· καὶ πολλάκις μὲν, εἰς τοὺς ἀπαντῶντας ὁρμᾷ, <lb/>
+ πολλάκις δὲ καὶ κατὰ κρημνῶν ἐλαύνει. φερόμενος ὅπου δ' <lb/>
+ ἂν ἑαυτὸν τῇ ὀξύτητι τῶν ἵππων φέροι· νομίζων ὅτι οὕτως τρέ<lb break="no"/>χων, οὐκ ἐσφάλη τοῦ σκοποῦ. πρὸς γὰρ μόνον τὸν δρόμον ἀπο<lb break="no"/>βλέπει, καὶ οὐχ ὁρᾷ ὅτι ἔξω τοῦ σκοποῦ γέγονεν· οὕτως καὶ ἡ <lb/>
+ ψυχὴ ἀποστραφεῖσα τὴν πρὸς τὸν                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> ὁδὸν· καὶ ἐλαύνουσα παρὰ <lb/>
+ τὸ πρέπον τὰ τοῦ σώματος μέλη· μᾶλλον δὲ καὶ αὐτὴ μετὰ τῶν ὑφ' ἑ<lb break="no"/>αυτῆς ἐλαυνομένη, ἁμαρτάνει· καὶ τὸ κακὸν ἑαυτῇ πλάττει· οὐχ <lb/>
+ ὁρῶσα ὅτι πεπλάνηται τῆς ὁδοῦ· καὶ ἔξω γέγονε τοῦ τῆς ἀληθείας                    <pb n="7"/>
+ σκοποῦ· εἰς ὃν ὁ χριστοφόρος ἀνὴρ ὁ μακάριος παῦλος ἀποβλέ<lb break="no"/>πων ἔλεγε,                    <g type="doubled_diple"/>
+κατὰ σκοπὸν διώκω εἰςτὸ βραβεῖον τῆς ἄνω κλή<lb break="no"/>                    <g type="doubled_diple"/>
+σεως                    <choice>
+                        <expan>χριστοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">χὔ</hi>
+                        </abbr>
+                    </choice>
+                    <choice>
+                        <expan>ἰησοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἰῦ</hi>
+                        </abbr>
+                    </choice> · σκοπῶν γοῦν τὸ καλὸν ὁ ἅγιος, οὐδέποτε τὸ κακὸν<lb break="no"/>ἐποίει· ἑλλήνων μὲν οὖν τινὲς πλανηθέντες τῆς ὁδοῦ· καὶ τὸν <lb/>
+                    <choice>
+                        <expan>χριστὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">χν</hi>
+                        </abbr>
+                    </choice> οὐκ ἐγνωκότες, ἐν ὑποστάσει καὶ καθ' ἑαυτὴν εἶναι τὴν κα<lb break="no"/>κίαν ἀπεφήναντο· ἁμαρτάνοντες κατὰ δύο ταῦτα: ἢ τὸν <lb/>
+ δημιουργὸν ἀποστεροῦντες τοῦ εἶναι ποιητὴν τῶν ὄντων. οὐκ ἂν <lb/>
+ γὰρ εἴη τῶν ὄντων                    <choice>
+                        <expan>κύριος</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">κς</hi>
+                        </abbr>
+                    </choice>. εἴ γε κατ' αὐτοὺς ἡ κακία ὑπόστασιν ἔχει <lb/>
+ καθ' ἑαυτὴν καὶ οὐσίαν: ἢ πάλιν θέλοντες αὐτὸν ποιητὴν εἶναι <lb/>
+ τῶν ὅλων, ἐξ ἀνάγκης καὶ τοῦ κακοῦ δώσουσιν εἶναι· ἐν γὰρ <lb/>
+ τοῖς οὖσι, καὶ τὸ κακὸν κατ' αὐτούς ἐστι· τοῦτο δὲ ἄτοπον καὶ ἀδύ<lb break="no"/>νατον ἂν φανείη· οὐ γὰρ ἐκ τοῦ καλοῦ τὸ κακὸν· οὐδὲ ἐν αὐτῷ <lb/>
+ ἐστιν· οὐδὲ δι' αὐτοῦ· ἐπεὶ οὐκέτι καλὸν ἂν εἴη μεμιγμένην <lb/>
+  ἔχον τὴν φύσιν, ἢ αἴτίου γινόμενον κακοῦ. οἱ δὲ ἀπὸ τῶν αἱρέ<lb break="no"/>σεων ἐκπεσόντες τῆς ἐκκλησιαστικῆς διδασκαλίας· καὶ περὶ τὴν <lb/>
+ πίστιν ναυαγήσαντες, καὶ οὗτοι μὲν ὑπόστασιν τοῦ κακοῦ παρα<lb break="no"/>φρονοῦσιν εἶναι· ἀναπλάττονται δὲ ἑαυτοῖς παρὰ τὸν ἀληθι<lb break="no"/>νὸν τοῦ                    <choice>
+                        <expan>χριστοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">χῦ</hi>
+                        </abbr>
+                    </choice>
+                    <choice>
+                        <expan>πατέρα</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πρα</hi>
+                        </abbr>
+                    </choice>,                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> ἕτερον· καὶ τοῦτον ἀγέννητον· τοῦ κακοῦ <lb/>
+ ποιητὴν καὶ τῆς κακίας ἀρχηγὸν, τὸν καὶ τῆς κτίσεως δημιουρ<lb break="no"/>γὸν· τούτοις δὲ εὐχερῶς ἄν τις ἐλέγξειεν· ἔκ τε τῶν θείων γρα<lb break="no"/>φῶν· καὶ ἐξ αὐτῆς τῆς ἐν                    <choice>
+                        <expan>ἀνθρώποις</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνοις</hi>
+                        </abbr>
+                    </choice> διανοίας· ἀφ' ἧς καὶ ταῦτα· <lb/>
+ ἀναπλασάμενοι μαίνονται· ὁ μὲν οὖν                    <choice>
+                        <expan>κύριος</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">κς</hi>
+                        </abbr>
+                    </choice> καὶ                    <choice>
+                        <expan>σωτὴρ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">σηρ</hi>
+                        </abbr>
+                    </choice> ἡμῶν                    <choice>
+                        <expan>ἰησοῦς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἰς</hi>
+                        </abbr>
+                    </choice>
+ <lb/>
+                    <choice>
+                        <expan>χριστὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">χς</hi>
+                        </abbr>
+                    </choice>, ἐν τοῖς ἑαυτοῦ εὐαγγελίοις φησὶ· βεβαιῶν τὰ μωϋσέως <lb/>
+ ῥήματα,                    <g type="doubled_diple"/>
+ὅτι                    <choice>
+                        <expan>κύριος</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">κς</hi>
+                        </abbr>
+                    </choice> ὁ                    <choice>
+                        <expan>θεὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θς</hi>
+                        </abbr>
+                    </choice> εἷς ἐστι · καὶ                    <g type="doubled_diple"/>
+ἐξομολογοῦμαί σοι                    <choice>
+                        <expan>πάτερ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">περ</hi>
+                        </abbr>
+                    </choice>
+                    <choice>
+                        <expan>κύριε</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">κε</hi>
+                        </abbr>
+                    </choice> τοῦ <lb/>
+                    <g type="doubled_diple"/>
+                    <choice>
+                        <expan>οὐρανοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">οὐνοῦ</hi>
+                        </abbr>
+                    </choice> καὶ τῆς γῆς·  εἰ δὲ εἷς ἐστιν ὁ                    <choice>
+                        <expan>θεὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θς</hi>
+                        </abbr>
+                    </choice>· καὶ οὗτος                    <choice>
+                        <expan>οὐρανοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">οὐνοῦ</hi>
+                        </abbr>
+                    </choice> καὶ <lb/>
+ γῆς                    <choice>
+                        <expan>κύριος</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">κς</hi>
+                        </abbr>
+                    </choice>, πῶς ἄλλος ἂν εἴη                    <choice>
+                        <expan>θεὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θς</hi>
+                        </abbr>
+                    </choice> παρὰ τοῦτον; ποῦ δὲ καὶ ἔσται ὁ κατ' <lb/>
+ αὐτοὺς                    <choice>
+                        <expan>θεὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θς</hi>
+                        </abbr>
+                    </choice>· τὰ πάντα τοῦ μόνου καὶ ἀληθινοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> πληροῦντος <lb/>
+ κατὰ τὴν τοῦ                    <choice>
+                        <expan>οὐρανοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">οὐνοῦ</hi>
+                        </abbr>
+                    </choice> καὶ γῆς περίληψιν· πῶς δὲ καὶ ἄλλος ἂν εἴ<lb break="no"/>η ποιητής, ὧν αὐτὸς ὁ                    <choice>
+                        <expan>θεὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θς</hi>
+                        </abbr>
+                    </choice> καὶ                    <choice>
+                        <expan>πατὴρ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πηρ</hi>
+                        </abbr>
+                    </choice> τοῦ                    <choice>
+                        <expan>χριστοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">χῦ</hi>
+                        </abbr>
+                    </choice> ἐστι                    <choice>
+                        <expan>κύριος</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">κς</hi>
+                        </abbr>
+                    </choice>, κατὰ τὴν <lb/>
+ τοῦ                    <choice>
+                        <expan>σωτῆρος</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">σρς</hi>
+                        </abbr>
+                    </choice> φωνὴν, εἰ μὴ ἄρα ὡς ἐν ἰσοστασίῳ τοῦ ἀγαθοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice>
+                    <pb n="8"/>
+ τὸν φαῦλον δύνασθαι γενέσθαι                    <choice>
+                        <expan>κύριον</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">κν</hi>
+                        </abbr>
+                    </choice> εἴποιεν· ἀλλ' ἐὰν τοῦτο λέγωσιν, ὅ<lb break="no"/>ρα εἰς ὅσην ἀσέβειαν ἐκπίπτουσιν· ἐν γὰρ τοῖς τὰ ἴσα δυναμέ<lb break="no"/>νοις, τὸ ὑπερέχον καὶ κρεῖττον οὐκ ἂν εὑρεθείη· καὶ γὰρ εἰ μὴ θέλον<lb break="no"/>τος τοῦ ἑτέρου τὸ ἕτερόν ἐστιν, ἴση ἀμφοτέρων ἡ δύναμις καὶ ἡ ἀ<lb break="no"/>σθένειά ἐστιν· ἴση μέν, ὅτι νικῶσιν ἀλλήλων τὴν βούλησιν ἐν τῷ <lb/>
+ εἶναι· ἀσθένεια δὲ ἀμφοτέρων ἐστίν, ὅτι μὴ βουλομένοις· παρὰ <lb/>
+ γνώμην τοῦ φαύλου· ἔστι καὶ ὁ φαῦλος παρὰ βούλησιν τοῦ ἀγα<lb break="no"/>θοῦ· ἄλλως τε, καὶ τοῦτο γὰρ ἄν τις αὐτοῖς εἴποι· εἰ τὰ φαινόμενα <lb/>
+ ἔργα τοῦ φαύλου ἐστὶ, τί τὸ ἔργον τοῦ ἀγαθοῦ· φαίνεται γὰρ οὐ<lb break="no"/>δέν πλὴν μόνης τῆς τοῦ δημιουργοῦ κτίσεως· τί δὲ καὶ τοῦ εἶναι <lb/>
+ τὸν ἀγαθὸν γνώρισμα· οὐκ ὄντων αὐτοῦ ἔργων δι' ὧν ἂν γνωσθεί<lb break="no"/>η· ἐκ γὰρ τῶν ἔργων ὁ δημιουργὸς γινώσκεται· πῶς δὲ ὅλως <lb/>
+ καὶ δύο ἂν εἴη ἐναντία ἀλλήλων· ἢ τί τὸ διαιροῦν ἐστι ταῦτα ἵνα <lb/>
+ χωρίς ἀλλήλων γένωνται· εἶναι γὰρ αὐτὰ ἅμα ἀδύνατον· διὰ <lb/>
+ τὸ ἀναιρετικὰ ἀλλήλων εἶναι· ἀλλ' οὐδὲ ἕτερον ἐν ἑτέρῳ δυνηθεί<lb break="no"/>η ἂν εἶναι· διὰ τὸ ἄμικτον καὶ ἀνόμοιον αὐτῶν τῆς φύσεως· οὐκοῦν <lb/>
+ ἐκ τρίτου τὸ διαιροῦν, φανήσεται καὶ αὐτὸ                    <choice>
+                        <expan>θεός</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θς</hi>
+                        </abbr>
+                    </choice>· ἀλλὰ ποίας ἂν εἴη <lb/>
+ καὶ τὸ τρίτον φύσεως· πότερον τῆς τοῦ καλοῦ, ἢ τοῦ φαύλου· ἄδη<lb break="no"/>λον φανήσεται· τῆς γὰρ ἀμφοτέρων εἶναι αὐτὸ, ἀδύνατον· σα<lb break="no"/>θρᾶς δὴ τοίνυν τῆς τοιαύτης αὐτῶν διανοίας φαινομένης, ἀνάγ<lb break="no"/>κη τὴν ἀλήθειαν διαλάμπειν τῆς ἐκκλησιαστικῆς γνώσεως· ὅτι <lb/>
+ τὸ κακὸν οὐ παρὰ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice>. οὐδὲ ἐν                    <choice>
+                        <expan>θεῷ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῷ</hi>
+                        </abbr>
+                    </choice>. οὔτε ἐξ ἀρχῆς γέγονεν, οὔτε <lb/>
+ οὐσία τίς ἐστιν αὐτοῦ· ἀλλὰ                    <choice>
+                        <expan>ἄνθρωποι</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνοι</hi>
+                        </abbr>
+                    </choice> κατὰ στέρησιν τῆς τοῦ καλοῦ φαν<lb break="no"/>τασίας, ἑαυτοῖς ἐπινοεῖν ἤρξαντο καὶ ἀναπλάττειν τὰ οὐκ <lb/>
+ ὄντα καὶ ἅπερ βούλονται· ὡς γὰρ ἄν τις ἡλίου φαίνοντος· <lb/>
+ καὶ πάσης τῆς γῆς τῷ φωτὶ τούτου καταλαμπομένης, καμ<lb break="no"/>μύων τοὺς ὀφθαλμοὺς σκότος ἑαυτῷ ἐπινοεῖ οὐκ ὄντος σκό<lb break="no"/>τους, καὶ λοιπὸν ὡς ἐν σκότει πλανώμενος περιπατεῖ· πολλά<lb break="no"/>κις πίπτων καὶ κατὰ κρημνῶν ὑπάγων· νομίζων οὐκ εἶναι φῶς                    <pb n="9"/>
+ ἀλλὰ σκότος: δοκῶν γὰρ βλέπειν οὐδ' ὅλως ὁρᾷ, οὕτως καὶ ἡ ψυχὴ <lb/>
+ τῶν                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice>· καμμύσασα τὸν ὀφθαλμὸν· δι' οὗ τὸν                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> ὁρᾶν δύ<lb break="no"/>ναται, ἑαυτῇ τὰ κακὰ ἐπενόησεν· ἐν οἷς κινουμένη· οὐκ οἶ<lb break="no"/>δεν ὅτι δοκοῦσα τι ποιεῖν, οὐδὲν ποιεῖ· τὰ οὐκ ὄντα γὰρ ἀναπλάτ<lb break="no"/>τεται· καὶ οὐχ ὁποία γέγονε· τοιαύτη καὶ ἔμεινεν· ἀλλ' ὁποίαν ἑαυ<lb break="no"/>τὴν ἐνέφυρε· τοιαύτη καὶ φαίνεται· γέγονε μὲν γὰρ εἰς τὸ ὁρᾶν <lb/>
+ τὸν                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> καὶ ὑπ' αὐτοῦ φωτίζεσθαι· αὕτη δὲ ἀντὶ τοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice>, τὰ  φθαρτὰ <lb/>
+ καὶ τὸ σκότος ἐζήτησεν· ὥς που καὶ τὸ                    <choice>
+                        <expan>πνεῦμα</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πνα</hi>
+                        </abbr>
+                    </choice>, ἐγγράφως φησί·                    <g type="doubled_diple"/>
+ὁ                    <choice>
+                        <expan>θεὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θς</hi>
+                        </abbr>
+                    </choice>
+ <lb/>
+                    <g type="doubled_diple"/>
+τὸν                    <choice>
+                        <expan>ἄνθρωπον</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνον</hi>
+                        </abbr>
+                    </choice> ἐποίησεν εὐθῆ· αὐτοὶ δὲ ἐζήτησαν λογισμοὺς πολλούς· <lb/>
+ κακίας δὴ οὖν εὕρεσις καὶ ἐπίνοια τοῖς                    <choice>
+                        <expan>ἀνθρώποις</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνοις</hi>
+                        </abbr>
+                    </choice> ἐξ ἀρχῆς, οὕπω <lb/>
+ γέγονε καὶ πέπλασται· πῶς δὲ καὶ εἰς τὴν τῶν εἰδώλων μανίαν <lb/>
+ καταβεβήκασιν, ἤδη λέγειν ἀναγκαῖον· ἵνα γινώσκῃς ὅτι ὅλως <lb/>
+ ἡ τῶν εἰδώλων εὕρεσις· οὐκ ἀπὸ ἀγαθοῦ· ἀλλ' ἀπὸ κακίας γέγο<lb break="no"/>νε· τὸ δὲ τὴν ἀρχὴν ἔχον κακὴν, ἐν οὐδενί ποτε καλὸν κριθείη· <lb/>
+ ὅλον ὂν φαῦλον· οὐκ ἀρκεσθεῖσα τῇ τῆς κακίας ἐπινοίᾳ τῶν <lb/>
+                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice> ἡ ψυχή, κατ' ὀλίγον καὶ εἰς τὰ χείρονα ἑαυτὴν ἐξάγειν ἤρ<lb break="no"/>ξατο· μαθοῦσα γὰρ διαφορὰς ἡδονῶν· καὶ ζωσαμένη τὴν <lb/>
+ τῶν θείων λήθην, ἡδομένη δὲ καὶ πρὸς τὰ τοῦ σώματος πάθη· <lb/>
+ καὶ πρὸς μόνα τὰ παρόντα· καὶ τὰς τούτων δόξας ἀποβλέ<lb break="no"/>πουσα, ἐνόμισε μηδὲν ἔτι πλέον εἶναι τῶν βλεπομένων <lb/>
+ ἀλλὰ μόνα τὰ πρόσκαιρα· καὶ τὰ σωματικὰ εἶναι τὰ καλὰ. <lb/>
+ ἀποστραφεῖσα δὲ καὶ ἐπιλαθομένη ἑαυτὴν εἶναι κατ' εἰκόνα <lb/>
+ τοῦ ἀγαθοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice>, οὐκ ἔτι μὲν διὰ τῆς ἐν αὐτῇ δυνάμεως <lb/>
+ τὸν                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> λόγον καθ' ὃν καὶ γέγονεν ὁρᾷ· ἔξω δὲ ἑαυτῆς γενομένη, <lb/>
+ τὰ οὐκ ὄντα λογίζεται καὶ ἀνατυποῦται· ἐπικρύψασα γὰρ <lb/>
+ ταῖς ἐπιπλοκαῖς τῶν σωματικῶν ἐπιθυμιῶν τὸ ὡς ἐν αὐτῇ <lb/>
+ κάτοπτρον· δι' οὗ μόνου ὁρᾶν ἠδύνατο τὴν εἰκόνα τοῦ                    <choice>
+                        <expan>πατρός</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πρς</hi>
+                        </abbr>
+                    </choice>, οὐκέ<lb break="no"/>τι μὲν ὁρᾷ ἃ δεῖ ψυχὴν νοεῖν· παντὶ δὲ περιφέρεται· καὶ μό<lb break="no"/>να ἐκεῖνα ὁρᾷ τὰ τῇ αἰσθήσει προσπίπτοντα· ὅθεν δὴ πάσης <lb/>
+ σαρκικῆς ἐπιθυμίας γέμουσα καὶ ἐν ταῖς τούτων δόξαις τα                    <pb n="10" break="no"/>
+ραττομένη· λοιπόν ὃν ἐπελάθετο τῇ διανοίᾳ                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice>, τοῦτον ἐν τοῖς <lb/>
+ σωματικοῖς καὶ αἰσθητοῖς ἀναπλάττεται· τοῖς φαινομένοις <lb/>
+ τὴν τοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> προσηγορίαν ἀνατιθεῖσα· καὶ μόνα ταῦτα δοξά<lb break="no"/>ζουσα, ἅπερ αὐτὴ βούλεται καὶ ὡς ἡδέα ὁρᾷ· προηγεῖται τοί<lb break="no"/>νυν αἰτία τῆς εἰδωλολατρίας, ἡ κακία· μαθόντες γὰρ οἱ                    <choice>
+                        <expan>ἄνθρωποι</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνοι</hi>
+                        </abbr>
+                    </choice>
+ <lb/>
+ τὴν οὐκ οὖσαν κακίαν ἑαυτοῖς ἐπινοεῖν, οὕτως καὶ τοὺς οὐκ ὄν<lb break="no"/>τας θεοὺς ἑαυτοῖς ἀνεπλάσαντο· οἷον δὲ· εἴ τις εἰς βυθὸν κατα<lb break="no"/>δὺς, μηκέτι μὲν βλέποι τὸ φῶς, μὴ δὲ τὰ ἐν τῷ φωτὶ φαινόμενα· <lb/>
+ διὰ τὸ τῶν ὀφθαλμῶν αὐτοῦ πρὸς τὸ κάτω νεῦμα· καὶ τὴν τοῦ ὕ<lb break="no"/>δατος ἐπικειμένην ἐπίχυσιν αὐτῷ· μόνα δὲ τὰ ἐν τῷ βυθῷ <lb/>
+ αἰσθόμενος νομίζοι μηδὲν πλέον ἐκείνων εἶναι· ἀλλ' ταῦτα <lb/>
+ τὰ φαινόμενα αὐτῷ τῶν ὄντων εἶναι τὰ κύρια, οὕτως καὶ οἱ πά <lb/>
+ λαι τῶν                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice> παράφρονες· καταδύντες εἰς τὰς τῶν σαρκῶν <lb/>
+ ἐπιθυμίας καὶ φαντασίας· καὶ ἐπιλαθόμενοι τῆς περὶ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice>
+ <lb/>
+ ἐννοίας καὶ δόξης· ἀμυδρῶς τῷ λογισμῷ· μᾶλλον δὲ ἀλογίᾳ <lb/>
+ χρησάμενοι τὰ φαινόμενα θεοὺς ἀνετυπώσαντο· τὴν κτίσιν πα<lb break="no"/>ρὰ τὸν κτίσαντα δοξάζοντες· καὶ τὰ ἔργα μᾶλλον ἐκθειάζον<lb break="no"/>τες, ἤπερ τὸν τούτων αἴτιον καὶ δημιουργὸν δεσπότην                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice>· ὥσπερ <lb/>
+ δὲ κατὰ τὸ προλεχθὲν παράδειγμα, οἱ εἰς τὸν βυθὸν κατα<lb break="no"/>δυόμενοι, ὅσῳ μᾶλλον ἐπικαταβαίνουσι· τοσοῦτον εἰς τὰ σκο<lb break="no"/>τεινότερα καὶ βαθύτερα ὁρμῶσιν, οὕτω καὶ τὸ τῶν                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice> πέ<lb break="no"/>πονθε γένος· οὐ γὰρ ἁπλῆν ἔσχον τὴν εἰδωλολατρίαν· οὐδὲ <lb/>
+ ἀφ' ὧν ἤρξαντο ἐν τούτοις καὶ διέμειναν· ἀλλ' ὅσον τοῖς πρώτοις <lb/>
+ ἐνεχρόνιζον, τοσοῦτον ἑαυτοῖς καινοτέρας ἐφεύρισκον δεισιδαι<lb break="no"/>μονίας· καὶ κόρον οὐ λαμβάνοντες τῶν πρώτων, ἄλλοις πά<lb break="no"/>λιν ἐνεπίμπλαντο κακοῖς· προκόπτοντες ἐν τοῖς αἰσχίστοις· <lb/>
+ καὶ πλεῖον ἑαυτῶν ἐπεκτείνοντες τὴν ἀσέβειαν. τοῦτο δὲ καὶ                    <note place="margin_outer">α'</note>
+ <lb/>
+ἡ θεία γραφὴ μαρτύρεται λέγουσα·                    <g type="doubled_diple"/>
+ὅταν ἔλθῃ ἀσεβὴς εἰς βά<lb break="no"/>                    <g type="doubled_diple"/>
+θος κακῶν, καταφρονεῖ· ἄρτι γὰρ ἀπεπήδησεν ἡ διάνοια τῶν <lb/>
+                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice> ἀπὸ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice>· καὶ καταβαίνοντες ταῖς ἐννοίαις καὶ τοῖς λογισμοῖς                    <pb n="11"/>
+ οἱ                    <choice>
+                        <expan>ἄνθρωποι</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνοι</hi>
+                        </abbr>
+                    </choice>, πρώτοις                    <choice>
+                        <expan>οὐρανῷ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">οὐνῷ</hi>
+                        </abbr>
+                    </choice> καὶ ἡλίῳ καὶ σελήνῃ καὶ τοῖς                    <choice>
+                        <expan>ἀνθρώποις</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνοις</hi>
+                        </abbr>
+                    </choice> τὴν τοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice>
+ <lb/>
+ τιμὴν ἀνέθηκαν· ἐκείνους οὐ μόνον θεοὺς νομίζοντες εἶναι, ἀλλὰ                    <note place="margin_inner">β'</note>
+ <lb/>
+καὶ τῶν ἄλλων τῶν μετ' αὐτοὺς αἰτίους τυγχάνειν· εἶτ' ἐπικαταβαί                    <note place="margin_inner">γ'</note>
+<lb break="no"/>νοντες τοῖς σκοτεινοῖς λογισμοῖς, αἰθέρα καὶ τὸν ἀέρα· καὶ τὰ <lb/>
+ ἐν τῷ ἀέρι, προσηγόρευσαν θεοὺς· προβαίνοντες δὲ τοῖς κακοῖς, <lb/>
+ ἤδη καὶ τὰ στοιχεῖα· καὶ τὰς ἀρχὰς τῆς τῶν σωμάτων συστάσεως· <lb/>
+ τὴν θερμὴν καὶ τὴν ψυχρὰν· καὶ τὴν ξηρὰν καὶ τὴν ὑγρὰν οὐσίαν, <lb/>
+ θεοὺς ἀνύμνησαν· ὡς δὲ οἱ τέλεον πεσόντες περὶ τὴν γῆν ἰλυσπῶν<lb break="no"/>ται δίκην τῶν ἐν τῇ χέρσῳ κοχλιῶν, οὕτως οἱ ἀσεβέστατοι τῶν                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice>
+ <lb/>
+ πεσόντες καὶ καταπεσόντες ἀπὸ τῆς περὶ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> φαντασίας, λοιπὸν <lb/>
+ καὶ                    <choice>
+                        <expan>ἀνθρώπους</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνους</hi>
+                        </abbr>
+                    </choice> καὶ                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice> μορφὰς. τῶν μὲν, ἔτι ζώντων· τῶν δὲ, καὶ μετὰ <lb/>
+ θάνατον· ὡς θεοὺς ἀνέθηκαν. ἔτι δὲ καὶ χείρονα βουλευόμενοι <lb/>
+ καὶ λογιζόμενοι, ἤδη καὶ εἰς ξύλα. καὶ λίθους. καὶ ἑρπε<lb break="no"/>τὰ. ἔνυδρά τε καὶ χερσαῖα· καὶ εἰς τὰ τῶν ἀλόγων ἀνήμερα <lb/>
+ ζῶα, τὴν θείαν καὶ ὑπερκόσμιον τοῦ τοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> προσηγορίαν μετή<lb break="no"/>νεγκαν· πᾶσαν τιμὴν                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> αὐτοῖς ἀπονέμοντες· καὶ τὸν ἀλη<lb break="no"/>θινὸν καὶ ὄντως ὄντα                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice> τὸν τοῦ                    <choice>
+                        <expan>χριστοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">χῦ</hi>
+                        </abbr>
+                    </choice>
+                    <choice>
+                        <expan>πατέρα</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πρα</hi>
+                        </abbr>
+                    </choice> ἀποστρεφόμενοι· εἴθε <lb/>
+ δὲ κἂν μέχρι τούτων εἱστήκει τῶν ἀφρόνων ἡ τόλμα καὶ μὴ <lb/>
+ περαιτέρω βαίνοντες, ἑαυτοὺς ταῖς ἀσεβείαις ἐνέφυρον· το<lb break="no"/>σοῦτον γάρ τινες καταπεπτώκασι τῇ διανοίᾳ· καὶ ἐσκοτίσθη<lb break="no"/>σαν τὸν νοῦν, ὥστε καὶ τὰ μὴ δόλως μηδαμῶς ὑπάρχοντα μὴ <lb/>
+ δὲ ἐν τοῖς γενομένοις φαινόμενα, ὅμως ἑαυτοῖς ἐπινοῆσαι καὶ <lb/>
+ θεοποιῆσαι. λογικὰ γὰρ ἀλόγοις ἐπιμίξαντες· καὶ ἀνόμοι<lb break="no"/>α τῇ φύσει ἐνείραντες, ὡς θεοὺς θρησκεύουσιν· οἷοὶ εἰσὶ οἱ παρ' αἰ<lb break="no"/>γυπτίοις κυνοκέφαλοι· καὶ ὀφιοκέφαλοι· καὶ ὀνοκέφαλοι· <lb/>
+ καὶ ὁ παρὰ λίβυσι κριοκέφαλος ἄμμων· ἄλλοι δὲ τὰ μέρη <lb/>
+ τῶν σωμάτων· κεφαλήν καὶ ὦμον. καὶ χεῖρα καὶ πόδα· καθ' <lb/>
+ ἑαυτὰ διελόντες· ἕκαστον, εἰς θεοὺς ἀνέθηκαν καὶ ἐξεθεί<lb break="no"/>ασαν· ὥσπερ οὐκ ἀρνούμενοι ἐξ ὁλοκλήρου τοῦ ὅλου σώ<lb break="no"/>ματος ἔχειν τὴν θρησκείαν· ἐπιτείνοντες δὲ τὴν ἀσέβειαν ἕτεροι,                    <pb n="12"/>
+ τὴν πρόφασιν τῆς τούτων εὑρέσεως καὶ τῆς ἑαυτῶν κακίας· τὴν <lb/>
+ ἡδονὴν καὶ τὴν ἐπιθυμίαν· θεοποιήσαντες, προσκυνοῦσιν· οἷός <lb/>
+ ἐστιν ὁ παρ' αὐτοῖς ἔρως· καὶ ἡ ἐν πάφῳ ἀφροδίτη· οἱ δὲ, αὐτῶν ὥ<lb break="no"/>σπερ φιλοτιμούμενοι τοῖς χείροσιν, ἐτόλμησαν τοὺς παρ' αὐτῶν <lb/>
+ ἄρχοντας ἢ καὶ τοὺς τούτων παῖδας, εἰς θεοὺς ἀναθεῖναι· ἢ διὰ <lb/>
+ τιμὴν τῶν ἀρξάντων, ἢ διὰ φόβον τῆς αὐτῶν τυραννίδος· ὡς ὁ ἐν <lb/>
+ κρήτῃ παρ' αὐτοῖς περιβόητος ζεὺς· καὶ ἐν ἀρκαδίᾳ, ἑρμῆς· καὶ <lb/>
+ παρὰ μὲν ἰνδοῖς, διόνυσος· παρὰ δὲ αἰγυπτίοις, ἶσις καὶ ὄσιρις <lb/>
+ καὶ ὧρος· καὶ ὁ νῦν ἀδριανοῦ τοῦ ῥωμαίων βασιλέως παιδικὸς <lb/>
+ ἀντίνοος· ὃν, καίπερ εἰδότες                    <choice>
+                        <expan>ἄνθρωπον</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνον</hi>
+                        </abbr>
+                    </choice>· καὶ                    <choice>
+                        <expan>ἄνθρωπον</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνον</hi>
+                        </abbr>
+                    </choice>, οὐ σεμνὸν· ἀλλ' ἀ<lb break="no"/>σελγείας ἔμπλεων, διὰ φόβον τοῦ προστάξαντος σέβουσιν· <lb/>
+ ἐπιδημήσας γὰρ ἀδριανὸς τῇ χώρᾳ τῶν αἰγυπτίων· τελευτή<lb break="no"/>σαντα τὸν τῆς ἡδονῆς αὐτοῦ ὑπηρέτην ἀντίνοον, ἐκέλευσε θρη<lb break="no"/>σκεύεσθαι· αὐτὸς μὲν, καὶ μετὰ θάνατον ἐρῶν τοῦ παιδός· ἔλεγ<lb break="no"/>χον δὲ ὅμως καθ' ἑαυτοῦ, καὶ γνώρισμα κατὰ πάσης εἰδωλολατρίας <lb/>
+ παρέχων· ὅτι οὐκ ἄλλως εὐρέθη παρὰ τοῖς                    <choice>
+                        <expan>ἀνθρώποις</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνοις</hi>
+                        </abbr>
+                    </choice> αὕτη, ἢ δι' ἐ<lb break="no"/>πιθυμίαν τῶν πλασαμένων· καθὼς καὶ ἡ σοφία τοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> προ<lb break="no"/>μαρτύρεται λέγουσα·                    <g type="doubled_diple"/>
+ἀρχὴ πορνείας, ἐπίνοια εἰδώλων· καὶ <lb/>
+ μή τι θαυμάσῃς· μὴ δὲ μακρὰν πίστεως νομίσῃς εἶναι τὸ λε<lb break="no"/>γόμενον· ὅπου γε καὶ οὐ πολλῷ πρότερον· ἢ τάχα καὶ νῦν ἡ <lb/>
+ ῥωμαίων σύγκλητος· τοὺς πώποτε αὐτῶν ἐξ ἀρχῆς ἄρξαντας <lb/>
+ βασιλέας· ἢ πάντας· ἢ οὓς ἂν αὐτοὶ βούλονται καὶ κρίνωσι, δογ<lb break="no"/>ματίζουσιν ἐν θεοῖς εἶναι· καὶ θρησκεύεσθαι θεοὺς γράφου<lb break="no"/>σιν· οἷς μὲν γὰρ ἀπεχθάνονται, τούτους ὡς πολεμίους, τὴν φύ<lb break="no"/>σιν ὁμολογοῦσι· καὶ                    <choice>
+                        <expan>ἀνθρώπους</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνους</hi>
+                        </abbr>
+                    </choice> ὀνομάζουσιν· οὓς δὲ καταθυμίους <lb/>
+ ἔχουσι, τούτους δι' ἀνδραγαθίαν θρησκεύεσθαι προστάττου<lb break="no"/>σιν· ὥσπερ ἐπ' ἐξουσίας ἔχοντες τὸ θεοποιεῖν· αὐτοὶ                    <choice>
+                        <expan>ἄνθρωποι</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνοι</hi>
+                        </abbr>
+                    </choice> τυγ<lb break="no"/>χάνοντες· καὶ εἶναι θνητοὶ μὴ ἀρνούμενοι· ἔδει δὲ θεοποιοῦν<lb break="no"/>τας αὐτούς, μᾶλλον αὐτοὺς εἶναι θεούς· τὸ γὰρ ποιοῦν, τοῦ <lb/>
+ ποιουμένου κρεῖττον εἶναι δεῖ· καὶ ὁ κρίνων· τοῦ κρινομένου                    <pb n="13"/>
+ ἐξ ἀνάγκης ἄρχει· καὶ ὁ διδοὺς, πάντως ὃ ἔχει χαρίζεται· τῶν <lb/>
+ δὲ λαμβανόντων, κρείττων καὶ μείζων ἐστὶν· εἴπερ οὖν οὓς θέλου<lb break="no"/>σιν αὐτοὶ τούτους θεοὺς δογματίζουσιν εἶναι· ἔδει καὶ αὐτοὺς πρῶ<lb break="no"/>τον εἶναι θεοὺς· ἀλλὰ τὸ θαυμαστόν ἐστι τοῦτο· ὅτι αὐτοὶ ἀποθνή<lb break="no"/>σκοντες ὡς                    <choice>
+                        <expan>ἄνθρωποι</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνοι</hi>
+                        </abbr>
+                    </choice>, ἐλέγχουσι τὴν ἑαυτῶν περὶ τῶν θεοποιηθέντων <lb/>
+ ὑπ' αὐτῶν ψῆφον εἶναι ψευδῆ. τοῦτο δὲ τὸ ἔθος, οὐ καινὸν· οὐ<lb break="no"/>δὲ ἀπὸ τῆς ῥωμαίων ἤρξατο βουλῆς. ἀλλ' ἢ ἄνωθεν προγιγνόμενον <lb/>
+ καὶ προμελετώμενον ἐπὶ τὴν τῶν εἰδώλων ἔννοιαν· καὶ γὰρ οἱ πάλαι <lb/>
+ παρ' ἕλλησι διαβεβοημένοι θεοὶ ζεὺς καὶ ποσειδῶν καὶ ἀπόλλων· <lb/>
+ καὶ ἥφαιστος καὶ ἑρμῆς· καὶ ἐν θηλείαις, ἥρα· καὶ δήμητρα· <lb/>
+ καὶ ἀθηνᾶ· καὶ ἄρτεμις· ταῖς θησέως τοῦ παρὰ τοῖς ἕλλησιν ἱστο<lb break="no"/>ρουμένου διαταγαῖς, ἐκρίθησαν λέγεσθαι θεοὶ· καὶ οἱ μὲν δια<lb break="no"/>ταξάμενοι, ὡς                    <choice>
+                        <expan>ἄνθρωποι</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνοι</hi>
+                        </abbr>
+                    </choice> ἀποθνήσκοντες θρηνοῦνται· οὓς δὲ διετάξαν<lb break="no"/>το, οὗτοι ὡς θεοὶ προσκυνοῦνται· ὢ πολλῆς ἐναντιότητος καὶ <lb/>
+ μανίας· τὸν διαταξάμενον εἰδότες, οὓς διετάξατο προτιμῶσι. καὶ <lb/>
+ εἴθε μέχρις ἀρρένων εἱστήκει τούτων ἡ εἰδωλομανία· καὶ μὴ εἰς <lb/>
+ θηλείας κατέφερον τὴν θείαν προσηγορίαν· καὶ γὰρ καὶ γυναῖκας <lb/>
+ ἃς οὐδὲ εἰς κοινὴν περὶ πραγμάτων συμβουλίαν λαμβάνειν ἀσ<lb break="no"/>φαλὲς, ταύτας τῇ τοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> τιμῇ θρησκεύουσι καὶ σέβουσιν· ὡς αἱ μὲν <lb/>
+ παρὰ θησέως διαταγεῖσαι ὡς προειρήκαμεν· παρὰ δὲ αἰγυπτίοις ἶ<lb break="no"/>σις καὶ κόρη καὶ νεωτέρα· καὶ παρ' ἄλλοις ἀφροδίτη. τὰ γὰρ τῶν <lb/>
+ ἄλλων ὀνόματα, οὐδὲ λέγειν εὐαγὲς ἡγοῦμαι· πάσης χλεύης ὄντα <lb/>
+ μεστά· πολλοὶ γὰρ οὐ μόνον ἐν τοῖς πάλαι· ἀλλὰ καὶ ἐν τοῖς καθ' <lb/>
+ ἡμᾶς χρόνοις ἀποβάλοντες φίλτατα καὶ ἀδελφοὺς. καὶ συγγε<lb break="no"/>νεῖς καὶ γυναῖκας· πολλαὶ δὲ καὶ ἄνδρας ἀποβαλοῦσαι οὓς <lb/>
+ πάντας ἡ φύσις ἤλεγξεν                    <choice>
+                        <expan>ἀνθρώπους</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνους</hi>
+                        </abbr>
+                    </choice> εἶναι θνητοὺς. τούτους θρηνοῦν<lb break="no"/>τες καὶ διὰ τὸ πολὺ περὶ αὐτῶν πένθος ἀναζωγραφήσαντες <lb/>
+ ἀνδριάντας τε ἀναπλάσαντες ἀνέθηκαν· οὓς οἱ μετὰ ταῦτα <lb/>
+ διὰ τὴν ἀπάτην καὶ τὴν τοῦ τεχνίτου φιλοτιμίαν, θεοὺς ἐθρήσ<lb break="no"/>κευσαν· ὠνομάζοντες οὐ κατὰ φύσιν· οὓς γὰρ οἱ γονεῖς ὡς μὴ                    <pb n="14"/>
+ ὄντας θεοὺς ἐθρήνησαν, οὐκ ἂν γὰρ εἴπερ ᾔδεσαν αὐτοὺς θεοὺς ὡς <lb/>
+ ἀπολυμένους ἐνόμισαν· τούτου γὰρ χάριν οὐ μόνον οὐ νομίζοντες <lb/>
+ αὐτοὺς εἶναι θεοὺς· ἀλλὰ μηδ' ὅλως ὑπάρχειν ἐν εἰκόνι τούτους ἐτυπώ<lb break="no"/>σαντο· ἵνα μηκέτι εἶναι τὴν διὰ τῆς εἰκόνος δόκησιν ὁρῶντες πα<lb break="no"/>ραμένουσαν, τούτοις ὅμως οἱ ἄφρονες ὡς θεοῖς εὔχονται· καὶ τὴν τοῦ <lb/>
+ ἀληθινοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> τιμὴν, τούτοις περιτιθέασιν· ἐν γοῦν αἰγύπτῳ <lb/>
+ εἰσέτι καὶ νῦν ὁ περὶ ὀσίριως καὶ ὥρου καὶ τύφωνος καὶ τῶν ἄλλων <lb/>
+ θρῆνος. τῆς ἀπολείας ἐπιτελεῖται· καὶ τὰ ἐν δωδώνῃ χαλκεῖα· <lb/>
+ καὶ οἱ ἐν κρήτῃ κορύβαντες, τὸν δία μὴ εἶναι θεὸν ἐλέγχουσιν· ἀλλ' <lb/>
+                    <choice>
+                        <expan>ἄνθρωπον</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνον</hi>
+                        </abbr>
+                    </choice>· καὶ τοῦτον, ἐκ                    <choice>
+                        <expan>πατρὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πρς</hi>
+                        </abbr>
+                    </choice> ὠμοβόρου γενόμενον· καὶ τό γε θαυμα<lb break="no"/>στόν· ὅτι καὶ ὁ πάνυ παρ' ἕλλησι· σοφός· καὶ πολλὰ καυχησάμενος <lb/>
+ ὡς περὶ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> διανοηθεὶς· ὁ πλάτων, εἰς τὸν πειραιᾶ μετὰ σωκρά<lb break="no"/>τους κατέρχεται· τὴν                    <choice>
+                        <expan>ἀνθρώπου</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνου</hi>
+                        </abbr>
+                    </choice> τέχνῃ πλασθεῖσαν ἄρτεμιν προσκυ<lb break="no"/>νήσων. ταύτας δὲ καὶ τὰς τοιαύτας τῆς εἰδωλομανίας εὑρέσεις, <lb/>
+ ἄνωθεν καὶ πρὸ πολλοῦ προεδίδασκεν ἡ γραφὴ· λέγουσα,                    <g type="doubled_diple"/>
+ἀρ<lb break="no"/>                    <g type="doubled_diple"/>
+χὴ πορνείας. ἐπίνοια εἰδώλων· εὕρεσις δὲ αὐτῶν,φθορὰ ζωῆς· <lb/>
+                    <g type="doubled_diple"/>
+οὔτε γὰρ ἦν ἀπαρχῆς, οὔτε εἰς τὸν αἰῶνα ἔσται· κενοδοξίᾳ <lb/>
+                    <g type="doubled_diple"/>
+γὰρ                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice> ἦλθεν εἰς τὸν κόσμον· καὶ διατοῦτο σύντομον αὐτῶν <lb/>
+                    <g type="doubled_diple"/>
+τέλος ἐπενοήθη. ἀώρῳ γὰρ πένθει τρυχόμενος                    <choice>
+                        <expan>πατήρ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πηρ</hi>
+                        </abbr>
+                    </choice> τοῦ ταχέως <lb/>
+                    <g type="doubled_diple"/>
+ἀφαιρεθέντος τέκνου· εἰκόνα ποιήσας. τὸν τότε νεκρὸν                    <choice>
+                        <expan>ἄνθρωπον</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνον</hi>
+                        </abbr>
+                    </choice>
+ <lb/>
+                    <g type="doubled_diple"/>
+νῦν ὡς ζῶντα ἐτίμησε· καὶ παρέδωκε τοῖς ὑποχειρίοις, μυστή<lb break="no"/>                    <g type="doubled_diple"/>
+ρια καὶ τελετὰς. εἶτ' ἐν χρόνῳ κρατηθὲν τὸ ἀσεβὲς ἔθος, ὡς <lb/>
+                    <g type="doubled_diple"/>
+νόμος ἐφυλάχθη· καὶ τυράννων ἐπιταγαῖς, ἐθρησκεύετο τὰ <lb/>
+                    <g type="doubled_diple"/>
+γλυπτὰ· οὓς ἐν ὄψει μὴ δυνάμενοι τιμᾶν οἱ                    <choice>
+                        <expan>ἄνθρωποι</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνοι</hi>
+                        </abbr>
+                    </choice> διὰ τὸ μακρὰν <lb/>
+                    <g type="doubled_diple"/>
+οἰκεῖν· τὴν πόρρωθεν ὄψιν ἀνατυπωσάμενοι, ἐμφανῆ εἰκόνα <lb/>
+                    <g type="doubled_diple"/>
+τοῦ τετιμημένου βασιλέως ἐποίησαν· ἵνα τὸν ἀπόντα, ὡς πα<lb break="no"/>                    <g type="doubled_diple"/>
+ρόντα κολακεύωσι διὰ τῆς σπουδῆς· εἰς ἐπίτασιν δὲ θρησκείας <lb/>
+                    <g type="doubled_diple"/>
+καὶ τοὺς ἀγνοοῦντας ἡ τοῦ τεχνίτου προετρέψατο φιλοτιμία· <lb/>
+                    <g type="doubled_diple"/>
+ὁ μὲν, γὰρ ἴσως τῷ κρατοῦντι βουλόμενος ἀρέσαι, ἐξεβι<lb break="no"/>                    <g type="doubled_diple"/>
+άσατο τῇ τέχνῃ τὴν ὁμοιότητα ἐπὶ τὸ κάλλιον· τὸ δὲ πλῆθος ἐφελ                    <pb n="15" break="no"/>
+                    <g type="doubled_diple"/>
+κόμενον διὰ τὸ εὔμορφον τῆς ἐργασίας· τὸν πρὸ ὀλίγου τιμηθέντα <lb/>
+                    <g type="doubled_diple"/>
+                    <choice>
+                        <expan>ἄνθρωπον</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνον</hi>
+                        </abbr>
+                    </choice>, νῦν εἰς θεοὺς ἐλογίσαντο· καὶ τοῦτο ἐγεγόνει τῷ βίῳ εἰς ἔνεδρον· <lb/>
+                    <g type="doubled_diple"/>
+ὅτι ἢ συμφορᾷ ἢ τυραννίδι δουλεύσαντες                    <choice>
+                        <expan>ἄνθρωποι</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνοι</hi>
+                        </abbr>
+                    </choice>, τὸ ἀκοινώνητον <lb/>
+                    <g type="doubled_diple"/>
+ὄνομα, λίθοις καὶ ξύλοις περιέθηκαν· τοιαύτης τοίνυν τῶν εἰ<lb break="no"/>δώλων εὑρέσεως, ἐπὶ μάρτυρι τῇ γραφῇ παρὰ τοῖς                    <choice>
+                        <expan>ἀνθρώποις</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνοις</hi>
+                        </abbr>
+                    </choice> ἀρξα<lb break="no"/>μένης καὶ ἀναπλασθείσης, ὅρα λοιπόν σοι καὶ τὸν κατ' αὐτἢς <lb/>
+ ἔλεγχον ἀποδεῖξαι· οὐ τοσοῦτον ἔξωθεν, ὅσον ἀφ' ὧν οὗτοι περὶ <lb/>
+ αὐτῶν φρονοῦσι τὰ τεκμήρια λαμβανόντες· εἰ γάρ τις τῶν παρ' <lb/>
+ αὐτοῖς λεγομένων θεῶν· ἵνα πρῶτον ἀπὸ τούτων τῶν κάτωθεν <lb/>
+ ἄρξωμαι λάβοι τὰς πράξεις, εὑρήσει μὴ μόνον οὐκ εἶναι αὐτοὺς <lb/>
+ θεοὺς, ἀλλὰ καὶ τῶν                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice> τοὺς αἰσχίστους γεγονότας· οἷον γὰρ <lb/>
+ οἷόν ἐστιν ἰδεῖν τοὺς παρὰ ποιηταῖς τοῦ διὸς ἔρωτας καὶ τὰς ἀσελ<lb break="no"/>γείας· οἷόν ἐστιν αὐτὸν ἀκούειν. ἁρπάζοντα μὲν τὸν γανυμή<lb break="no"/>δην· καὶ τὰς κλοπιμαίους ἐργαζόμενον μοιχείας· δεδιότα δὲ, <lb/>
+ καὶ δειλιῶντα· μὴ παρὰ γνώμην αὐτοῦ τὰ τῶν τρώων ἀπόληται <lb/>
+ τείχη. οἷόν ἐστιν αὐτὸν ἰδεῖν ἀχθόμενον ἐπὶ τῷ θανάτῳ τοῦ υἱέος <lb/>
+ αὐτοῦ σαρπηδόνος· καὶ βουλόμενον αὐτῷ βοηθῆσαι καὶ μὴ <lb/>
+ δυνάμενον· καὶ ἐπιβουλευόμενον μὲν, ὑπὸ τῶν ἄλλων λεγομένων <lb/>
+ θεῶν· ἀθηνᾶς δὴ λέγω καὶ ἥρας· καὶ ποσειδῶνος· βοηθούμενον <lb/>
+ δὲ, ὑπὸ θέτιδος γυναικὸς· καὶ τοῦ ἑκατονταχείρου αἰγαίωνος· <lb/>
+ καὶ νικώμενον ὑπὸ ἡδονῶν· δουλεύοντα δὲ γυναιξί· καὶ δι' <lb/>
+ αὐτὰς ἐν ἀλόγοις ζώοις τετράποσί τε καὶ πτηνοῖς ταῖς φαντα<lb break="no"/>σίαις παρακινδυνεύοντα· καὶ πάλιν αὐτὸν μὲν κρυπτόμενον <lb/>
+ διὰ τὴν τοῦ                    <choice>
+                        <expan>πατρὸς</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πρς</hi>
+                        </abbr>
+                    </choice> ἐπιβουλήν· τὸν δὲ κρόνον ὑπ' αὐτοῦ δεσμευόμενον <lb/>
+ κἀκεῖνον ἀποτέμνοντα τὸν                    <choice>
+                        <expan>πατέρα</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πρα</hi>
+                        </abbr>
+                    </choice>. ἆρ' οὖν ἄξιον τοῦτον ὑπονοεῖν <lb/>
+                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice>; τοσαῦτα δράσαντα καὶ διαβληθέντα· ἃ μὴ δὲ οἱ κοινοὶ ῥω<lb break="no"/>μαίων νόμοι καὶ τοὺς ἁπλῶς                    <choice>
+                        <expan>ἀνθρώπους</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνους</hi>
+                        </abbr>
+                    </choice> ἐπιτρέπουσι ποιεῖν; ἵνα γὰρ <lb/>
+ ἐκ πολλῶν ὀλίγα μνημονεύσω διὰ τὸ πλῆθος. τίς ἰδὼν αὐτοῦ τὴν <lb/>
+ εἰς σεμέλην· καὶ λήδαν· καὶ ἀλακμήνην· καὶ ἄρτεμιν· καὶ <lb/>
+ λητῶ· καὶ μαῖαν· καὶ εὐρώπην· καὶ δανάην· καὶ ἀντιόπην·                    <pb n="16"/>
+ παρανομίαν καὶ φθορὰν· ἢ τίς ἰδὼν τὴν εἰς τὴν ἰδίαν αὐτοῦ ἀδελ<lb break="no"/>φὴν ἐπιχείρησιν καὶ τόλμαν· ὅτι τὴν αὐτὴν ἀδελφὴν εἶχε καὶ <lb/>
+ γυναῖκα, οὐκ ἂν χλευάσειεν καὶ ζημιώσειεν θανάτῳ; ὅτι μὴ <lb/>
+ μόνον ἐμοίχευσεν πολλὰς καὶ τοὺς ἐκ τῆς μοιχείας γενομένους <lb/>
+ αὐτῷ παῖδας, θεοποιήσας ἀνέθηκεν· ἐπικάλυμμα τῆς παρα<lb break="no"/>νομίας αὐτοῦ τὴν τῆς θεοποιίας φαντασίαν κατασκευάζων· ὧν <lb/>
+ εἰσι διόνυσος καὶ ἡρακλῆς · καὶ διόσκοροι καὶ ἑρμῆς· καὶ περσεῦς <lb/>
+ καὶ σώτειρα· τίς δὲ ἰδὼν τὴν τῶν λεγομένων θεῶν ἀκατάλλακτον <lb/>
+ πρὸς ἑαυτοὺς ἔριν ἐν ἰλίῳ τῶν ἑλλήνων καὶ τρώων χάριν· οὐ κατα<lb break="no"/>γνώσεται τῆς ἀσθενείας αὐτῶν; ὅτι διὰ τὴν πρὸς ἀλλήλους φιλονει<lb break="no"/>κίαν· καὶ τοὺς                    <choice>
+                        <expan>ἀνθρώπους</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνους</hi>
+                        </abbr>
+                    </choice> παρώξυναν· τίς ἰδὼν ὑπὸ μὲν διομήδους, τι<lb break="no"/>τρωσκομένους ἄρεα καὶ ἀφροδίτην· ὑπὸ δὲ ἡρακλέους, τὴν ἥραν <lb/>
+ καὶ τὸν ὑποχθόνιον· ὃν καλοῦσι θεὸν ἀϊδωνέα· καὶ διόνυσον μὲν, ὑ<lb break="no"/>πὸ περσέως· ἀθηνᾶν δὲ, ὑπὸ ἀρκάδος· καὶ τὸν ἥφαιστον ῥιπτόμενον <lb/>
+ καὶ χωλαίνοντα· οὐ καταγνώσεται τῆς φύσεως; καὶ ἀποστραφή<lb break="no"/>σεται μὲν, τοῦ λέγειν αὐτοὺς ἔτι εἶναι θεοὺς· φθαρτοὺς δὲ καὶ παθη<lb break="no"/>τοὺς αὐτοὺς ἀκούων, οὐδὲν ἄλλο· ἢ                    <choice>
+                        <expan>ἀνθρώπους</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνους</hi>
+                        </abbr>
+                    </choice>αὐτοὺς· καὶ                    <choice>
+                        <expan>ἀνθρώπους</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνους</hi>
+                        </abbr>
+                    </choice> ἀσθε<lb break="no"/>νεῖς ἐπιγνώσεται. καὶ μᾶλλον τοὺς τρώσαντας ἢ τοὺς τρωθέντας <lb/>
+ θαυμάσειεν; ἢ τίς ἰδὼν τὴν ἄρεως πρὸς ἀφροδίτην μοιχείαν· καὶ <lb/>
+ τὸν ἡφαίστον κατ' ἀμφοτέρων κατασκευαζόμενον δόλον· καὶ τοὺς <lb/>
+ ἄλλους λεγομένους θεοὺς· ἐπὶ θέαν τῆς μοιχείας ὑπὸ τοῦ ἡφαίστου <lb/>
+ καλουμένους· καὶ αὐτοὺς ἐρχομένους· καὶ ὁρῶντας αὐτῶν τὴν ἀ<lb break="no"/>σέλγειαν· οὐκ ἂν γελάσειεν καὶ καταγνώσεται τῆς φαυλότητος αὐ<lb break="no"/>τῶν; ἢ τίς οὐκ ἂν γελάσειεν ὁρῶν τὴν ἡρακλέους πρὸς τὴν ὀμφά<lb break="no"/>λην ἐκ μέθης παραφροσύνην καὶ ἀσωτίαν; τὰς γὰρ καθ' ἡδο<lb break="no"/>νὴν αὐτῶν πράξεις· καὶ τοὺς παραλόγους αὐτῶν ἔρωτας· καὶ τὰς <lb/>
+ ἐν χρυσῷ καὶ ἀργύρῳ καὶ χαλκῷ καὶ σιδήρῳ· καὶ λίθοις καὶ <lb/>
+ ξύλοις θεοπλαστίας, οὐ δεῖ διελέγχειν μετὰ σπουδῆς· τῶν πραγμάτων <lb/>
+ καὶ ἀφ' ἑαυτῶν ἐχόντων τὸ μῦσος· καὶ δι' ἑαυτῶν ἐπιδεικνυμένων <lb/>
+ τὸ τῆς πλάνης γνώρισμα· ἐφ' οἷς μάλιστα καὶ οἰκτειρήσειεν ἄν τις                    <pb n="17"/>
+    τοὺς ἀπατωμένους ἐν αὐτοῖς· τῇ γὰρ ἑαυτῶν γυναικὶ μισοῦν<lb break="no"/>τες, τὸν ἐπιβαίνοντα μοιχόν, τοὺς τῆς μοιχείας διδασκάλους θεο<lb break="no"/>ποιοῦντες, οὐκ αἰσχύνονται· καὶ ταῖς ἀδελφαῖς αὐτοὶ οὐκ ἐπι<lb break="no"/>μιγνύμενοι, τοὺς τοῦτο ποιήσαντας προσκυνοῦσι· καὶ ὁμολογοῦν<lb break="no"/>τες εἶναι κακὸν τὴν παιδοφθορίαν, τοὺς ἐπὶ ταύτῃ διαβαλλομένους <lb/>
+ θρησκεύουσι· καὶ ἃ μὴ δὲ ἐν                    <choice>
+                        <expan>ἀνθρώποις</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνοις</hi>
+                        </abbr>
+                    </choice> εἶναι ἐπιτρέπουσιν οἱ νόμοι, ταῦ<lb break="no"/>τα τοῖς παρ' αὐτῶν ὀνομαζομένοις εἶναι θεοῖς περιτιθέντες, οὐκ <lb/>
+ ἐρυθριῶσιν· εἶτα προσκυνοῦντες λίθοις καὶ ξύλοις, οὐχ ὁρῶ<lb break="no"/>σιν ὅτι τὰ μὲν ὅμοια. τοῖς ποσὶ πατοῦσι καὶ καίουσι· τὰ δὲ τούτων <lb/>
+ μέρη, θεοὺς προσαγορεύουσι· καὶ ἃ πρὸ ὀλίγον εἰς χρῆσιν εἶχον, <lb/>
+ ταῦτα διὰ παραφροσύνην γλύψαντες σέβουσιν· οὐχ ὁρῶντες οὐδὲ <lb/>
+ λογιζόμενοι τὸ σύνολον· ὅτι οὐ θεοὺς· ἀλλὰ τὴν τέχνην τοῦ γλύψαν<lb break="no"/>τος προσκυνοῦσιν· ἕως μὲν γὰρ ἄξυστός ἐστιν ὁ λίθος· καὶ ἡ ὕ<lb break="no"/>λη ἀργὴ, ἐπὶ τοσοῦτον ταῦτα πατοῦσι καὶ τούτοις εἰς ὑπηρεσίας <lb/>
+ τὰς ἑαυτῶν πολλάκις καὶ τὰς ἀτιμωτέρας χρῶνται· ἐπειδὰν <lb/>
+ δὲ ὁ τεχνίτης εἰς αὐτὰ· τῆς ἰδίας ἐπιστήμης ἐπιβάλῃ τὰς συμ<lb break="no"/>μετρίας· καὶ ἀνδρὸς ἢ γυναικὸς εἰς τὴν ὕλην σχῆμα τυπώσῃ, τό<lb break="no"/>τε δὴ χάριν ὁμολογήσαντες τῷ τεχνίτῃ, λοιπὸν ὡς θεοὺς προσκυ<lb break="no"/>νοῦσι· μισθοῦ παρὰ τοῦ γλύψαντος αὐτοὺς ἀγοράσαντες. πολλά<lb break="no"/>κις δὲ καὶ αὐτὸς ὁ ἀγαλματοποιὸς· ὥσπερ ἐπιλαθόμενος <lb/>
+ ὧν αὐτὸς εἰργάσατο, τοῖς ἰδίοις ἔργοις προσεύχεται· καὶ <lb/>
+ ἃ πρὸ ὀλίγου κατέξεε καὶ κατέκοπτε, ταῦτα μετὰ τὴν τέχνην <lb/>
+ θεοὺς προσαγορεύει· ἔδει δὲ εἴπερ ἦν θαυμάζειν ταῦτα, τὴν τοῦ <lb/>
+ ἐπιστήμονος τέχνην ἀποδέχεσθαι· καὶ μὴ τὰ ὑπ' αὐτοῦ πλασθέντα· <lb/>
+ τοῦ πεποιηκότος προτιμᾶν· οὐ γὰρ ἡ ὕλη τὴν τέχνην· ἀλλ' ἡ τέχνη <lb/>
+ τὴν ὕλην ἐκόσμησε καὶ ἐθεοποίησε· πολλῷ οὖν μᾶλλον δικαι<lb break="no"/>ότερον ἦν τὸ τεχνίτην αὐτοὺς προσκυνεῖν· ἤπερ τὰ ὑπ' αὐτοῦ πε<lb break="no"/>ποιημένα, ὅτι τὲ καὶ προϋπῆρχε τῶν ἐκ τέχνης θεῶν· καὶ ὅτι <lb/>
+ ὡς ἐβουλήθη οὕτω καὶ γεγόνασι· νῦν δὲ παραγκωνισάμενοι <lb/>
+ τὸ δίκαιον· καὶ τὴν ἐπιστήμην καὶ τὴν τέχνην ἀτιμάσαντες. τὰ                    <pb n="18"/>
+ μετ' ἐπιστήμης καὶ τέχνης γεγονότα προσκυνοῦσι· καὶ τοῦ ποιήσαν<lb break="no"/>τος                    <choice>
+                        <expan>ἀνθρώπου</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνου</hi>
+                        </abbr>
+                    </choice> ἀποθνήσκοντος, τὰ ὑπ' αὐτοῦ γενόμενα ὡς ἀθάνατα <lb/>
+ τιμῶσιν· ἃ εἰ μὴ τύχοιεν τῆς καθ' ἡμέραν ἐπιμελείας, πάντως τῷ <lb/>
+ χρόνῳ διὰ τὴν φύσιν ἀφανίζονται· πῶς δὲ οὐκ ἄν τις αὐτοὺς οἰκτει<lb break="no"/>ρήσειε καὶ κατὰ τοῦτο· ὅτι βλέποντες αὐτοὶ τοὺς μὴ βλέποντας προσ<lb break="no"/>κυνοῦσι· καὶ ἀκούοντες αὐτοὶ· τοῖς μὴ ἀκούουσι προσεύχονται· <lb/>
+ καὶ ἔμψυχοι καὶ λογικοὶ κατὰ φύσιν ὄντες οἱ                    <choice>
+                        <expan>ἄνθρωποι</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἄνοι</hi>
+                        </abbr>
+                    </choice>· τοὺς μηδ' ὅλως <lb/>
+ κινουμένους· ἀλλὰ ἀψύχους ὄντας ὡς θεοὺς προσαγορεύουσι; καὶ τό <lb/>
+ γε θαυμαστὸν· ὅτι οὓς αὐτοὶ φυλάττουσιν ὑπ' ἐξουσίαν ἔχοντες· τού<lb break="no"/>τοις ὡς δεσπόταις δουλεύουσιν· καὶ μή τι νομίσῃς ταῦτα λέγειν ἁ<lb break="no"/>πλῶς ἢ ψεύδεσθαι κατ' αὐτὸν· ἔστι γὰρ καὶ τοῖς ὀφθαλμοῖς ἡ πίστις <lb/>
+ ἀπαντῶσα τούτων· καὶ πάρεστι τοῖς βουλομένοις ὁρᾶν τὰ τοιαῦτα. <lb/>
+ κρείττων δὲ μαρτυρία περὶ τούτων ἐστὶ καὶ παρὰ τῆς θείας γραφῆς <lb/>
+ προδιδασκούσης ἄνωθεν καὶ λεγούσης·                    <g type="doubled_diple"/>
+τὰ εἴδωλα τῶν ἐθνῶν ἀρ<lb break="no"/>                    <g type="doubled_diple"/>
+γύριον καὶ χρυσίον ἔργα χειρῶν                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice>· στόμα ἔχουσι, καὶ οὐ λαλή<lb break="no"/>                    <g type="doubled_diple"/>
+σουσιν· ὀφθαλμοὺς ἔχουσι, καὶ οὐκ ὄψονται· ὦτα ἔχουσι καὶ οὐκ ἀ<lb break="no"/>                    <g type="doubled_diple"/>
+κούσονται· ῥῖνας ἔχουσι, καὶ οὐκ ὀσφραθήσονται· χεῖρας ἔχουσι, καὶ <lb/>
+                    <g type="doubled_diple"/>
+οὐ ψηλαφήσουσι· πόδας ἔχουσι, καὶ οὐ περιπατήσουσιν· οὐ φωνήσου<lb break="no"/>                    <g type="doubled_diple"/>
+σιν ἐν τῷ λάρυγγι αὐτῶν· ὅμοιοι αὐτοῖς γένοιντο οἱ ποιοῦντες αὐτά. <lb/>
+  οὐδὲ προφητικὴ δὲ τούτων ἄπεστι μέμψις· ἀλλ' ἔστι καὶ ἐν τούτοις <lb/>
+ ὁ κατ' αὐτῶν ἔλεγχος· λέγοντος τοῦ                    <choice>
+                        <expan>πνεύματος</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">πνς</hi>
+                        </abbr>
+                    </choice>·                    <g type="doubled_diple"/>
+αἰσχυνθήσονται οἱ πλά<lb break="no"/>                    <g type="doubled_diple"/>
+σαντες                    <choice>
+                        <expan>θεὸν</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θν</hi>
+                        </abbr>
+                    </choice>· καὶ γλύφοντες πάντα μάταια· καὶ πάντες ὅθεν ἐγένον<lb break="no"/>                    <g type="doubled_diple"/>
+το, ἐξηράνθησαν· καὶ κωφοὶ ἀπὸ                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice>· συναχθήτωσαν πάντες καὶ <lb/>
+                    <g type="doubled_diple"/>
+στήτωσαν ἅμα· ὅτι ὤξυνε τέκτων σίδηρον· καὶ σκεπάρνῳ εἰργάσατο <lb/>
+                    <g type="doubled_diple"/>
+αὐτό· καὶ ἔστησεν αὐτὸ τῷ βραχίονι τῆς ἰσχύος αὐτοῦ· καὶ πεινάσει <lb/>
+                    <g type="doubled_diple"/>
+καὶ ἀσθενήσει· καὶ οὐ μὴ πίῃ ὕδωρ· ξύλον γὰρ ἐκλεξάμενος τέκ<lb break="no"/>                    <g type="doubled_diple"/>
+των, ἔστησεν αὐτὸ ἐν μέτρῳ· καὶ ἐν κόλλῃ ἐρύθμισεν αὐτὸ· καὶ <lb/>
+                    <g type="doubled_diple"/>
+ἐποίησεν αὐτὸ ὡς μορφὴν ἀνδρὸς· καὶ ὡς ὡραιότητα                    <choice>
+                        <expan>ἀνθρώπου</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνου</hi>
+                        </abbr>
+                    </choice>, ἔ<lb break="no"/>                    <g type="doubled_diple"/>
+στησεν αὐτὸ ἐν οἴκῳ· καὶ ὃ ἔκοψε ξύλον ἐκ τοῦ δρυμοῦ· καὶ ὃ ἐφύ<lb break="no"/>                    <g type="doubled_diple"/>
+τευσεν ὁ                    <choice>
+                        <expan>κύριος</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">κς</hi>
+                        </abbr>
+                    </choice> καὶ ὑετὸς ἐμήκυνεν· ἵνα ᾖ                    <choice>
+                        <expan>ἀνθρώποις</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνοις</hi>
+                        </abbr>
+                    </choice> εἰς καῦσιν· καὶ λα                    <pb n="19" break="no"/>
+                    <g type="doubled_diple"/>
+βὼν ἀπ' αὐτοῦ θερμανθῇ· καὶ καύσαντες, ἔπεμψαν ἄρτους ἐπ' αὐτῷ· <lb/>
+                    <g type="doubled_diple"/>
+τὸ δὲ λοιπὸν, εἰργάσαντο εἰς θεοὺς· καὶ προσεκύνησαν αὐτοῖς· οὗ τὸ <lb/>
+                    <g type="doubled_diple"/>
+ἥμισυ αὐτοῦ κατέκαυσαν πυρὶ· καὶ ἐπὶ τοῦ ἡμίσεος αὐτοῦ κρέας <lb/>
+                    <g type="doubled_diple"/>
+ὀπτήσας, ἔφαγε· καὶ ἐνεπλήσθη· καὶ θερμανθεὶς, εἶπεν· ἡδύ μοι <lb/>
+                    <g type="doubled_diple"/>
+ὅτι ἐθερμάνθην καὶ εἶδον πῦρ· τὸ δὲ λοιπὸν; προσεκύνει λέγων· <lb/>
+                    <g type="doubled_diple"/>
+ἐξέλου με ὅτι                    <choice>
+                        <expan>θεός</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θς</hi>
+                        </abbr>
+                    </choice> μου εἶ σὺ· οὐκ ἔγνωσαν φρονῆσαι· ὅτι ἀπημαυρώ<lb break="no"/>                    <g type="doubled_diple"/>
+θησαν τοῦ βλέπειν τοῖς ὀφθαλμοῖς αὐτῶν· καὶ τοῦ νοῆσαι τῇ καρδίᾳ· <lb/>
+                    <g type="doubled_diple"/>
+καὶ οὐκ ἀνελογίσατο ἐν τῇ καρδίᾳ αὐτοῦ· οὐδὲ ἀνελογίσατο τῇ <lb/>
+                    <g type="doubled_diple"/>
+ψυχῇ αὐτοῦ· οὐδὲ ἔγνω τῇ φρονήσει ὅτι τὸ ἥμισυ αὐτοῦ κατέκαυ<lb break="no"/>                    <g type="doubled_diple"/>
+σεν ἐν πυρί, καὶ ἔπεψεν ἐπὶ τῶν ἀνθράκων αὐτοῦ ἄρτους· καὶ <lb/>
+                    <g type="doubled_diple"/>
+ὀπτήσας κρέα ἔφαγε· καὶ τὸ λοιπὸν αὐτοῦ εἰς βδέλυγμα ἐποίη<lb break="no"/>                    <g type="doubled_diple"/>
+σε· καὶ προσκυνοῦσιν αὐτὸ· γνῶτε ὅτι σποδὸς ἡ καρδία αὐ<lb break="no"/>                    <g type="doubled_diple"/>
+τῶν καὶ πλανῶνται· καὶ οὐδεὶς δύναται ἐξελέσθαι τὴν ψυχὴν <lb/>
+                    <g type="doubled_diple"/>
+αὐτῶν· ἴδετε καὶ οὐκ ἐρεῖτε ὅτι ψεῦδος ἐν τῇ δεξιᾷ. πῶς <lb/>
+ οὖν οὐκ ἄθεοι παρὰ πᾶσι κριθεῖεν· οἱ καὶ παρὰ τῆς θείας γρα<lb break="no"/>φῆς ἀσεβείας κατηγορούμενοι; ἢ πῶς οὐκ ἂν εἶεν κακοδαί<lb break="no"/>μονες οἱ οὕτω φανερῶς ἐλεγχόμενοι· τὰ ἄψυχα θρησκεύον<lb break="no"/>τες ἀντὶ τῆς ἀληθείας· ποία δὲ τούτοις ἐλπίς, ἢ τίς ἂν αὐτοῖς <lb/>
+ γένοιτο συγγνώμη· πεποιθόσιν ἐπὶ τὰ ἄλογα καὶ ἀκίνητα· ἃ <lb/>
+ ἀντὶ τοῦ ἀληθινοῦ                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> σέβουσιν, εἴθε γὰρ εἴθε κἂν χωρὶς <lb/>
+ σχήματος αὐτοῖς τοὺς θεοὺς ἔπλαττεν ὁ τεχνίτης· ἵνα μὴ τῆς ἀναι<lb break="no"/>σθησίας φανερὸν ἔχωσι τὸν ἔλεγχον, ὑπέκλεψαν γὰρ ἂν τὴν ὑπό<lb break="no"/>νοιαν τῶν ἀκεραίων ὡς αἰσθομένων τῶν εἰδώλων, εἰ μὴ τὰ <lb/>
+ σύμβολα τῶν αἰσθήσεων· οἷον ὀφθαλμοὺς· καὶ ῥῖνας καὶ ὦτα· <lb/>
+ καὶ στόματα· καὶ χεῖρας εἶχον ἀκινήτως κείμενα πρὸς τὴν <lb/>
+ τῆς αἰσθήσεως χρῆσιν· καὶ τὴν τῶν αἰσθητῶν ἀντίληψιν· νῦν δὲ <lb/>
+ ἔχοντες, οὐκ ἔχουσι· καὶ στήκοντες, οὐ στήκουσι· καὶ καθεζόμενοι, <lb/>
+ οὐ καθέζονται· οὐ γὰρ ἔχουσι τούτων τὴν ἐνέργειαν· ἀλλ' ὡς ὁ πλά<lb break="no"/>σας ἠθέλησεν, οὕτως καὶ μένουσι κείμενοι·                    <choice>
+                        <expan>θεοῦ</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">θῦ</hi>
+                        </abbr>
+                    </choice> μὲν γνώρισμα <lb/>
+ μηδὲν παρέχοντες· ἄψυχοι δὲ καθόλου· μόνον                    <choice>
+                        <expan>ἀνθρώπου</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνου</hi>
+                        </abbr>
+                    </choice> τέχνῃ φαι                    <pb n="20" break="no"/>
+νόμενοι τεθέντες· εἴθε δὲ καὶ οἱ τῶν τοιούτων ψευδοθέων κήρυκες <lb/>
+ καὶ μάντεις· ποιηταὶ λέγω καὶ συγγραφεῖς, ἁπλῶς θεοὺς αὐτοὺς <lb/>
+ εἶναι γεγραφήκεισαν· ἀλλὰ καὶ μὴ τὰς πράξεις αὐτῶν πρὸς ἔλεγ<lb break="no"/>χον ἀθεότητος καὶ αἰσχροποιοῦ πολιτείας ἀναγεγραφήκει<lb break="no"/>σαν· ἠδύναντο γὰρ καὶ μόνῳ τῷ τῆς θεότητος ὀνόματι τὴν ἀλήθειαν <lb/>
+ ὑφαρπάσαι· μᾶλλον δὲ τοὺς πολλοὺς ἀπὸ τῆς ἀληθείας πλανῆσαι· <lb/>
+ νῦν δὲ ἔρωτας καὶ ἀσελγείας διηγούμενοι τοῦ διὸς· καὶ παιδοφθο<lb break="no"/>ρίας τῶν ἄλλων· καὶ ζηλοτυπίας πρὸς ἡδονὴν τῶν θηλειῶν· καὶ φό<lb break="no"/>βους καὶ δειλίας καὶ τὰς ἄλλας κακίας, οὐδὲν ἄλλο ἢ ἑαυτοὺς ἐ<lb break="no"/>λέγχουσιν· ὅτι οὐ μόνον οὐ περὶ θεῶν διηγοῦνται, ἀλλ' οὐδὲ περὶ <lb/>
+                    <choice>
+                        <expan>ἀνθρώπων</expan>
+                        <abbr type="nomSac">
+                            <hi rend="overline">ἀνων</hi>
+                        </abbr>
+                    </choice> σεμνῶν· περὶ δὲ αἰσχρῶν καὶ τοῦ καλοῦ μακρὰν ὄντων μυ<lb break="no"/>θολογοῦσιν· ἀλλ' ἴσως περὶ τούτων οἱ δυσσεβεῖς ἐπὶ τὴν ἰδιότητα <lb/>
+ τῶν ποιητῶν καταφεύξονται· λέγοντες τῶν ποιητῶν ἴδιον εἶναι <lb/>
+ χαρακτῆρα τὰ μὴ ὄντα πλάττεσθαι· καὶ ψεύδεσθαι περὶ μύθων· <lb/>
+ εἰς ἡδονὴν τῶν ἀκουόντων· οὗ χάριν καὶ τὰ περὶ θεῶν αὐτοὺς πε<lb break="no"/>ποιηκέναι φήσουσιν· ἀλλ' αὕτη καὶ πάντων μᾶλλον ἡ πρόφασις <lb/>
+ αὐτοῖς ἕωλος δειχθήσεται· ἀφ' ὧν αὐτοὶ περὶ τούτων ἔχουσι δόξαν <lb/>
+ καὶ προτίθενται· εἰ γὰρ τὰ παρὰ ποιηταῖς ἐστι πλάσματα <lb/>
+ καὶ ψευδῆ, ψευδὴς ἂν εἴη καὶ αὐτὴ ἡ περὶ τοῦ διὸς καὶ κρόνου <lb/>
+ καὶ ἥρας καὶ ἄρεως καὶ τῶν ἄλλων ὀνομασία. ἴσως γὰρ ὡς αὐ<lb break="no"/>τοί φασιν καὶ τὰ ὀνόματα πέπλασται· καὶ οὐκ ἔστι μὲν ὅλως <lb/>
+ ζεὺς οὐδὲ κρόνος οὐδὲ ἄρης· πλάττονται δὲ τούτους ὡς ὄντας <lb/>
+ οἱ ποιηταὶ· πρὸς ἀπάτην τῶν ἀκουόντων· πλαττόντων δὲ τῶν ποι<lb break="no"/>ητῶν τὰ μὴ ὄντα, πῶς ὄντας αὐτοὺς θρησκεύουσιν· ἢ ἴσως γὰρ <lb/>
+ ἂν πάλιν φήσωσι· τὰ μὲν ὀνόματα, οὐ πλάττονται· τὰς δὲ <lb/>
+ πράξεις, ψεύδονται κατ' αὐτῶν; ἀλλὰ καὶ τοῦτο οὐδὲν ἧττον πρὸς <lb/>
+ ἀπολογίαν αὐτῶν ἀσφαλὲς. εἰ γὰρ τὰς πράξεις ἐψεύ<lb break="no"/>σαντο, πάντως καὶ τὰ ὀνόματα· ὧν τὰς πράξεις εἶναι δι<lb break="no"/>ηγήσαντο· ἢ εἰ ἀληθεύουσι περὶ τὰ ὀνόματα, ἀληθεύουσι καὶ περὶ <lb/>
+ τὰς πράξεις ἐξ ἀνάγκης· ἄλλως τε· οἱ εἶναι τούτους θεοὺς μυθολογήσαντες,                    <pb/>
+                </p>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
