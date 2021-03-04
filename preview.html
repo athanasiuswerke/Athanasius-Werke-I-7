@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+  <link rel="stylesheet" href="CETEIcean.css">
+  <script src="CETEI.js"></script>
+  <script>
+  let selectedFile = "data/pta0022.pta001.pta-Ms48.xml"
+  let c = new CETEI();
+  let behaviors = {
+    "tei": {
+	  "teiHeader": null,
+      "pb": [
+		["[facs]", ["<p><a href=\"$rw@facs\" target=\"_blank\">[$@n]","</a></p>"]],
+		["[n]", ["<p>[$@n]</p>"]]],
+	  "note": ["<span class=\'aside\'>*[$@place] "," ($@hand)</span>"],
+	  "add": [
+		  ["[place=margin]", ["<span class=\'aside\'>* &lt;"," ($@hand)&gt;</span>"]],
+		  ["_", ["<"," ($@hand)>"]]],
+	  "del": [""," ($@hand)"],
+	  "subst": [""," ($@hand)"],
+	  "persName": [
+  		["[ref]", ["<a href=\"$rw@ref\" target=\"_blank\">","</a>"]]],
+	  "placeName": [
+	    ["[ref]", ["<a href=\"$rw@ref\" target=\"_blank\">","</a>"]]],
+    }
+  };
+  c.addBehaviors(behaviors);
+  c.getHTML5(selectedFile, function(data) {
+      document.getElementsByTagName("div")[0].appendChild(data);
+      var substitutions = document.querySelectorAll("tei-subst")       
+      	substitutions.forEach( function(subst){            
+      		subst.querySelector("tei-add").addEventListener("click", function(){
+      		var del = subst.querySelector("tei-del")
+      		if (window.getComputedStyle(del).getPropertyValue("display") == "none") {                     
+      			del.style.display = "inline"         
+      			}  
+      		else 
+      		{                     
+      			del.style.display = "none"         
+      		}           
+      		})       
+      })
+      var nomsac = document.querySelectorAll("tei-choice")       
+      	nomsac.forEach( function(subst){            
+      		subst.querySelector("tei-abbr").addEventListener("mouseover", function(){
+      		var expan = subst.querySelector("tei-expan")
+      		if (window.getComputedStyle(expan).getPropertyValue("display") == "none") {                     
+      			expan.style.display = "inline" 
+      			expan.style.color = "grey"   
+      			}  
+      		else 
+      		{                     
+      			expan.style.display = "none"          
+      		}           
+      		})       
+      })
+    });
+  </script>
+</head>
+<body>
+<div>
+
+</div>
+</body>
+</html>
