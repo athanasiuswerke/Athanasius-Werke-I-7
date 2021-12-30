@@ -416,17 +416,12 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">θς</hi>
                             </abbr>
-                        </choice> εἷς ἐστι· καί ἐξομολογοῦμαί σοι <lb/>χ<choice>
-                            <expan><choice>
-                                <expan>οὐρανοῦ</expan>
+                        </choice> εἷς ἐστι· καί ἐξομολογοῦμαί σοι <lb/><choice>
+                                <expan>πάτερ</expan>
                                 <abbr type="nomSac">
                                     <hi rend="overline">περ</hi>
                                 </abbr>
-                            </choice></expan>
-                            <abbr type="nomSac">
-                                <hi rend="overline">οὐνου</hi>
-                            </abbr>
-                        </choice> <choice>
+                            </choice> <choice>
                             <expan>κύριε</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">κε</hi>
