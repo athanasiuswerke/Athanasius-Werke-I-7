@@ -2350,7 +2350,12 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">πρς</hi>
                             </abbr>
-                        </choice> ἐστιν· <lb/>αὐτοφῶς· αὐτοαλήθεια· αὐτοδικαιοσύνη· <lb/>αὐτοαρετή· καὶ μὴν καὶ χαρακτήρ· καὶ ἀ<lb break="no"/>παύγασμα· καὶ εἰκών· καὶ συνελόντι φρά<lb break="no"/>σαι· καρπὸς παντέλειος τοῦ πατρος ὑπάρ<lb break="no"/>χει καὶ μόνος ἐστὶν <choice>
+                        </choice> ἐστιν· <lb/>αὐτοφῶς· αὐτοαλήθεια· αὐτοδικαιοσύνη· <lb/>αὐτοαρετή· καὶ μὴν καὶ χαρακτήρ· καὶ ἀ<lb break="no"/>παύγασμα· καὶ εἰκών· καὶ συνελόντι φρά<lb break="no"/>σαι· καρπὸς παντέλειος τοῦ <choice>
+                            <expan>πατρος</expan>
+                            <abbr type="nomSac">
+                                <hi rend="overline">πρς</hi>
+                            </abbr>
+                        </choice> ὑπάρ<lb break="no"/>χει καὶ μόνος ἐστὶν <choice>
                             <expan>υἱος</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">υς</hi>
