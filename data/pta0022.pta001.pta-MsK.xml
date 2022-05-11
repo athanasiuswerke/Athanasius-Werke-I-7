@@ -1361,9 +1361,9 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">ἀνων</hi>
                             </abbr>
-                        </choice> καὶ ἀλόγων <lb/>πτηνῶν τε καὶ ἑρπετῶν καὶ τετραπόδων ἁπλῶς· ἀλλ' ἥλιον καὶ <lb/>σελήνην· καὶ πάντα <subst>
-                            <del rend="expunction">τῶν</del>
-                            <add place="inline">τὸν</add>
+                        </choice> καὶ ἀλόγων <lb/>πτηνῶν τε καὶ ἑρπετῶν καὶ τετραπόδων ἁπλῶς· ἀλλ' ἥλιον καὶ <lb/>σελήνην· καὶ πάντα τ<subst>
+                            <del rend="expunction">ῶν</del>
+                            <add place="above">ὸν</add>
                         </subst> κατ' <choice>
                             <expan>οὐρανὸν</expan>
                             <abbr type="nomSac">
