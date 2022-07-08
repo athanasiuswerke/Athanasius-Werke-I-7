@@ -32,17 +32,17 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-        <msIdentifier xml·id="Paris_Coislin_45">
+        <msIdentifier xml·id="London_Harl_5579">
             <settlement>London</settlement>
-            <repository>Bibiotheque Nationale</repository>
-            <idno>Coislinianus gr. 45</idno>
+            <repository>British Museum</repository>
+            <idno>Harleianus 5579</idno>
             <altIdentifier type="diktyon">
-                <idno>56</idno>
+                <idno>5579</idno>
             </altIdentifier>
         </msIdentifier>
         <physDesc>
             <handDesc hands="1">
-                <handNote xml·id="m1">Schreiber I</handNote>
+                <handNote xml·id="m1">Ῥωμανὸς Χαρτοφύλαξ</handNote>
             </handDesc>
         </physDesc>
     </msDesc>
@@ -1961,7 +1961,7 @@
             <abbr type="nomSac">
                 <hi rend="overline">κν</hi>
             </abbr>
-        </choice>· διὰ τοῦτο γὰρ καὶ αὐτὸς ὁ δημιουργὸς, <lb/>ἕνα τὸν σύμπαντα κόσμον πεποίηκεν, ἵνα μὴ τῇ τῶν πολλῶν συστάσει πολλοὶ <lb/>καὶ οἱ δημιουργοὶ νομίζοντο· ἀλλ' ἑνὸς ὄντος τοῦ ποιήματος, εἷς καὶ ὁ τούτου <lb/>ποιητὴς πιστεύηται. καὶ οὐχ' ὅτι εἷς ἐστιὶν ὁ δημιουργὸς διὰ τοῦτο καὶ εἷς ἐστὶν <lb/>ὁ κόσμος· ἠδύνατο γὰρ καὶ ἄλλους κόσμους ποιῆσαι ὁ <choice>
+        </choice>· διὰ τοῦτο γὰρ καὶ αὐτὸς ὁ δημιουργὸς, <lb/>ἕνα τὸν σύμπαντα κόσμον πεποίηκεν, ἵνα μὴ τῇ τῶν πολλῶν συστάσει πολλοὶ <lb/>καὶ οἱ δημιουργοὶ νομίζοντο· ἀλλ' ἑνὸς ὄντος τοῦ ποιήματος, εἷς καὶ ὁ τούτου <lb/>ποιητὴς πιστεύηται. καὶ οὐχ' ὅτι εἷς ἐστὶν ὁ δημιουργὸς διὰ τοῦτο καὶ εἷς ἐστὶν <lb/>ὁ κόσμος· ἠδύνατο γὰρ καὶ ἄλλους κόσμους ποιῆσαι ὁ <choice>
             <expan>θεός</expan>
             <abbr type="nomSac">
                 <hi rend="overline">θς</hi>
