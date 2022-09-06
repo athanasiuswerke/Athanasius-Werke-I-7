@@ -1694,7 +1694,10 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">θῦ</hi>
                             </abbr>
-                        </choice> λό<lb break="no"/>γου γνῶσιν καὶ κατάληψιν· λέ<lb break="no"/>γομεν οὖν καθάπερ εἴρηται πρό<lb break="no"/>τερον· ὥσπερ τὸν <choice>
+                        </choice> λό<lb break="no"/>γ<subst>
+                            <del>ον</del>
+                            <add place="above">ου</add>
+                        </subst> γνῶσιν καὶ κατάληψιν· λέ<lb break="no"/>γομεν οὖν καθάπερ εἴρηται πρό<lb break="no"/>τερον· ὥσπερ τὸν <choice>
                             <expan>θεὸν</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">θν</hi>
