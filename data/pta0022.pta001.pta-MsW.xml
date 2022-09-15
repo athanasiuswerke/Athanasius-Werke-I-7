@@ -1897,7 +1897,10 @@
             <abbr type="nomSac">
                 <hi rend="overline">θς</hi>
             </abbr>
-        </choice>· ὤν ἐστὶ καὶ οὐ σύνθετος· ἀλλ' εἷς καὶ μονογενὴς διὸ καὶ ὁ τούτου λόγος, ὤν ἐστι καὶ οὐ σύνθετος· ἀλλ' εἷς καὶ μονογενὴς <lb/><choice>
+        </choice>· ὤν ἐστὶ καὶ οὐ σύνθετος· ἀλλ' εἷς καὶ μονογενὴς διὸ καὶ <subst>
+            <del>ὁ</del>
+            <add place="above">ὃς</add>
+        </subst> τούτου λόγος, ὤν ἐστι καὶ οὐ σύνθετος· ἀλλ' εἷς καὶ μονογενὴς <lb/><choice>
             <expan>θεὸς</expan>
             <abbr type="nomSac">
                 <hi rend="overline">θς</hi>
