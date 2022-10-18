@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml·lang="la">Contra gentes (Ms 74)</title>
+                <title xml·lang="la">Contra gentes (Ms 47)</title>
                 <author>
                     <persName key="pta0022">Athanasius Alexandrinus</persName>
                 </author>
@@ -58,7 +58,7 @@
             </refsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change who="#KS" when="2021-04-24">Transkription des Textes anhand des Mikrofilms</change>
+            <change who="#KS" when="2022-10-18">Transkription des Textes anhand des Mikrofilms</change>
         </revisionDesc>
     </teiHeader>
     <text>
