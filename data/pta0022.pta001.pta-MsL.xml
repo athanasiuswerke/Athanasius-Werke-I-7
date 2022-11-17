@@ -37,12 +37,12 @@
             <repository>Britisches Museum</repository>
             <idno>Burneianus 46 Band I</idno>
             <altIdentifier type="diktyon">
-                <idno>L</idno>
+                <idno>39316</idno>
             </altIdentifier>
         </msIdentifier>
         <physDesc>
             <handDesc hands="2">
-                <handNote xml·id="m1">Schreiber I</handNote>
+                <handNote xml·id="m1">Schreiber 1</handNote>
                 <handNote xml·id="m2">Korrektor</handNote>
             </handDesc>
         </physDesc>
@@ -61,7 +61,7 @@
     <text>
         <body>
             <div type="transcription" xml·lang="grc" n="urn·cts·pta·pta0022.pta001.pta-MsL">
-    <pb n="3r"/> <head>
+    <pb n="3r" facs="https://www.bl.uk/manuscripts/Viewer.aspx?ref=burney_ms_46!1_fs001r"/> <head>
         <title>τοῦ ἐν ἁγίοις <choice>
             <expan>πατρὸς</expan>
             <abbr type="nomSac">

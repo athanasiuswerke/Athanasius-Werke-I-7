@@ -37,12 +37,12 @@
             <repository>Bodleian Library</repository>
             <idno>Holkhamicus gr. 28</idno>
             <altIdentifier type="diktyon">
-                <idno>74</idno>
+                <idno>48096</idno>
             </altIdentifier>
         </msIdentifier>
         <physDesc>
             <handDesc hands="2">
-                <handNote xml·id="m1">Schreiber I</handNote>
+                <handNote xml·id="m1">Schreiber 1</handNote>
                 <handNote xml·id="m2">Korrektor</handNote>
             </handDesc>
         </physDesc>
