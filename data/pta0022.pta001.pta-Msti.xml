@@ -41,13 +41,14 @@
                         </altIdentifier>
                     </msIdentifier>
                     <physDesc>
+                        <objectDesc><supportDesc><extent>foll. 1r-80v fehlen, Seitenzählung nach Verlust</extent></supportDesc></objectDesc>
                         <handDesc hands="2">
                             <handNote xml:id="m1">
                               <persName></persName>
                             </handNote>
                             <handNote xml:id="m2">Korrektor</handNote>
                         </handDesc>
-                    foll. 1r-80v fehlen, Seitenzählung nach Verlust</physDesc>
+                    </physDesc>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

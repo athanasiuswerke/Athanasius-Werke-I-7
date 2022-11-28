@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https·//raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http·//www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml·lang="la">Contra gentes (Ms M)</title>
+                <title xml:lang="la">Contra gentes (Ms M)</title>
                 <author>
                     <persName key="pta0022">Athanasius Alexandrinus</persName>
                 </author>
                 <respStmt>
                     <resp>transkribiert von</resp>
-                    <persName xml·id="KS">Kyriakos Savvidis</persName>
+                    <persName xml:id="KS">Kyriakos Savvidis</persName>
                 </respStmt>
                 <funder>Deutsche Forschungsgemeinschaft</funder>
             </titleStmt>
@@ -20,7 +20,7 @@
                 <authority>Patristische Arbeitsstelle Bochum</authority>
                 <distributor>Patristic Text Archive</distributor>
                 <availability>
-                    <licence target="https·//creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
                 </availability>
                 <date>2018</date>
                 <idno type="PTA">pta0022.pta001</idno>
@@ -32,7 +32,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-        <msIdentifier xml·id="Venedig_Marc_49">
+        <msIdentifier xml:id="Venedig_Marc_49">
             <settlement>Venedig</settlement>
             <repository>Biblioteca Nazionale Marciana</repository>
             <idno>Marcianus gr. 49</idno>
@@ -42,7 +42,7 @@
         </msIdentifier>
         <physDesc>
             <handDesc hands="1">
-                <handNote xml·id="m1"></handNote>
+                <handNote xml:id="m1"></handNote>
             </handDesc>
         </physDesc>
     </msDesc>
@@ -59,7 +59,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="transcription" xml·lang="grc" n="urn·cts·pta·pta0022.pta001.pta-MsMcap">
+            <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-MsMcap">
     <pb n="3r"/> <head>
         <title>τοῦ ἐν ἁγίοις <choice>
             <expan>πατρὸς</expan>

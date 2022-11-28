@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https·//raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http·//www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml·lang="la">Contra gentes (Ms 47)</title>
+                <title xml:lang="la">Contra gentes (Ms 47)</title>
                 <author>
                     <persName key="pta0022">Athanasius Alexandrinus</persName>
                 </author>
                 <respStmt>
                     <resp>transkribiert von</resp>
-                    <persName xml·id="KS">Kyriakos Savvidis</persName>
+                    <persName xml:id="KS">Kyriakos Savvidis</persName>
                 </respStmt>
                 <funder>Deutsche Forschungsgemeinschaft</funder>
             </titleStmt>
@@ -20,7 +20,7 @@
                 <authority>Patristische Arbeitsstelle Bochum</authority>
                 <distributor>Patristic Text Archive</distributor>
                 <availability>
-                    <licence target="https·//creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
                 </availability>
                 <date>2018</date>
                 <idno type="PTA">pta0022.pta001</idno>
@@ -32,7 +32,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-        <msIdentifier xml·id="Cambridge_TC_B_9_7">
+        <msIdentifier xml:id="Cambridge_TC_B_9_7">
             <settlement>Cambridge</settlement>
             <repository>Trinity College</repository>
             <idno>B 9.7</idno>
@@ -42,11 +42,11 @@
         </msIdentifier>
         <physDesc>
             <handDesc hands="4">
-                <handNote xml·id="m1">Ἐμμανουὴλ Βεμβαινῆς</handNote>
-                <handNote xml·id="m2">Korrektor</handNote>
-                <handNote xml·id="m3">Korrektor</handNote>
-                <handNote xml·id="m4">Korrektor</handNote>
-                <handNote xml·id="mr">manus recentior Ἐμμανουὴλ Βεμβαινῆς</handNote>
+                <handNote xml:id="m1">Ἐμμανουὴλ Βεμβαινῆς</handNote>
+                <handNote xml:id="m2">Korrektor</handNote>
+                <handNote xml:id="m3">Korrektor</handNote>
+                <handNote xml:id="m4">Korrektor</handNote>
+                <handNote xml:id="mr">manus recentior Ἐμμανουὴλ Βεμβαινῆς</handNote>
             </handDesc>
         </physDesc>
     </msDesc>
@@ -63,7 +63,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="transcription" xml·lang="grc" n="urn·cts·pta·pta0022.pta001.pta-Ms47">
+            <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-Ms47">
     <pb n="1"/> <head>
         <title>τοῦ ἐν ἁγίοις <choice>
             <expan>πατρὸς</expan>
@@ -570,7 +570,7 @@
             <del rend="underline">καλὸν</del>
             <add place="margin_inner">κακὸν</add>
         </subst>
-        <subst>, οὐ παρὰ <choice>
+        <!--<subst>-->, οὐ παρὰ <choice>
             <expan>θεοῦ</expan>
             <abbr type="nomSac">
                 <hi rend="overline">θῦ</hi>
@@ -1695,11 +1695,11 @@
             <del rend="underline">συνολογο</del>
             <add place="margin_inner"><unclear>συνομολο</unclear></add>
         </subst>
-        <subst><lb break="no"/>γοῦσι τῆς ἀποδείξεως <subst hand="#m3">
+        <!--<subst>--><lb break="no"/>γοῦσι τῆς ἀποδείξεως <subst hand="#m3">
             <del rend="underline">πρὸ</del>
             <add place="margin_inner">ἐπ'</add>
         </subst>
-        <subst> ὀφθαλμῶν οὔσης· ὁμοῦ δὲ <lb/>πάντα συνάπτοντες καὶ ὡς ἓν ἀποτελοῦντες μέγα σῶ<lb break="no"/>μα, τὸ ὅλον θεὸν εἶναι φήσουσι· συστάντος γὰρ τοῦ ὅλου, οὐκ <lb/>ἔτι μὲν ἔξωθεν αὐτοῖς χρεία γενήσεται· ἑαυτῷ δὲ τὸ ὅλον <lb/>ἱκανὸν καὶ αὔταρκες γενήσεται πρὸς πάντα, λέξουσιν οἱ δο<lb break="no"/>κησίσοφοι, ἵνα καὶ ἐντεῦθεν ἐλεγχθῶσιν· οὗτος δὲ ὁ λό<lb break="no"/>γος, καὶ μᾶλλον αὐτῶν τὴν ἀσέβειαν μετὰ μεγάλης ἀπαι<lb break="no"/>δευσίας, οὐκ ἔλαττον τῶν πρόσθεν ἀποδείξει· εἰ γὰρ τὸ καθ' ἕ<lb break="no"/>καστον συναφθὲν τὸ ὅλον ἀναπληροῖ, καὶ τὸ ὅλον ἐκ τῶν καθ' ἓν <lb/>συνίστανται, τὸ ὅλον ἄρα, ἐκ μερῶν συνέστη· καὶ ἕκαστον <lb/>τοῦ ὅλου μέρος τυγχάνει· τοῦτο δὲ τῶν περὶ <choice>
+        <!--<subst>--> ὀφθαλμῶν οὔσης· ὁμοῦ δὲ <lb/>πάντα συνάπτοντες καὶ ὡς ἓν ἀποτελοῦντες μέγα σῶ<lb break="no"/>μα, τὸ ὅλον θεὸν εἶναι φήσουσι· συστάντος γὰρ τοῦ ὅλου, οὐκ <lb/>ἔτι μὲν ἔξωθεν αὐτοῖς χρεία γενήσεται· ἑαυτῷ δὲ τὸ ὅλον <lb/>ἱκανὸν καὶ αὔταρκες γενήσεται πρὸς πάντα, λέξουσιν οἱ δο<lb break="no"/>κησίσοφοι, ἵνα καὶ ἐντεῦθεν ἐλεγχθῶσιν· οὗτος δὲ ὁ λό<lb break="no"/>γος, καὶ μᾶλλον αὐτῶν τὴν ἀσέβειαν μετὰ μεγάλης ἀπαι<lb break="no"/>δευσίας, οὐκ ἔλαττον τῶν πρόσθεν ἀποδείξει· εἰ γὰρ τὸ καθ' ἕ<lb break="no"/>καστον συναφθὲν τὸ ὅλον ἀναπληροῖ, καὶ τὸ ὅλον ἐκ τῶν καθ' ἓν <lb/>συνίστανται, τὸ ὅλον ἄρα, ἐκ μερῶν συνέστη· καὶ ἕκαστον <lb/>τοῦ ὅλου μέρος τυγχάνει· τοῦτο δὲ τῶν περὶ <choice>
             <expan>θεοῦ</expan>
             <abbr type="nomSac">
                 <hi rend="overline">θῦ</hi>

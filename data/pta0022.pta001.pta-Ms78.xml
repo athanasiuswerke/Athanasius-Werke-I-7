@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https·//raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http·//www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml·lang="la">Contra gentes (Ms 78)</title>
+                <title xml:lang="la">Contra gentes (Ms 78)</title>
                 <author>
                     <persName key="pta0022">Athanasius Alexandrinus</persName>
                 </author>
                 <respStmt>
                     <resp>transkribiert von</resp>
-                    <persName xml·id="KS">Kyriakos Savvidis</persName>
+                    <persName xml:id="KS">Kyriakos Savvidis</persName>
                 </respStmt>
                 <funder>Deutsche Forschungsgemeinschaft</funder>
             </titleStmt>
@@ -20,7 +20,7 @@
                 <authority>Patristische Arbeitsstelle Bochum</authority>
                 <distributor>Patristic Text Archive</distributor>
                 <availability>
-                    <licence target="https·//creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
                 </availability>
                 <date>2018</date>
                 <idno type="PTA">pta0022.pta001</idno>
@@ -32,7 +32,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-        <msIdentifier xml·id="Genua_gr_23">
+        <msIdentifier xml:id="Genua_gr_23">
             <settlement>Genua</settlement>
             <repository>Biblioteca Nazionale Marciana</repository>
             <idno>Genuensis gr. 23</idno>
@@ -42,7 +42,7 @@
         </msIdentifier>
         <physDesc>
             <handDesc hands="1">
-                <handNote xml·id="m1">Schreiber I</handNote>
+                <handNote xml:id="m1">Schreiber I</handNote>
             </handDesc>
         </physDesc>
     </msDesc>
@@ -59,7 +59,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="transcription" xml·lang="grc" n="urn·cts·pta·pta0022.pta001.pta-Ms78">
+            <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-Ms78">
                 <pb n="1r"/><head>
                     <title>τοῦ ἐν ἁγίοις <choice>
                         <expan>πατρὸς</expan>

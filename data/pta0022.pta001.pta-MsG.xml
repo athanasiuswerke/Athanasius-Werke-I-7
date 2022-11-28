@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https·//raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http·//www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml·lang="la">Contra gentes (Ms G)</title>
+                <title xml:lang="la">Contra gentes (Ms G)</title>
                 <author>
                     <persName key="pta0022">Athanasius Alexandrinus</persName>
                 </author>
                 <respStmt>
                     <resp>transkribiert von</resp>
-                    <persName xml·id="KS">Kyriakos Savvidis</persName>
+                    <persName xml:id="KS">Kyriakos Savvidis</persName>
                 </respStmt>
                 <funder>Deutsche Forschungsgemeinschaft</funder>
             </titleStmt>
@@ -20,7 +20,7 @@
                 <authority>Patristische Arbeitsstelle Bochum</authority>
                 <distributor>Patristic Text Archive</distributor>
                 <availability>
-                    <licence target="https·//creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
                 </availability>
                 <date>2018</date>
                 <idno type="PTA">pta0022.pta001</idno>
@@ -32,7 +32,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-        <msIdentifier xml·id="Laurentianus_4_23">
+        <msIdentifier xml:id="Laurentianus_4_23">
             <settlement>Florenz</settlement>
             <repository>Biblioteca Medicea Laurenziana</repository>
             <idno>Laurentianus gr. 4_23</idno>
@@ -42,7 +42,7 @@
         </msIdentifier>
         <physDesc>
             <handDesc hands="1">
-                <handNote xml·id="m1">Schreiber I</handNote>
+                <handNote xml:id="m1">Schreiber I</handNote>
             </handDesc>
         </physDesc>
     </msDesc>
@@ -59,7 +59,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="transcription" xml·lang="grc" n="urn·cts·pta·pta0022.pta001.pta-MsG">
+            <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-MsG">
     <pb n="1r"/> <head>
         <title>ΤΟῦ ἉΓίΟΥ ἈΘΑΝΑΣίΟΥ ἈρΧΙΕΠΙΣΚόΠΟΥ<lb/>
         ἈΛΕΞΑΝΔρΕίΑΣ ΚΑΤὰ ΕἰΔώΛΩΝ</title></head>
@@ -870,7 +870,7 @@
         </choice> εἰς καῦσιν, καὶ λαβῶν ἀπ' αὐτοῦ θερμανθῆ· <lb/><g type="doubled_diple"/>καὶ καύσαντες ἔπεψαν ἄρτους ἐπ' αὐτῶ· τὸ δὲ <lb/><g type="doubled_diple"/>λοιπὸν εἰργάσαντο εἰς θεοὺς καὶ προσεκύνη<lb break="no"/><g type="doubled_diple"/>σαν αὐτοῖς· οὗ τὸ ἥμισυ αὐτοῦ κατέκαυσαν <note place="margin_outer">ση(μειωτέον)</note><lb/><g type="doubled_diple"/>πυρὶ, καὶ ἐπὶ τοῦ ἡμίσεως αὐτοῦ κρέας ὀπτή<lb break="no"/><g type="doubled_diple"/>σας ἔφαγεν καὶ ἐνεπλήσθη· καὶ θερμανθεὶς εἶ<lb break="no"/><g type="doubled_diple"/>πεν· ἡδύ μοι ὅτι ἐθερμάνθην καὶ εἶδον πῦρ <lb/><g type="doubled_diple"/>τὸ δὲ λοιπὸν προσεκύνει λέγων· ἐξελοῦ με <lb/><g type="doubled_diple"/>ὅτι θεός μου εἶ σ<subst>
             <del rend="overwrite">ὺ</del>
             <add place="inline">ύ</add>
-        </subst>· οὐκ'ἔγνωσαν φρονῆσαι <lb/>ὅτι ἀπημαυρώθησαν τοῦ βλέπειν τοῖς <lb/><g type="doubled_diple"/>ὀφθαλμοῖς αὐτῶν καὶ τοῦ νοῆσαι τῆ καρ<lb break="no"/><g type="doubled_diple"/>δία· καὶ οὐκ'ἀνελογίσατο εν τῆ καρδία αὐτοῦ· <lb/><g type="doubled_diple"/>οὐδὲ ἀνελογίσατο τῆ ψυχῆ αὐτοῦ· οὐδὲ <lb/><g type="doubled_diple"/>ἔγνω τῇ φρονήσει· ὅτι τὸ ἥμισυ αὐτοῦ κα<lb break="no"/><g type="doubled_diple"/>τέκαυσεν ἐν πυρὶ, καὶ ἔπεψεν ἐπὶ τῶν ἀνθρά<lb break="no"/><g type="doubled_diple"/>κων αὐτοῦ ἄρτους, καὶ ὀπτήσας κρέας ἔφαγεν· <lb/><g type="doubled_diple"/>καὶ τὸ λοιπόν αὐτοῦ εἰς βδέλυγμα ἐποίησεν, <lb/><g type="doubled_diple"/>καὶ προσκυνοῦσιν αὐτῶ· γνῶτε ὅτι σποδὸς <lb/><g type="doubled_diple"/>ἡ καρδία αὐτῶν καὶ πλανων<gap reason="fenestra" quantity="3" unit="character"/>ται· καὶ οὐ<lb break="no"/><g type="doubled_diple"/>δεὶς δύναται ἐξελέσθαι τὴν ψυχὴν αὐτῶν· <lb/><g type="doubled_diple"/>ἴδετε καὶ οὐκ'ἐρεῖτε ὅτι ψεῦδος ἐν τῇ δεξιᾶ <lb/><g type="doubled_diple"/>μου. πῶς οὖν οὐκ'ἄθεοι παρὰ πᾶσι κρι<lb break="no"/><hi rend="ekthesis">θεῖ<hi rend="ekthesis">εν οἱ καὶ παρὰ τῆς θειας γραφῆς ἀσεβείας <pb n="16v"/>κατηγορούμενοι· ἢ πῶς οὐκ'ἂν εἶεν κακοδαί<lb break="no"/>μονες οἱ οὕτω φανερῶς ἐλεγχόμενοι τὰ ἄψυ<lb break="no"/>χα θρησκεύοντες ἀντὶ τῆς ἀληθείας· ποία <lb/>δὲ τούτοις ἐλπίς· ἢ τίς ἂν αὐτοῖς γένοιτο συγ<lb break="no"/>γνώμη πεποιθόσιν ἐπὶ τὰ ἄλογα καὶ ἀκίνητα· <lb/>ἃ ἀντὶ τοῦ ἀληθεινοῦ θεοῦ σέβουσιν. εἴθε γὰρ <lb/><hi rend="ekthesis">εἴ</hi>θε κἂν χωρὶς σχήματος αὐτοῖς τοὺς θεοὺς <lb/>ἔπλαττεν ὁ τεχνίτης· ἵνα μὴ τῆς ἀναισθησί<lb break="no"/>ας φανερὸν ἔχωσιν τὸν ἔλεγχον· ὑπέκλεψαν <lb/>γὰρ ἂν τὴν ὑπόνοιαν τῶν ἀκεραίων ὡς αἰσθο<lb break="no"/>μένων τῶν εἰδώλων εἰ μὴ τα σύμβολα τῶν αἰ<lb break="no"/>σθήσεων· οἷον ὀφθαλμοὺς καὶ ρῖνας καὶ ὦτα καὶ <lb/>χεῖρας καὶ στόμα εἶχον ἀκινήτως κείμενα <lb/>πρὸς τὴν τῆς αἰσθήσεως χρῆσιν καὶ τῶν αἰσθη<lb break="no"/>τῶν ἀντίληψιν· νῦν δὲ ἔχοντες οὐκ'ἔχουσιν· καὶ <lb/>στήκοντες, οὐ στήκουσιν· καὶ καθεζόμενοι, οὐ κα<lb break="no"/>θέζονται· οὐ γὰρ ἔχουσι τούτων τὴν ἐνέργειαν· <lb/>ἀλλ' ὡς ὁ πλάσας ἠθέλησεν, οὕτως καὶ μένου<lb break="no"/>σι κείμενοι· <choice>
+        </subst>· οὐκ'ἔγνωσαν φρονῆσαι <lb/>ὅτι ἀπημαυρώθησαν τοῦ βλέπειν τοῖς <lb/><g type="doubled_diple"/>ὀφθαλμοῖς αὐτῶν καὶ τοῦ νοῆσαι τῆ καρ<lb break="no"/><g type="doubled_diple"/>δία· καὶ οὐκ'ἀνελογίσατο εν τῆ καρδία αὐτοῦ· <lb/><g type="doubled_diple"/>οὐδὲ ἀνελογίσατο τῆ ψυχῆ αὐτοῦ· οὐδὲ <lb/><g type="doubled_diple"/>ἔγνω τῇ φρονήσει· ὅτι τὸ ἥμισυ αὐτοῦ κα<lb break="no"/><g type="doubled_diple"/>τέκαυσεν ἐν πυρὶ, καὶ ἔπεψεν ἐπὶ τῶν ἀνθρά<lb break="no"/><g type="doubled_diple"/>κων αὐτοῦ ἄρτους, καὶ ὀπτήσας κρέας ἔφαγεν· <lb/><g type="doubled_diple"/>καὶ τὸ λοιπόν αὐτοῦ εἰς βδέλυγμα ἐποίησεν, <lb/><g type="doubled_diple"/>καὶ προσκυνοῦσιν αὐτῶ· γνῶτε ὅτι σποδὸς <lb/><g type="doubled_diple"/>ἡ καρδία αὐτῶν καὶ πλανων<gap reason="fenestra" quantity="3" unit="character"/>ται· καὶ οὐ<lb break="no"/><g type="doubled_diple"/>δεὶς δύναται ἐξελέσθαι τὴν ψυχὴν αὐτῶν· <lb/><g type="doubled_diple"/>ἴδετε καὶ οὐκ'ἐρεῖτε ὅτι ψεῦδος ἐν τῇ δεξιᾶ <lb/><g type="doubled_diple"/>μου. πῶς οὖν οὐκ'ἄθεοι παρὰ πᾶσι κρι<lb break="no"/><hi rend="ekthesis">θεῖ</hi>εν οἱ καὶ παρὰ τῆς θειας γραφῆς ἀσεβείας <pb n="16v"/>κατηγορούμενοι· ἢ πῶς οὐκ'ἂν εἶεν κακοδαί<lb break="no"/>μονες οἱ οὕτω φανερῶς ἐλεγχόμενοι τὰ ἄψυ<lb break="no"/>χα θρησκεύοντες ἀντὶ τῆς ἀληθείας· ποία <lb/>δὲ τούτοις ἐλπίς· ἢ τίς ἂν αὐτοῖς γένοιτο συγ<lb break="no"/>γνώμη πεποιθόσιν ἐπὶ τὰ ἄλογα καὶ ἀκίνητα· <lb/>ἃ ἀντὶ τοῦ ἀληθεινοῦ θεοῦ σέβουσιν. εἴθε γὰρ <lb/><hi rend="ekthesis">εἴ</hi>θε κἂν χωρὶς σχήματος αὐτοῖς τοὺς θεοὺς <lb/>ἔπλαττεν ὁ τεχνίτης· ἵνα μὴ τῆς ἀναισθησί<lb break="no"/>ας φανερὸν ἔχωσιν τὸν ἔλεγχον· ὑπέκλεψαν <lb/>γὰρ ἂν τὴν ὑπόνοιαν τῶν ἀκεραίων ὡς αἰσθο<lb break="no"/>μένων τῶν εἰδώλων εἰ μὴ τα σύμβολα τῶν αἰ<lb break="no"/>σθήσεων· οἷον ὀφθαλμοὺς καὶ ρῖνας καὶ ὦτα καὶ <lb/>χεῖρας καὶ στόμα εἶχον ἀκινήτως κείμενα <lb/>πρὸς τὴν τῆς αἰσθήσεως χρῆσιν καὶ τῶν αἰσθη<lb break="no"/>τῶν ἀντίληψιν· νῦν δὲ ἔχοντες οὐκ'ἔχουσιν· καὶ <lb/>στήκοντες, οὐ στήκουσιν· καὶ καθεζόμενοι, οὐ κα<lb break="no"/>θέζονται· οὐ γὰρ ἔχουσι τούτων τὴν ἐνέργειαν· <lb/>ἀλλ' ὡς ὁ πλάσας ἠθέλησεν, οὕτως καὶ μένου<lb break="no"/>σι κείμενοι· <choice>
             <expan>θεοῦ</expan>
             <abbr type="nomSac">
                 <hi rend="overline">θυ</hi>
@@ -1071,7 +1071,7 @@
             <abbr type="nomSac">
                 <hi rend="overline">θς</hi>
             </abbr>
-        </choice>, ὅλον <lb/>ἐστὶ καὶ οὐ μέρη· καὶ οὐκ'<add place="above">εκ</add> διαφόρων συνέστηκεν· <lb/>ἀλλ' αὐτὸς τῆς πάντων συστάσεώς ἐστι ποιητής. <lb/><hi rend="ekthesis">θ<hi rend="ekthesis">έα γὰρ ὅσην ἀσέβειαν κατὰ τοῦ θείου ταῦτα <lb/>λέγοντες ἐξηγοῦνται· εἰ γὰρ ἐκ μερῶν συνέ<lb break="no"/>στηκεν, πάντως αὐτὸς ἑαυτοῦ ἀνόμοιος <lb/>φανήσεται· καὶ ἐξ ἀνομοίων ἔχων τὴν συμ<lb break="no"/>πλήρωσιν· εἰ γὰρ ἥλιός ἐστιν, οὐκ' ἔστι σελή<lb break="no"/>νη· καὶ εἰ σελήνη ἐστὶν, οὐκ' ἔστι γῆ· καὶ ἡ γῆ τυγ<lb break="no"/>χάνει, οὐκ' ἂν εἴη θάλασσα· καὶ οὕτως ἐφ' ἑκά<lb break="no"/>στου λαμβάνων ἄν τις, εὑρήσει τὴν ἀτο<lb break="no"/>πίαν τοῦ τοιούτου αὐτῶν λόγου. τοῦτο δ' ἄν <lb/>τις καὶ ἐκ τοῦ καθ' ἡμᾶς ἀνθρωπείου σώματος <pb n="22v"/>ἰδὼν, καταγνοίη τούτων· ὡς γὰρ ὁ ὀφθαλμὸς <lb/><hi rend="ekthesis">ο</hi>ὐκ' ἔστιν ἀκοὴ· οὐδὲ ἡ ἀκοὴ χείρ οὐδὲ ἡ γαστὴρ <lb/>ἐστι στέρνα· οὐδ' αῦ πάλιν ὁ αὐχήν ἐστι ποὺς· ἀλλ' <lb/>ἕκαστον τούτων ἰδίαν ἔχει τὴν ἐνέργειαν· καὶ ἐκ <lb/>τούτων διαφόρων ὄντων ἓν συνίσταται σῶμα· <lb/>συνημμένα μὲν ἔχοντα μέρη κατὰ τὴν χρεί<lb break="no"/>αν· διαιρούμενα δὲ κατὰ τὴν τοῦ χρόνου <lb/>παρουσίαν· ὅτ'ἂν ἡ φύσις ἡ συνάξασα ταῦ<lb break="no"/>τα διέλη, ὡς ὁ προστάξας <choice>
+        </choice>, ὅλον <lb/>ἐστὶ καὶ οὐ μέρη· καὶ οὐκ'<add place="above">εκ</add> διαφόρων συνέστηκεν· <lb/>ἀλλ' αὐτὸς τῆς πάντων συστάσεώς ἐστι ποιητής. <lb/><hi rend="ekthesis">θ</hi>έα γὰρ ὅσην ἀσέβειαν κατὰ τοῦ θείου ταῦτα <lb/>λέγοντες ἐξηγοῦνται· εἰ γὰρ ἐκ μερῶν συνέ<lb break="no"/>στηκεν, πάντως αὐτὸς ἑαυτοῦ ἀνόμοιος <lb/>φανήσεται· καὶ ἐξ ἀνομοίων ἔχων τὴν συμ<lb break="no"/>πλήρωσιν· εἰ γὰρ ἥλιός ἐστιν, οὐκ' ἔστι σελή<lb break="no"/>νη· καὶ εἰ σελήνη ἐστὶν, οὐκ' ἔστι γῆ· καὶ ἡ γῆ τυγ<lb break="no"/>χάνει, οὐκ' ἂν εἴη θάλασσα· καὶ οὕτως ἐφ' ἑκά<lb break="no"/>στου λαμβάνων ἄν τις, εὑρήσει τὴν ἀτο<lb break="no"/>πίαν τοῦ τοιούτου αὐτῶν λόγου. τοῦτο δ' ἄν <lb/>τις καὶ ἐκ τοῦ καθ' ἡμᾶς ἀνθρωπείου σώματος <pb n="22v"/>ἰδὼν, καταγνοίη τούτων· ὡς γὰρ ὁ ὀφθαλμὸς <lb/><hi rend="ekthesis">ο</hi>ὐκ' ἔστιν ἀκοὴ· οὐδὲ ἡ ἀκοὴ χείρ οὐδὲ ἡ γαστὴρ <lb/>ἐστι στέρνα· οὐδ' αῦ πάλιν ὁ αὐχήν ἐστι ποὺς· ἀλλ' <lb/>ἕκαστον τούτων ἰδίαν ἔχει τὴν ἐνέργειαν· καὶ ἐκ <lb/>τούτων διαφόρων ὄντων ἓν συνίσταται σῶμα· <lb/>συνημμένα μὲν ἔχοντα μέρη κατὰ τὴν χρεί<lb break="no"/>αν· διαιρούμενα δὲ κατὰ τὴν τοῦ χρόνου <lb/>παρουσίαν· ὅτ'ἂν ἡ φύσις ἡ συνάξασα ταῦ<lb break="no"/>τα διέλη, ὡς ὁ προστάξας <choice>
             <expan>θεος</expan>
             <abbr type="nomSac">
                 <hi rend="overline">θς</hi>
@@ -1106,7 +1106,7 @@
             <abbr type="nomSac">
                 <hi rend="overline">θυ</hi>
             </abbr>
-        </choice> ὅρου· <lb/>ἥλιου μὲν γὰρ ὑπὸ γῆν γενομένου, τὸ φῶς ἡ γῆ <note hand="unknown" place="margin_outer">ση(μειωτέον)</note><lb/>σκιάζει μὴ ὁρᾶσθαι· σελήνην δὲ μεθ' ἡμέραν <lb/>ὁ ἥλιος ἐπικρύπτει τῆ τοῦ φωτὸς λαμπηδό<lb break="no"/>νι· καὶ γῆς μὲν τοὺς καρποὺς, πολλάκις χά<lb break="no"/>λαζα βλάπτει· τὸ πῦρ δὲ εἰ γένοιτό τις ὑδά<lb break="no"/>των πλημμύρα, σβέννυται· καὶ χειμῶνα μὲν <lb/>ἔαρ παραγκωνίζεται· θέρος δὲ τὸ ἔαρ ὑπερ<lb break="no"/>βῆναι τοὺς ὅρους οὐκ'ἐπιτρέπει· καὶ αὐτὸ πά<lb break="no"/>λιν ὑπὸ τοῦ μεθοπώρου κωλυόμενον τὰς ἰδί<lb break="no"/>ας ὥρας ἐξέρχεσθαι. εἴπερ οὖν εἶσαν θεοὶ, <lb/><hi rend="ekthesis">ἔ<hi rend="ekthesis">δει τούτους μὴ ὑπ' ἀλλήλων ἡττᾶσθαι καὶ ἐπι<lb break="no"/>κρύπτεσθαι· ἀλλὰ πάντοτε ἀλλήλοις συνεῖ<lb break="no"/>ναι καὶ κοινᾶς ἅμα τὰς ἐνεργείας ἐπιτελεῖν· <lb/>ἔδει μεθ' ἡμέραν καὶ μετὰ νύκτα ἥλιον ὁμοῦ <lb/>καὶ σελήνην καὶ τὸν ἄλλον τῶν ἀστερων χορὸν <lb/>ἴσον ἔχειν τὸ φῶς καὶ τοῦτο πᾶσιν λάμπειν· καὶ πάν<lb break="no"/>τα παρ' αὐτῶν καταυγάζεσθαι· ἔδει θέρος· <lb/>ὁμοῦ καὶ χειμῶνα καὶ ἔαρ καὶ μεθόπωρον, ἀπα<lb break="no"/>ραλλάκτως καὶ κατὰ τὸ αὐτὸ συνίστασθαι· <lb/>ἔδει τὴν θάλασσαν ταῖς πηγαῖς ἐπιμίσγεσ<lb break="no"/>θαι· καὶ κοινὸν <choice>
+        </choice> ὅρου· <lb/>ἥλιου μὲν γὰρ ὑπὸ γῆν γενομένου, τὸ φῶς ἡ γῆ <note hand="unknown" place="margin_outer">ση(μειωτέον)</note><lb/>σκιάζει μὴ ὁρᾶσθαι· σελήνην δὲ μεθ' ἡμέραν <lb/>ὁ ἥλιος ἐπικρύπτει τῆ τοῦ φωτὸς λαμπηδό<lb break="no"/>νι· καὶ γῆς μὲν τοὺς καρποὺς, πολλάκις χά<lb break="no"/>λαζα βλάπτει· τὸ πῦρ δὲ εἰ γένοιτό τις ὑδά<lb break="no"/>των πλημμύρα, σβέννυται· καὶ χειμῶνα μὲν <lb/>ἔαρ παραγκωνίζεται· θέρος δὲ τὸ ἔαρ ὑπερ<lb break="no"/>βῆναι τοὺς ὅρους οὐκ'ἐπιτρέπει· καὶ αὐτὸ πά<lb break="no"/>λιν ὑπὸ τοῦ μεθοπώρου κωλυόμενον τὰς ἰδί<lb break="no"/>ας ὥρας ἐξέρχεσθαι. εἴπερ οὖν εἶσαν θεοὶ, <lb/><hi rend="ekthesis">ἔ</hi>δει τούτους μὴ ὑπ' ἀλλήλων ἡττᾶσθαι καὶ ἐπι<lb break="no"/>κρύπτεσθαι· ἀλλὰ πάντοτε ἀλλήλοις συνεῖ<lb break="no"/>ναι καὶ κοινᾶς ἅμα τὰς ἐνεργείας ἐπιτελεῖν· <lb/>ἔδει μεθ' ἡμέραν καὶ μετὰ νύκτα ἥλιον ὁμοῦ <lb/>καὶ σελήνην καὶ τὸν ἄλλον τῶν ἀστερων χορὸν <lb/>ἴσον ἔχειν τὸ φῶς καὶ τοῦτο πᾶσιν λάμπειν· καὶ πάν<lb break="no"/>τα παρ' αὐτῶν καταυγάζεσθαι· ἔδει θέρος· <lb/>ὁμοῦ καὶ χειμῶνα καὶ ἔαρ καὶ μεθόπωρον, ἀπα<lb break="no"/>ραλλάκτως καὶ κατὰ τὸ αὐτὸ συνίστασθαι· <lb/>ἔδει τὴν θάλασσαν ταῖς πηγαῖς ἐπιμίσγεσ<lb break="no"/>θαι· καὶ κοινὸν <choice>
             <expan>ἀνθρώποις</expan>
             <abbr type="nomSac">
                 <hi rend="overline">ανοις</hi>

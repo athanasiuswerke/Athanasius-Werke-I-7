@@ -237,7 +237,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">πρι</hi>
                             </abbr>
-                        </choice>κοῦ λόγου δύναμιν, ἀγάλλεται καὶ συνομιλεῖν τῶ <substt hand="#m2">
+                        </choice>κοῦ λόγου δύναμιν, ἀγάλλεται καὶ συνομιλεῖν τῶ <subst hand="#m2">
                             <del rend="underline"><choice>
                                 <expan>θεῶ</expan>
                                 <abbr type="nomSac">
@@ -1214,7 +1214,7 @@
                             <del rend="underline">μὴν</del>
                             <add place="margin_inner">μέγα</add>
                         </subst> καὶ δυσσε<lb break="no"/>βὲς ἦν τὸ ὑπ' αὐτῶν τολμώμενον· τούτου ἕνεκεν καὶ <subst hand="#m2">
-                            <del rend="striketrhough">ἀκού</del>
+                            <del rend="strikethrough">ἀκού</del>
                             <add place="inline">ἄκ</add>
                         </subst>οντες ὑπὸ <lb/>τῆς ἀληθείας ἠναγκάσθησαν τὰ τούτων ἐκθέσθαι πάθη· ἵνα τοῖς μετὰ ταῦτα <add place="margin_outer" hand="#m2">τὰ ὄντα πάθη</add> <lb/>πρὸς ἔλεγχον τοῦ μὴ εἶναι τούτους θεοὺς ἐν ταῖς περιαὐτῶν γραφαῖς κεί<lb break="no"/>μενα πᾶσι φαίνηται· τίς οὖν ἀπολογία, τίς ἀπόδειξις περὶ τοῦ εἶναι τού<lb break="no"/>τους θεοὺς γένοιτ' ἂν τοῖς ἐν τούτοις δεισιδαιμονοῦσιν· ἐκ μὲν γὰρ <lb/>τῶν λεγχθέντων μικρῶ πρότερον, <choice>
                             <expan>ἀνθρώπους</expan>
@@ -1744,7 +1744,7 @@
                                 <hi rend="overline">θῦ</hi>
                             </abbr>
                         </choice>· ποίησιν δὲ χειρῶν αὐτοῦ ἀναγγέλει τὸ στερέ<lb break="no"/><g type="doubled_diple"/>ωμα· πίστις δὲ τούτων οὐκ ἀφανὴς, ἀλλὰ καὶ λίαν ἐναργ<subst hand="#m2">
-                            <del rend="striketrough">έ</del>
+                            <del rend="strikethrough">έ</del>
                             <add place="above">ή</add>
                         </subst>ς ἐστι τ<subst hand="#m2">
                             <del rend="underline">ῆς</del>
@@ -1929,7 +1929,7 @@
                             <del rend="strikethrough">ή</del>
                             <add place="above">ύ</add>
                         </subst>
-                        <subst hand="#m2">ραν πλήξη τὰς νευρὰς καὶ ἀρμονίως ἑκάστης ἄψεται, τοῦτον τὸν τρόπον <lb/>καὶ τῶν αἰσθήσεων ἐν τῶ σώματι ὡς λύρας ἠρμοσμένων, ὅταν ὁ ἐπιστήμων <lb/>νοῦς αὐτῶν ἡγεμονεύη, τότε καὶ διακρίνει ἡ ψυχὴ καὶ εἶδεν ὃ ποιεῖ καὶ πράτ<lb break="no"/>τει· τοῦτο δὲ μόνον ἴδιον <choice>
+                        <!--<subst hand="#m2">-->ραν πλήξη τὰς νευρὰς καὶ ἀρμονίως ἑκάστης ἄψεται, τοῦτον τὸν τρόπον <lb/>καὶ τῶν αἰσθήσεων ἐν τῶ σώματι ὡς λύρας ἠρμοσμένων, ὅταν ὁ ἐπιστήμων <lb/>νοῦς αὐτῶν ἡγεμονεύη, τότε καὶ διακρίνει ἡ ψυχὴ καὶ εἶδεν ὃ ποιεῖ καὶ πράτ<lb break="no"/>τει· τοῦτο δὲ μόνον ἴδιον <choice>
                             <expan>ἀνθρώπων</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">ἀνων</hi>
@@ -2912,7 +2912,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">πρὶ</hi>
                             </abbr>
-                        </choice>· καὶ ὁ <choiceå>
+                        </choice>· καὶ ὁ <choice>
                             <expan>πατὴρ</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">πὴρ</hi>

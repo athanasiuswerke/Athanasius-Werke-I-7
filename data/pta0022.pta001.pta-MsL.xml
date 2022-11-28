@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https·//raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http·//www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml·lang="la">Contra gentes (Ms L)</title>
+                <title xml:lang="la">Contra gentes (Ms L)</title>
                 <author>
                     <persName key="pta0022">Athanasius Alexandrinus</persName>
                 </author>
                 <respStmt>
                     <resp>transkribiert von</resp>
-                    <persName xml·id="KS">Kyriakos Savvidis</persName>
+                    <persName xml:id="KS">Kyriakos Savvidis</persName>
                 </respStmt>
                 <funder>Deutsche Forschungsgemeinschaft</funder>
             </titleStmt>
@@ -20,7 +20,7 @@
                 <authority>Patristische Arbeitsstelle Bochum</authority>
                 <distributor>Patristic Text Archive</distributor>
                 <availability>
-                    <licence target="https·//creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
                 </availability>
                 <date>2018</date>
                 <idno type="PTA">pta0022.pta001</idno>
@@ -32,7 +32,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-        <msIdentifier xml·id="London_Burn_46_I">
+        <msIdentifier xml:id="London_Burn_46_I">
             <settlement>London</settlement>
             <repository>Britisches Museum</repository>
             <idno>Burneianus 46 Band I</idno>
@@ -42,8 +42,8 @@
         </msIdentifier>
         <physDesc>
             <handDesc hands="2">
-                <handNote xml·id="m1">Schreiber 1</handNote>
-                <handNote xml·id="m2">Korrektor</handNote>
+                <handNote xml:id="m1">Schreiber 1</handNote>
+                <handNote xml:id="m2">Korrektor</handNote>
             </handDesc>
         </physDesc>
     </msDesc>
@@ -60,7 +60,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="transcription" xml·lang="grc" n="urn·cts·pta·pta0022.pta001.pta-MsL">
+            <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-MsL">
     <pb n="3r" facs="https://www.bl.uk/manuscripts/Viewer.aspx?ref=burney_ms_46!1_fs001r"/> <head>
         <title>τοῦ ἐν ἁγίοις <choice>
             <expan>πατρὸς</expan>

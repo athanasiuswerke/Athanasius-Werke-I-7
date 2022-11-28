@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https·//raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http·//www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml·lang="la">Contra gentes (Ms 58)</title>
+                <title xml:lang="la">Contra gentes (Ms 58)</title>
                 <author>
                     <persName key="pta0022">Athanasius Alexandrinus</persName>
                 </author>
                 <respStmt>
                     <resp>transkribiert von</resp>
-                    <persName xml·id="KS">Kyriakos Savvidis</persName>
+                    <persName xml:id="KS">Kyriakos Savvidis</persName>
                 </respStmt>
                 <funder>Deutsche Forschungsgemeinschaft</funder>
             </titleStmt>
@@ -20,7 +20,7 @@
                 <authority>Patristische Arbeitsstelle Bochum</authority>
                 <distributor>Patristic Text Archive</distributor>
                 <availability>
-                    <licence target="https·//creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
                 </availability>
                 <date>2018</date>
                 <idno type="PTA">pta0022.pta001</idno>
@@ -32,7 +32,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-        <msIdentifier xml·id="VatikanOttgr128">
+        <msIdentifier xml:id="VatikanOttgr128">
             <settlement>Vatikan</settlement>
             <repository>Biblioteca Apostolica Vaticana</repository>
             <idno>Vaticanus Ottobonianus gr. 128</idno>
@@ -42,7 +42,7 @@
         </msIdentifier>
         <physDesc>
             <handDesc hands="1">
-                <handNote xml·id="m1">Schreiber 1</handNote>
+                <handNote xml:id="m1">Schreiber 1</handNote>
             </handDesc>
         </physDesc>
     </msDesc>
@@ -59,7 +59,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="transcription" xml·lang="grc" n="urn·cts·pta·pta0022.pta001.pta-MsS">
+            <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-MsS">
     <pb n="72v"/> <head>
         <title><note place="top">ἀθανασίου</note>ἐν τοῖς ἁγίοις πατρὸς ἡμῶν ἀ<lb break="no"/>θανασίου ἀρχιεπισκόπου τῆς <lb/>ἀλεξανδρείας κατὰ τῶν <lb/>εἰδώλων.</title></head>
         <div type="textpart" subtype="section" n="1">

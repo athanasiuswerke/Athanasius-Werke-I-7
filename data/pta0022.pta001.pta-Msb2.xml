@@ -102,7 +102,7 @@
                             <hi rend="overline">χν</hi>
                         </abbr>
                     </choice> <note hand="#m3" place="margin_inner">χριστὸν</note>πί<lb break="no"/>στεως ἐκθώμεθα· δυναμένῳ μὲν σοι καὶ ἀπὸ τῶν <lb/>θείων λογίων ταύτην εὑρεῖν, φιλοκάλως δὲ ὅμως καὶ <lb/>παρ' ἑτέρων ἀκούοντι. αὐτάρκεις μὲν γὰρ εἰσὶν αἱ ἅγιαι <lb/>καὶ θεόπνευστοι γραφαὶ, πρὸς τὴν τῆς ἀληθείας <note hand="#m3" place="margin_inner">ita 2.<!-- = Hs. b1 --><lb/>ἐπαγγελίαν Β. <!-- = Hs. B --></note> ἀπαγ<lb break="no"/>γελίαν· εἰσὶ δὲ <add hand="#m3" place="inline">[</add>καὶ<add hand="#m3" place="inline">]</add> πολλοὶ τῶν μακαρίων ἡμῶν <note hand="#m3" place="margin_inner">abest Βas. <!-- = Hs. B --></note>διδα<lb break="no"/>σκάλων εἰς ταῦτα συνταχθέντες λόγοι, οἷς ἐάν τις ἐντύχοι, <lb/>εἴσεται μέν πως τὴν τῶν γραφῶν ἑρμηνείαν· ἧς δὲ ὀρέγε<lb break="no"/>ται γνώσεως τυχεῖν δυνήσεται· ἀλλ' ἐπειδὴ τὰς τῶν δι<lb break="no"/>δασκάλων συντάξ<subst>
-                        <del rend="expunction,underline,overwrite">εις</del>
+                        <del rend="expunction">εις</del><!--,underline,overwrite-->
                         <add place="above">αι</add>
                     </subst> ἐν χερσὶν νῦν οὐκ ἔχομεν, ἀναγ<lb break="no"/>καῖον ἐστὶν ἃ παρ' ἐκείνων ἐμάθομεν, ταῦτα καὶ ἀπαγ<lb break="no"/>γέλειν καὶ γράφειν σοι· λέγω δὴ τὴν κατὰ τὸν <choice>
                         <expan>σωτῆρα</expan>
@@ -381,7 +381,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">θν</hi>
                             </abbr>
-                        </choice> ὁρᾶν, ἀλλὰ τὰ μὴ ὄντα λογιζομένη, τὸ ἑαυτῆς δυ<lb break="no"/>νατὸν μεταποιεῖ, καταχρωμένη τούτῳ εἰς ἃς ἐπενόη<lb break="no"/>σεν ἐπιθυμίας· ἐπεὶ καὶ αὐτεξούσιος γέγονε· δύνα<lb break="no"/>ται γὰρ ὥσπερ<note hand="#m3" place="margin_outer" >a. ms. ὥστε</note> πρὸς τὰ καλὰ νεύειν, οὕτω καὶ τὰ καλὰ <lb/>ἀποστρέφεσθαι· ἀποστρεφομένη δὲ τὸ καλὸν, πάντως <lb/>τὰ ἐναντία λογίζεται· παύσασθαι γὰρ καθόλου τοῦ κι<lb break="no"/>νεῖσθαι οὐ δύναται, τὴν φύσιν οὖσα<del rend="strikethrough" hand="#m3">ν</del> <note hand="#m3" place="margin_outer" >d(eleatur)</note><add place="inline" hand="#m3">,</add> ὡς προεῖπον<add place="inline" hand="#m3">,</add> εὐ<lb break="no"/>κίνητος, καὶ γινώσκουσα τὸ αὐτεξούσιον ἑαυτῆς, ὁρᾷ <lb/>ἑαυτὴν δύνασθαι κατ' ἀμφότερα τοῖς τοῦ σώματος μέ<lb break="no"/>ρεσι χρᾶσθαι εἴς τε τὰ ὄντα καὶ τὰ μὴ ὄντα· ὄντα δέ ἐστι <note hand="#m3" place="margin_outer" >d(eleatur)</note>τὰ καλά· <note hand="#m3" place="inline" >[</note><note hand="#m3" place="margin_inner" ><del rend="strikethrough" hand="#m3">καθότι ἐκ τοῦ ὄντος θεοῦ</del></note>οὐκ ὄντα δὲ τὰ φαῦλα· ὄντα δέ φημὶ τὰ καλὰ<add hand="#m3" place="inline" >]</add><note hand="#m3" place="margin_outer" >[οὐκ absunt a  Basil.] <!-- Hs. B --></note>, <lb/>καθότι ἐκ τοῦ ὄντος <choice>
+                        </choice> ὁρᾶν, ἀλλὰ τὰ μὴ ὄντα λογιζομένη, τὸ ἑαυτῆς δυ<lb break="no"/>νατὸν μεταποιεῖ, καταχρωμένη τούτῳ εἰς ἃς ἐπενόη<lb break="no"/>σεν ἐπιθυμίας· ἐπεὶ καὶ αὐτεξούσιος γέγονε· δύνα<lb break="no"/>ται γὰρ ὥσπερ<note hand="#m3" place="margin_outer" >a. ms. ὥστε</note> πρὸς τὰ καλὰ νεύειν, οὕτω καὶ τὰ καλὰ <lb/>ἀποστρέφεσθαι· ἀποστρεφομένη δὲ τὸ καλὸν, πάντως <lb/>τὰ ἐναντία λογίζεται· παύσασθαι γὰρ καθόλου τοῦ κι<lb break="no"/>νεῖσθαι οὐ δύναται, τὴν φύσιν οὖσα<del rend="strikethrough" hand="#m3">ν</del> <note hand="#m3" place="margin_outer" >d(eleatur)</note><add place="inline" hand="#m3">,</add> ὡς προεῖπον<add place="inline" hand="#m3">,</add> εὐ<lb break="no"/>κίνητος, καὶ γινώσκουσα τὸ αὐτεξούσιον ἑαυτῆς, ὁρᾷ <lb/>ἑαυτὴν δύνασθαι κατ' ἀμφότερα τοῖς τοῦ σώματος μέ<lb break="no"/>ρεσι χρᾶσθαι εἴς τε τὰ ὄντα καὶ τὰ μὴ ὄντα· ὄντα δέ ἐστι <note hand="#m3" place="margin_outer" >d(eleatur)</note>τὰ καλά· <note hand="#m3" place="intercolumn"><!--inline-->[</note><note hand="#m3" place="margin_inner"><del rend="strikethrough" hand="#m3">καθότι ἐκ τοῦ ὄντος θεοῦ</del></note>οὐκ ὄντα δὲ τὰ φαῦλα· ὄντα δέ φημὶ τὰ καλὰ<add hand="#m3" place="inline" >]</add><note hand="#m3" place="margin_outer" >[οὐκ absunt a  Basil.] <!-- Hs. B --></note>, <lb/>καθότι ἐκ τοῦ ὄντος <choice>
                             <expan>θεοῦ</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">θυ</hi>
@@ -621,7 +621,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">χῦ</hi>
                             </abbr>
-                        </choice> ἐστι <note place="inline" hand="#m3">45</note><lb/><choice>
+                        </choice> ἐστι <note place="intercolumn" hand="#m3"><!--inline-->45</note><lb/><choice>
                             <expan>κύριος</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">κς</hi>
@@ -796,7 +796,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">ἀνων</hi>
                             </abbr>
-                        </choice> παράφρονες <note place="inline" hand="#m3">27</note>κα<lb break="no"/>ταδῦντες εἰς τὰς τῶν <subst hand="#m3">
+                        </choice> παράφρονες <note place="intercolumn" hand="#m3"><!--inline-->27</note>κα<lb break="no"/>ταδῦντες εἰς τὰς τῶν <subst hand="#m3">
                             <del rend="marker">σαρκῶν</del>
                             <add place="margin_outer">Bas. solus σαρκικῶν</add>
                         </subst> ἐπιθυμίας καὶ φαντασίας, <lb/>καὶ ἐπιλαθόμενοι τῆς <subst hand="#m2">
@@ -895,7 +895,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">θυ</hi>
                             </abbr>
-                        </choice> προσηγορίαν <note place="inline" hand="#m3">9</note><pb n="33r"/>μετήνεγκαν, πᾶσαν τιμὴν <choice>
+                        </choice> προσηγορίαν <note place="intercolumn" hand="#m3"><!--inline-->9</note><pb n="33r"/>μετήνεγκαν, πᾶσαν τιμὴν <choice>
                             <expan>θεοῦ</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">θυ</hi>
@@ -1264,7 +1264,7 @@
                         </subst> νομίσης ταῦτα με λέγειν ἁπλῶς, ἢ ψεύδεσθαι <lb/>κατ' αὐτῶν· ἔστι μὲν γὰρ καὶ τοῖς ὀφθαλμοῖς ἡ πίστις <lb/>ἀπαντῶσα τούτων· καὶ πάρεστι τοῖς βουλομένοις ὁρᾶν <lb/><subst hand="#m3">
                             <del rend="underline">τὰ τοιαῦτα</del>
                             <add place="margin_outer">Bas. solus ταῦτα</add>
-                        </subst>. κρείττων δὲ μαρτυρία περὶ τούτων ἐστὶ <lb/>καὶ παρὰ τῆς θείας γραφῆς, προδιδασκούσης ἄνωθεν <lb/><g type="doubled_diple"/>καὶ λεγούσης, τὰ εἴδωλα τῶν ἐθνῶν ἀργύριον καὶ <note hand="#m3" place="botto,">28</note><pb n="37v"/><g type="doubled_diple"/>χρυσίον, ἔργα χειρῶν <choice>
+                        </subst>. κρείττων δὲ μαρτυρία περὶ τούτων ἐστὶ <lb/>καὶ παρὰ τῆς θείας γραφῆς, προδιδασκούσης ἄνωθεν <lb/><g type="doubled_diple"/>καὶ λεγούσης, τὰ εἴδωλα τῶν ἐθνῶν ἀργύριον καὶ <note hand="#m3" place="bottom">28</note><pb n="37v"/><g type="doubled_diple"/>χρυσίον, ἔργα χειρῶν <choice>
                             <expan>ἀνθρώπων</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">ἀνων</hi>
@@ -1284,7 +1284,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">ἀνων</hi>
                             </abbr>
-                        </choice> συναχθήτωσαν πάντες, καὶ στήτωσαν ἅμα, <note hand="#m3" place="margin_outer">[</note>καὶ ἐντραπήτωσαν καὶ <note hand="#m3" place="margin_outer">d(eleatur) a ms. 1 <!-- = Hs. b3 --></note><lb/><g type="doubled_diple"/>αἰσχυνθήτωσαν ἅμα·<note hand="#m3" place="margin_outer">]</note> ὅτι ὤξυνε τέκτων <del hand="#m3" rend="strikethrough">ἐστὶ</del>σίδηρον, <lb/><g type="doubled_diple"/>καὶ σκεπάρνῳ εἰργάσατο αὐτό· <add rend="marker" place="margin_inner">καὶ ἐν τερέ<lb break="no"/>τρῳ ἐρύθμισεν <lb/>αὐτό. ms. 1 <!-- = Hs. b3 --></add>καὶ ἔστησεν αὐτὸ τῷ <lb/><g type="doubled_diple"/>βραχίονι τῆς ἰσχύος αὐτοῦ· καὶ πεινάσει καὶ ἀσθενήσει, <lb/><g type="doubled_diple"/>καὶ οὐ μὴ πί<subst hand="#m3">
+                        </choice> συναχθήτωσαν πάντες, καὶ στήτωσαν ἅμα, <note hand="#m3" place="margin_outer">[</note>καὶ ἐντραπήτωσαν καὶ <note hand="#m3" place="margin_outer">d(eleatur) a ms. 1 <!-- = Hs. b3 --></note><lb/><g type="doubled_diple"/>αἰσχυνθήτωσαν ἅμα·<note hand="#m3" place="margin_outer">]</note> ὅτι ὤξυνε τέκτων <del hand="#m3" rend="strikethrough">ἐστὶ</del>σίδηρον, <lb/><g type="doubled_diple"/>καὶ σκεπάρνῳ εἰργάσατο αὐτό· <!--rend="marker"--><add place="margin_inner">καὶ ἐν τερέ<lb break="no"/>τρῳ ἐρύθμισεν <lb/>αὐτό. ms. 1 <!-- = Hs. b3 --></add>καὶ ἔστησεν αὐτὸ τῷ <lb/><g type="doubled_diple"/>βραχίονι τῆς ἰσχύος αὐτοῦ· καὶ πεινάσει καὶ ἀσθενήσει, <lb/><g type="doubled_diple"/>καὶ οὐ μὴ πί<subst hand="#m3">
                             <del rend="strikethrough">ει</del>
                             <add place="margin_outer">ῃ</add>
                         </subst> ὕδωρ· ξύλ<subst>
@@ -1293,7 +1293,7 @@
                         </subst> γὰρ ἐκλεξάμενος τέκτων, <lb/><g type="doubled_diple"/>ἔστησεν αὐτὸ ἐν μέτρ<subst>
                             <del>ω</del>
                             <add place="inline">ῳ</add>
-                        </subst>· καὶ ἐν κόλλῃ ἐρύθμισεν αὐτὸ<note hand="#m3" place="inner">ἐρύθρωσεν ms. 1 <!-- = Hs. b3 --></note>, <lb/><g type="doubled_diple"/>καὶ ἐποίησεν αὐτὸ ὡς μορφὴν ἀνδρός, καὶ ὡς ὡραιο<lb break="no"/><g type="doubled_diple"/><note hand="#m3" place="margin_outer">al. τάτου</note>τάτ<subst hand="#m3">
+                        </subst>· καὶ ἐν κόλλῃ ἐρύθμισεν αὐτὸ<note place="intercolumn" hand="#m3"><!--inline-->ἐρύθρωσεν ms. 1 <!-- = Hs. b3 --></note>, <lb/><g type="doubled_diple"/>καὶ ἐποίησεν αὐτὸ ὡς μορφὴν ἀνδρός, καὶ ὡς ὡραιο<lb break="no"/><g type="doubled_diple"/><note hand="#m3" place="margin_outer">al. τάτου</note>τάτ<subst hand="#m3">
                             <del rend="strikethrough">ου</del>
                             <add place="above">α</add>
                         </subst> <choice>
@@ -1304,7 +1304,7 @@
                         </choice>, ἔστησεν αὐτ<subst>
                             <del rend="overwrite">ῷ</del>
                             <add place="above">ὸ</add>
-                        </subst> ἐν οἴκῳ· καὶ <note hand="#m3" place="inner">d(eleatur) a ms. 1 <!-- = Hs. b3 --></note>ὃ ἔκοψε ξύ<lb break="no"/><g type="doubled_diple"/>λον ἐκ τοῦ δρυμοῦ, καὶ ὃ ἐφύτευσεν ὁ <choice>
+                        </subst> ἐν οἴκῳ· καὶ <note place="intercolumn" hand="#m3"><!--inline-->d(eleatur) a ms. 1 <!-- = Hs. b3 --></note>ὃ ἔκοψε ξύ<lb break="no"/><g type="doubled_diple"/>λον ἐκ τοῦ δρυμοῦ, καὶ ὃ ἐφύτευσεν ὁ <choice>
                             <expan>κύριος</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">κς</hi>
@@ -1334,7 +1334,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">θς</hi>
                             </abbr>
-                        </choice> μου εἶ σύ· οὐκ ἔγνωσαν· φρο<pb n="38r break="no""/><g type="doubled_diple"/>νῆσαι ὅτι ἀπημαυρώθησαν τοῦ βλέπειν τοῖς ὀφθαλμοῖς <lb/><g type="doubled_diple"/>αὐτῶν, καὶ τοῦ νοῆσαι τῇ καρδίᾳ· καὶ οὐκ ἀνελογίσατο <add rend="marker" hand="#m3" place="margin">ἐν Bas. et ...</add> τῇ <lb/><g type="doubled_diple"/>καρδίᾳ αὐτοῦ· οὐδὲ ἀνελογίσατο τῇ ψυχῇ αὐτοῦ· <lb/><g type="doubled_diple"/>οὐδὲ ἔγνω τῇ φρονήσει, ὅτι τὸ ἥμισυ αὐτοῦ κατέ<lb break="no"/><g type="doubled_diple"/>καυσεν ἐν πυρὶ, καὶ ἔπεψεν ἐπὶ τῶν ἀνθράκων αὐ<lb break="no"/><g type="doubled_diple"/>τοῦ ἄρτους· καὶ ὀπτήσας κρέας ἔφαγε, καὶ τὸ λοι<lb break="no"/><g type="doubled_diple"/>πὸν αὐτοῦ εἰς βδέλυγμα ἐποίησε, καὶ προσκυ<lb break="no"/><g type="doubled_diple"/>νοῦσιν αὐτό. γνῶτε ὅτι σποδὸς ἡ καρδία αὐτῶν καὶ <lb/><g type="doubled_diple"/>πλανῶνται· καὶ οὐδεὶς δύναται ἐξελέσθαι τὴν ψυ<lb break="no"/><g type="doubled_diple"/>χὴν αὐτῶν· ἴδετε καὶ οὐκ ἐρεῖται ὅτι ψεῦδος ἐν τῇ δε<lb break="no"/>ξιᾷ μου. πῶς οὖν οὐκ ἄθεοι παρὰ πᾶσι κριθεῖεν, <lb/><subst hand="#m3">
+                        </choice> μου εἶ σύ· οὐκ ἔγνωσαν· φρο<pb n="38r" break="no"/><g type="doubled_diple"/>νῆσαι ὅτι ἀπημαυρώθησαν τοῦ βλέπειν τοῖς ὀφθαλμοῖς <lb/><g type="doubled_diple"/>αὐτῶν, καὶ τοῦ νοῆσαι τῇ καρδίᾳ· καὶ οὐκ ἀνελογίσατο <!--rend="marker"--><add hand="#m3" place="margin">ἐν Bas. et ...</add> τῇ <lb/><g type="doubled_diple"/>καρδίᾳ αὐτοῦ· οὐδὲ ἀνελογίσατο τῇ ψυχῇ αὐτοῦ· <lb/><g type="doubled_diple"/>οὐδὲ ἔγνω τῇ φρονήσει, ὅτι τὸ ἥμισυ αὐτοῦ κατέ<lb break="no"/><g type="doubled_diple"/>καυσεν ἐν πυρὶ, καὶ ἔπεψεν ἐπὶ τῶν ἀνθράκων αὐ<lb break="no"/><g type="doubled_diple"/>τοῦ ἄρτους· καὶ ὀπτήσας κρέας ἔφαγε, καὶ τὸ λοι<lb break="no"/><g type="doubled_diple"/>πὸν αὐτοῦ εἰς βδέλυγμα ἐποίησε, καὶ προσκυ<lb break="no"/><g type="doubled_diple"/>νοῦσιν αὐτό. γνῶτε ὅτι σποδὸς ἡ καρδία αὐτῶν καὶ <lb/><g type="doubled_diple"/>πλανῶνται· καὶ οὐδεὶς δύναται ἐξελέσθαι τὴν ψυ<lb break="no"/><g type="doubled_diple"/>χὴν αὐτῶν· ἴδετε καὶ οὐκ ἐρεῖται ὅτι ψεῦδος ἐν τῇ δε<lb break="no"/>ξιᾷ μου. πῶς οὖν οὐκ ἄθεοι παρὰ πᾶσι κριθεῖεν, <lb/><subst hand="#m3">
                             <del rend="strikethrough">οἱ καὶ παρὰ</del>
                             <add place="margin">καὶ περὶ ms. 1 <!-- = Hs. b3 --></add>
                         </subst> τῆς θείας γραφῆς ἀσεβείαν κατηγορούμε<lb break="no"/>νοι; ἢ πῶς οὐκ ἂν εἶεν κακοδαίμονες οἱ οὕτω φανε<lb break="no"/>ρῶς ἐλεγχόμενοι τὰ ἄψυχα θρησκεύοντες ἀντὶ τῆς <lb/><note hand="#m3" place="margin_outer">ἂν γένοιτο d(eleatur) ms. 1</note>ἀληθείας; ποία δὲ τού<subst hand="#m3">
@@ -1424,7 +1424,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">ἀνους</hi>
                             </abbr>
-                        </choice> οὐ σώφρονας· ἢ <add hand="#m3" place="inline">εἰ</add> ἐψεύσαντο ὡς ποιηταὶ, καὶ <lb/>σὺ τούτων καταψεύδῃ· διατί μὴ <add hand="#m3" place="matgin_inner">καὶ ms. 1</add> ἐπὶ τῆς ἀνδρείας τῶν <lb/>ἡρώων ἐψεύσαντο· καὶ ἀντὶ μὲν ἀνδρείας ἀσθένειαν, ἀν<lb break="no"/>τὶ δὲ ἀσθενείας, ἀνδρείαν ἐπλάσαντο· ἔδει γὰρ ὥσπερ <lb/>ἐπὶ τοῦ διὸς <note hand="#m3" place="inline">3B/15</note>καὶ τῆς ἥρας, οὕτῳ καὶ τοῦ μὲν ἀχιλλ<subst hand="#m3">
+                        </choice> οὐ σώφρονας· ἢ <add hand="#m3" place="inline">εἰ</add> ἐψεύσαντο ὡς ποιηταὶ, καὶ <lb/>σὺ τούτων καταψεύδῃ· διατί μὴ <add hand="#m3" place="matgin_inner">καὶ ms. 1</add> ἐπὶ τῆς ἀνδρείας τῶν <lb/>ἡρώων ἐψεύσαντο· καὶ ἀντὶ μὲν ἀνδρείας ἀσθένειαν, ἀν<lb break="no"/>τὶ δὲ ἀσθενείας, ἀνδρείαν ἐπλάσαντο· ἔδει γὰρ ὥσπερ <lb/>ἐπὶ τοῦ διὸς <note place="intercolumn" hand="#m3"><!--inline-->3B/15</note>καὶ τῆς ἥρας, οὕτῳ καὶ τοῦ μὲν ἀχιλλ<subst hand="#m3">
                             <del rend="strikethrough">έαν</del>
                             <add place="inline">έως</add>
                         </subst> <lb/><note hand="#m3" place="margin_outer">ms. o. αν</note> ἀν<add hand="#m3" place="inline">αν</add>δρείαν καταψεύσασθαι, τοῦ δὲ θερσίτου δύναμιν <lb/>θαυμάσαι· καὶ τοῦ μὲν ὀδυσσέως, ἀσυνεσίαν δια<lb break="no"/>βαλεῖν, τοῦ δὲ νέστορος παραφροσύνην πλάσασθαι· καὶ <lb/>τοῦ μὲν διομήδους καὶ ἕκτορος γυναικείας πράξεις· <lb/>τῆς δὲ ἑκάβης ἀνδρείαν μυθολογῆσαι, ἐπὶ πάντων γὰρ <lb/>ὡς αὐτοὶ λέγουσιν, ἔδει τοὺς ποιητὰς πλάττεσθαι καὶ ψεύ<lb break="no"/>δεσθαι· νῦν δὲ τοῖς μὲν <choice>
@@ -1510,7 +1510,7 @@
                         </subst> καὶ δυσσεβὲς<note hand="#m3" place="margin_outer">B. ἀσεβὲς alii *****</note> ἦν τὸ ὑπ' αὐτῶν τολμώ<lb break="no"/>μενον· τούτου ἕνεκεν καὶ ἄκοντες ὑπὸ τῆς ἀληθείας <lb/>ἠναγκάσθησαν τὰ τούτων ἐκθέσθαι πάθη, ἵνα τοῖς <lb/>μετὰ ταῦτα <subst hand="#m3">
                             <add place="margin_inner">τὰ τούτων πάθη, <lb/> ms. 1</add>
                             <del rend="strikethrough">τὰ τούτων πάθη, <lb/> ms. 1</del>
-                        </subst>πρὸς ἔλεγχον τοῦ μὴ εἶναι τούτους θεοὺς <lb/>ἐν ταῖς περὶ αὐτῶν γραφαῖς κείμενα πᾶσι φαίνηται. <lb/>τίς οὖν ἀπολογία, τίς ἀπόδειξις περὶ τοῦ εἶναι τούτους <note hand="#m3" place="inline">51</note><lb/>θεοὺς γένοιτ' ἂν τοῖς ἐν τούτοις δεισιδαιμονοῦσιν· ἐκ <note hand="#m3" place="inline">53</note>μὲν <pb n="40v"/>γὰρ τῶν λεγχθέντων μικρῷ πρότερον <choice>
+                        </subst>πρὸς ἔλεγχον τοῦ μὴ εἶναι τούτους θεοὺς <lb/>ἐν ταῖς περὶ αὐτῶν γραφαῖς κείμενα πᾶσι φαίνηται. <lb/>τίς οὖν ἀπολογία, τίς ἀπόδειξις περὶ τοῦ εἶναι τούτους <note place="intercolumn" hand="#m3"><!--inline-->51</note><lb/>θεοὺς γένοιτ' ἂν τοῖς ἐν τούτοις δεισιδαιμονοῦσιν· ἐκ <note place="intercolumn" hand="#m3"><!--inline-->53</note>μὲν <pb n="40v"/>γὰρ τῶν λεγχθέντων μικρῷ πρότερον <choice>
                             <expan>ἀνθρώπους</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">ἀνους</hi>
@@ -2054,7 +2054,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">πρα</hi>
                             </abbr>
-                        </choice>, τῇ ἀν<add hand="#m3" place="above">αν</add>τιῤῥήτῳ προστάξει <lb/>τῆς εἰς αὐτὸν ὑπακοῆς· ᾗ φησι <add hand="#m3" place="inline">[</add>καὶ<add hand="#m3" place="inline">]</add> ἡ θεία νομοθεσία· <note hand="#m3" place="inline">* *** ** *** primo <!-- = b3 --> [καὶ]</note><lb/><g type="doubled_diple"/>οἱ <choice>
+                        </choice>, τῇ ἀν<add hand="#m3" place="above">αν</add>τιῤῥήτῳ προστάξει <lb/>τῆς εἰς αὐτὸν ὑπακοῆς· ᾗ φησι <add hand="#m3" place="inline">[</add>καὶ<add hand="#m3" place="inline">]</add> ἡ θεία νομοθεσία· <note place="intercolumn" hand="#m3"><!--inline-->* *** ** *** primo <!-- = b3 --> [καὶ]</note><lb/><g type="doubled_diple"/>οἱ <choice>
                             <expan>οὐρανοὶ</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">οὐνοὶ</hi>
@@ -3030,7 +3030,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">θς</hi>
                             </abbr>
-                        </choice> ἦν ὁ λόγος. <lb/><g type="doubled_diple"/>πάντα δι' αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο <lb/><g type="doubled_diple"/>οὐδὲ ἓν <note hand="#m3" place="inline">[</note>ὃ γέγονεν<note hand="#m3" place="inline">]</note>· οἷον γὰρ εἴ τις λύραν μουσικὸς ἁρ<lb break="no"/>μοσάμενος καὶ τὰ βαρέα τοῖς ὀξέσι, καὶ τὰ μέσα τοῖς <lb/>ἄλλοις τῇ τέχνῃ συναγαγὼν, ἓν τὸ σημαινόμενον μέλος <lb/>ἀποτελοίη, οὕτω καὶ ἡ τοῦ <choice>
+                        </choice> ἦν ὁ λόγος. <lb/><g type="doubled_diple"/>πάντα δι' αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο <lb/><g type="doubled_diple"/>οὐδὲ ἓν <note place="intercolumn" hand="#m3"><!--inline-->[</note>ὃ γέγονεν<note place="intercolumn" hand="#m3"><!--inline-->]</note>· οἷον γὰρ εἴ τις λύραν μουσικὸς ἁρ<lb break="no"/>μοσάμενος καὶ τὰ βαρέα τοῖς ὀξέσι, καὶ τὰ μέσα τοῖς <lb/>ἄλλοις τῇ τέχνῃ συναγαγὼν, ἓν τὸ σημαινόμενον μέλος <lb/>ἀποτελοίη, οὕτω καὶ ἡ τοῦ <choice>
                             <expan>θεοῦ</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">θυ</hi>
@@ -3057,7 +3057,7 @@
                         </subst>. τὸ γὰρ <lb/>παράδοξον αὐτοῦ τῆς θεότητος τοῦτό ἐστιν· ὅτι <subst hand="#m3">
                             <del rend="overwrite">ἕνι</del>
                             <add place="inline">ἑνὶ</add>
-                        </subst> καὶ τῷ <lb/>αὐτῷ νεύματι πάντα ὁμοῦ καὶ οὐκ ἐκ διαστημάτων, <lb/>ἀλλ' ἀθρόως ὅλα τά τε ὀρθὰ καὶ τὰ περιφερῆ· τὰ ἄνω<add place="inline" hand="#m3">,</add> <lb/><note hand="#m3" place="margin_outer">Bas. solus μέσω</note>τὰ μέσα<add place="inline" hand="#m3">,</add> τὰ κάτω· τὰ ὑγρὰ<add place="inline" hand="#m3">,</add> τὰ ψυχρὰ, <note hand="#m3" place="inline">[</note>τὰ θερμὰ<add place="inline" hand="#m3">],</add> τὰ <note hand="#m3" place="margin_outer">abest Bas.<lb/>soli</note><lb/>φαινόμενα καὶ τὰ ἀόρατα περιάγει<del rend="overwrite" hand="#m3">·</del> καὶ διακοσμεῖ <lb/>κατὰ τὴν ἑκάστου φύσιν· ὁμοῦ γὰρ <subst hand="#m2">
+                        </subst> καὶ τῷ <lb/>αὐτῷ νεύματι πάντα ὁμοῦ καὶ οὐκ ἐκ διαστημάτων, <lb/>ἀλλ' ἀθρόως ὅλα τά τε ὀρθὰ καὶ τὰ περιφερῆ· τὰ ἄνω<add place="inline" hand="#m3">,</add> <lb/><note hand="#m3" place="margin_outer">Bas. solus μέσω</note>τὰ μέσα<add place="inline" hand="#m3">,</add> τὰ κάτω· τὰ ὑγρὰ<add place="inline" hand="#m3">,</add> τὰ ψυχρὰ, <note place="intercolumn" hand="#m3"><!--inline-->[</note>τὰ θερμὰ<add place="inline" hand="#m3">],</add> τὰ <note hand="#m3" place="margin_outer">abest Bas.<lb/>soli</note><lb/>φαινόμενα καὶ τὰ ἀόρατα περιάγει<del rend="overwrite" hand="#m3">·</del> καὶ διακοσμεῖ <lb/>κατὰ τὴν ἑκάστου φύσιν· ὁμοῦ γὰρ <subst hand="#m2">
                             <del rend="strikethrough">τῷ αὐτοῦ νεύματι</del>
                             <add place="margin_inner">B. τῶ αὐτῷ<lb/>μεύματι αὐ<lb break="no"/>τοῦ ** et<lb/>reliquis *** sine</add>
                         </subst><subst hand="#m3">
@@ -3148,7 +3148,7 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">θυ</hi>
                             </abbr>
-                        </choice> λόγος, ἑνὶ <lb/>καὶ ἁπλῷ νεύματι τῇ ἑαυτοῦ δυνάμει· τό<add hand="#m3" place="margin_inner">ν</add> τε ὁρατὸν <pb n="62r"/>κόσμον καὶ τὰς ἀοράτους δυνάμεις κινεῖ καὶ συνέχει· <del rend="strikethrough" hand="#m3">τόν τε ὁρατὸν κόσμον καὶ τὰς ἀοράτους δυνάμεις κινεῖ <lb/>καὶ συνέχει,</del> ἑκάστῳ τὴν ἰδίαν ἐνέργειαν ἀποδιδοὺς, <note hand="#m3" place="inline">d(delatur)·</note><lb/>ὥστε τὰς μὲν θείας θειοτέρως κινεῖσθαι· τὰ δὲ ὁρατὰ <lb/>ὥσπερ καὶ ὁρᾶται· αὐτ<subst hand="#m3">
+                        </choice> λόγος, ἑνὶ <lb/>καὶ ἁπλῷ νεύματι τῇ ἑαυτοῦ δυνάμει· τό<add hand="#m3" place="margin_inner">ν</add> τε ὁρατὸν <pb n="62r"/>κόσμον καὶ τὰς ἀοράτους δυνάμεις κινεῖ καὶ συνέχει· <del rend="strikethrough" hand="#m3">τόν τε ὁρατὸν κόσμον καὶ τὰς ἀοράτους δυνάμεις κινεῖ <lb/>καὶ συνέχει,</del> ἑκάστῳ τὴν ἰδίαν ἐνέργειαν ἀποδιδοὺς, <note place="intercolumn" hand="#m3"><!--inline-->d(delatur)·</note><lb/>ὥστε τὰς μὲν θείας θειοτέρως κινεῖσθαι· τὰ δὲ ὁρατὰ <lb/>ὥσπερ καὶ ὁρᾶται· αὐτ<subst hand="#m3">
                             <del rend="overwrite">ό</del>
                             <add place="inline">ὸ</add>
                         </subst>ς δὲ ἐπὶ πάντων ἡγεμών τε <lb/>καὶ βασιλεὺς καὶ σύστασις γινόμενος τῶν πάντων, τὰ <lb/>πάντα πρὸς δόξαν καὶ γνῶσιν τοῦ ἑαυτοῦ <choice>
