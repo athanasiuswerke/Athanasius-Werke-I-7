@@ -42,7 +42,7 @@
                     </msIdentifier>
                     <physDesc>
                         <handDesc hands="2">
-                            <handNote xml:id="m1">
+                            <handNote xml:id="m1">Schreiber I
                               <persName></persName>
                             </handNote>
                             <handNote xml:id="m2">Korrektor</handNote>
@@ -57,7 +57,7 @@
             </refsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change who="#KS" when="2022-12-03">Transkription des Textes anhand des Mikrofilms</change>
+            <change who="#KS" when="2022-03-12">Transkription des Textes anhand des Mikrofilms</change>
         </revisionDesc>
     </teiHeader>
     <text>

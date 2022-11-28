@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http·//www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -54,7 +54,7 @@
         </fileDesc>
         <encodingDesc>
             <refsDecl n="CTS">
-                <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei·TEI/tei·text/tei·body/tei·div[@type='transcription']/tei·div[@n='$1'])"/>
+                <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='transcription']/tei:div[@n='$1'])"/>
             </refsDecl>
         </encodingDesc>
         <revisionDesc>
@@ -70,7 +70,7 @@
             <abbr type="nomSac">
                 <hi rend="overline">πρς</hi>
             </abbr>
-        </choice> ἡμῶν ἀθανασίου ἀρχιεπισκόπου <lb/>ἀλεξανδρείας, κατὰ ἑλλήνων</title>λόγος·α´</head>
+        </choice> ἡμῶν ἀθανασίου ἀρχιεπισκόπου <lb/>ἀλεξανδρείας, κατὰ ἑλλήνων</title>λόγος· α´</head>
         <div type="textpart" subtype="section" n="1">
             <p> <note place="top_center"><choice>
                 <expan>ἰησοῦς</expan>
