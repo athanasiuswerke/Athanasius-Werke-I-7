@@ -35,9 +35,9 @@
                     <msIdentifier xml:id="Laurentianus_4_20">
                         <settlement>Mailand</settlement>
                         <repository>Biblioteca Ambrosiana</repository>
-                        <idno>4_20</idno>
+                        <idno>Ambrosianus_4_20</idno>
                         <altIdentifier type="diktyon">
-                            <idno>H</idno>
+                            <idno>15936</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <physDesc>
@@ -60,7 +60,7 @@
     <text>
         <body>
             <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-MsH">
-                <pb n="2r"/>
+                <pb n="2r" facs="http://mss.bmlonline.it/s.aspx?Id=AWODlQZ-I1A4r7GxL_s1&c=I.%20Fragmentum%20asceticum%20anonymi%20[...]#/oro/13"/>
                 <head>
                     <title>τοῦ ἁγίου ἀθανασίου ἀρχιεπισκόπου ἀλεξανδρείας κατὰ εἰδώλων
                     </title>
