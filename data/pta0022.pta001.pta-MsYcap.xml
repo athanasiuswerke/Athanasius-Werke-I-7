@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="la">Contra gentes (Ms Y)</title>
+                <title xml:lang="la">Contra gentes (Ms Ycap)</title>
                 <author>
                     <persName key="pta0022">Athanasius Alexandrinus</persName>
                 </author>
@@ -37,7 +37,7 @@
                         <repository>Historisches Museum</repository>
                         <idno>Vlad. 115 (Sacra 243)</idno>
                         <altIdentifier type="diktyon">
-                            <idno>Y</idno>
+                            <idno>43868</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <physDesc>
