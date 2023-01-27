@@ -32,10 +32,10 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-        <msIdentifier xml:id="Patmensis_A-4">
+        <msIdentifier xml:id="Patmiacus_A-4">
             <settlement>Patmos</settlement>
-            <repository>A 4 </repository>
-            <idno>253</idno>
+            <repository>Ιερά Μονή Αγίου Ιωάννου του Θεολόγου και Ευαγγελιστού</repository>
+            <idno>Patmiacus A4</idno>
             <altIdentifier type="diktyon">
                 <idno>2549</idno>
             </altIdentifier>

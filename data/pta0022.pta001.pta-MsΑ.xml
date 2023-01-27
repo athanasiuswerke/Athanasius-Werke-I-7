@@ -35,7 +35,7 @@
                     <msIdentifier xml:id="Ambrosianus_I_59_sup_gr_464">
                         <settlement>Mailand</settlement>
                         <repository>Biblioteca Ambrosiana</repository>
-                        <idno>I 59 sup. (gr. 464)</idno>
+                        <idno>Ambrosianus I 59 sup. (gr. 464)</idno>
                         <altIdentifier type="diktyon">
                             <idno>A</idno>
                         </altIdentifier>
@@ -1367,7 +1367,7 @@
                                 <hi rend="overline">θν</hi>
                             </abbr>
                         </choice>, τὸν <subst hand="#m2">
-                            <add place="above, margin">καὶ ταύτης καὶ τοῦ παντὸς βασιλεύοντα τὸν</add>
+                            <add place="above, margin">τὸν καὶ ταύτης καὶ τοῦ <lb/>παντὸς βασιλεύοντα</add>
                         </subst>
                         <choice>
                             <expan>πατέρα</expan>

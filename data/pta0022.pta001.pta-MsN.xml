@@ -32,10 +32,10 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-        <msIdentifier xml:id="Patmensis_A-3">
-            <settlement>Patmos</settlement>
-            <repository>Πατμιακή Βιβλιοθήκη </repository>
-            <idno>A 3</idno>
+        <msIdentifier xml:id="Marcianus_gr._50">
+            <settlement>Venedig</settlement>
+            <repository>Biblioteca Nazionale Marciana</repository>
+            <idno>Marcianus gr. 50 (369)</idno>
             <altIdentifier type="diktyon">
                 <idno>xxx</idno>
             </altIdentifier>

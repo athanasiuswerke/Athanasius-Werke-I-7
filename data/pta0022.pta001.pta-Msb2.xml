@@ -35,9 +35,9 @@
                     <msIdentifier xml:id="Genf_29_II_891">
                         <settlement>Genf</settlement>
                         <repository>Universitätsbibliothek</repository>
-                        <idno>Genevensis gr. 29 Tomus II</idno>
+                        <idno>Genevensis gr. 29 tom. II (891)</idno>
                         <altIdentifier type="diktyon">
-                            <idno>b2</idno>
+                            <idno>17181</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <physDesc>
@@ -1192,7 +1192,7 @@
                             </abbr>
                         </choice> παρώξυναν. <lb/>τίς ἰδὼν ὑπὸ μὲν διομήδους τιτρωσκομένους ἄρεα <lb/>καὶ ἀφροδίτην, ὑπὸ δὲ ἡρακλέους τὴν ἥραν καὶ <lb/>τὸν ὑποχθόνιον, ὃν καλοῦσι θεὸν ἀϊδωνέα· καὶ διό<lb break="no"/>νυσον μὲν ὑπὸ περσέως, ἀθηνᾶν δὲ ὑπὸ ἀρκάδος, <lb/>καὶ τὸν ἥφαιστον ῥιπτόμενον καὶ χωλαίνοντα <note hand="#m3" place="margin_outer">Bas. χωλεύοντα solus</note>οὐ κα<lb break="no"/>ταγνώσεται τῆς φύσεως, καὶ ἀποστραφήσεται μὲν <subst hand="#m3">
                             <del rend="strikethrough">τὸ</del>
-                            <add place="margin_outer">τοῦ ...</add>
+                            <add place="margin_outer">τοῦ <unclear></unclear></add>
                         </subst> <lb/><subst hand="#m3">
                             <del rend="marker">εἶναι αὐτοὺς ἔτι λέγειν</del>
                             <add place="inline">λέγειν αὐτοὺς εἶναι ἔτι</add>
@@ -1398,7 +1398,10 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">ἀνων</hi>
                             </abbr>
-                        </choice> εἰσὶ, καὶ <note hand="#m3" place="margin_outer">ἐστὶ ms. 1 <!-- = Hs. b3 --></note><lb/><choice>
+                        </choice> <subst hand="#m3">
+                            <del>εἰσὶ</del>
+                            <add place="margin_outer">ἐστὶ ms. 1 <!-- = Hs. b3 --></add>
+                        </subst>, καὶ<lb/><choice>
                             <expan>ἀνθρώπων</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">ἀνων</hi>
@@ -2636,7 +2639,7 @@
                         </choice>· καὶ ὁ ἀὴρ ταῖς νεφέλαις <lb/>ἐμίγη καὶ συνῆλθεν, ἀνομοίου οὔσης τῆς ἑκάστου <lb/>πρὸς τὸ ἕτερον φύσεως· ἔμελλε γὰρ καὶ μεγάλη στάσις <lb/>γίνεσθαι πρὸς αὐτά· τοῦ μὲν, καίοντος· τοῦ δὲ ψύχον<lb break="no"/>τος, καὶ τοῦ μὲν βαρέως κάτω, τοῦ δὲ κούφου ἐκ τῶν <lb/>ἐναντίων ἄνω ἕλκοντος· καὶ τοῦ μὲν ἡλίου φωτίζον<lb break="no"/>τος, τοῦ δὲ ἀέρος σκοτίζοντος· καὶ γὰρ καὶ τὰ ἄστρα <note place="margin_inner" hand="#m3">ms. 1 ἀστέρες</note><lb/>ἐστασίασαν ἂν πρὸς ἑαυτά·<note place="margin_inner" hand="#m3">ms.1 ἑαυτοὺς</note> ὅτι τὰ μὲν, ἀνωτέρ<subst hand="#m3">
                             <del rend="overwrite">ῳ·</del>
                             <add place="inline">ω,</add>
-                        </subst> <note place="margin_inner" hand="#m3">(ms. 1 ἀνώτερ)α</note>τὰ <lb/><note place="margin_outer" hand="#m3">ms. 1 οἱ δὲ</note>δὲ<del rend="strikethrough" hand="#m3">,</del> κατωτέρω τὴν θέσιν ἔχ<subst hand="#m3">
+                        </subst> <note place="margin_inner" hand="#m3">(ms. 1 ἀνώτερ)α</note>τὰ <lb/><note place="margin_outer" hand="#m3">ms. 1 οἱ δὲ</note>δὲ<del rend="strikethrough" hand="#m3">,</del> κατωτέρω τὴν θέσιν ἔχ<subst hand="#m3">
                             <del rend="strikethrough">ει</del>
                             <add place="above">η</add>
                         </subst>· καὶ ἡ νὺξ δὲ οὐκ ἂν πα<lb break="no"/>ρεχώρησε τῇ <note place="margin_outer" hand="#m3">(ἡμ)έρᾳ</note>ἡμέρᾳ, ἀλλ' ἔμενεν ἂν πάντως μαχομένη <note place="margin_inner" hand="#m3">(ἂν) d(eleatur) in 1 ms.</note><lb/>πρὸς αὐτὴν καὶ στασιάζουσα· τούτων δὲ γινομένων,<note place="margin_inner" hand="#m3">B. et 3<lb/>γιγνομένων<lb/>πριμυσ γενομ-</note><lb/> λοιπὸν ἦν ἰδεῖν, οὐκέτι κόσμον, ἀλλ' ἀκοσμίαν· οὐ<lb break="no"/>κέτι τάξιν, ἀλλ' ἀταξίαν· οὐκέτι σύστασιν, ἀλλ' ἀσύστα<pb n="56r" break="no"/>τον ὅλον· οὐκέτι μέτρα, ἀλλ' ἀμετρίαν· τῇ γὰρ ἑκά<lb break="no"/>στου στάσει καὶ μάχη, ἢ πάντα ἀνηροῦντο, ἢ τὸ <note place="margin_outer" hand="#m3">κρατῶν ms.p.</note>κρατού<lb break="no"/>μενον μόνον ἐφαίνετο· καὶ τοῦτο πάλιν τὴν τοῦ παν<lb break="no"/>τὸς ἀκοσμίαν ἐδείκνυε. μόνον γὰρ γενόμενον καὶ λει<lb break="no"/>πόμενον τῇ τῶν ἄλλων χρείᾳ, ἀνάρμοστον τὸ ὅλον ἐποίει· <lb/>ὥσπερ εἰ καὶ μόνος ποὺς, καὶ μόνη χεὶρ ἀπομείνασα, <lb/>οὐκ ἂν ἔσω<subst hand="#m3">
