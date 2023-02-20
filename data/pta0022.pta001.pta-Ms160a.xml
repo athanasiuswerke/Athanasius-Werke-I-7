@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="la">Contra gentes (Ms 160a)</title>
+                <author>
+                    <persName key="pta0022">Athanasius Alexandrinus</persName>
+                </author>
+                <respStmt>
+                    <resp>transkribiert von</resp>
+                    <persName xml:id="KS">Kyriakos Savvidis</persName>
+                </respStmt>
+                <funder>Deutsche Forschungsgemeinschaft</funder>
+            </titleStmt>
+            <editionStmt>
+                <p>New transcription.</p>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Patristische Arbeitsstelle Bochum</authority>
+                <distributor>Patristic Text Archive</distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
+                </availability>
+                <date>2018</date>
+                <idno type="PTA">pta0022.pta001</idno>
+                <idno type="TLG">tlg2035.tlg001</idno>
+                <idno type="CPG">2090</idno>
+                <idno type="BHG"/>
+                <idno type="Aldama"/>
+                <idno type="Pinakes-Oeuvre">1759</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+        <msIdentifier xml:id="Genua_gr_23">
+            <settlement>Paris</settlement>
+            <repository>Bibiothèque Nationale de France</repository>
+            <idno>Parisinus gr. 3067</idno>
+            <altIdentifier type="diktyon">
+                <idno>52712</idno>
+            </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+            <handDesc hands="1">
+                <handNote xml:id="m1">Angelus Calaber</handNote>
+            </handDesc>
+        </physDesc>
+    </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='transcription']/tei:div[@n='$1'])"/>
+            </refsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#KS" when="2022-07-13">Transkription des Textes anhand des Mikrofilms</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-Ms160a">
+<pb n="256r" facs="https://gallica.bnf.fr/ark:/12148/btv1b103036803/f523.item"/><note place="top">4</note><!-- Wiederholung vgl. fol. 250r -->ἔχων τὴν τοῦ δεδωκότος <del rend="strikethrough">χά</del><lb/>χάριν, ἔχων καὶ τὴν ἰδίαν <lb/>ἐκ τοῦ πατρικοῦ λόγου δύναμιν, <lb/>ἀγάλλεται καὶ συνομολογεῖ τῷ θείῳ.
+    <lb/>παύσασθαι καθόλου τοῦ κινεῖσθαι οὐ δύναται, <lb/>τὴν φύσιν οὖσα ὡς προεῖπον, εὐκίνητος, <lb/>καὶ γινώσκουσα τὸ αὐτεξούσιον αὐτῆς, <lb/>ὁρᾷ ἑαυτὴν δύνασθαι κατ' ἀμφό<lb break="no"/>τερα τοῖς τοῦ σώματος μέρεσι <lb/>χρᾷσθαι, εἴς τε τὰ ὄντα καὶ τὰ μὴ ὄντα· <lb/>ὄντα δὲ ἐστι τὰ καλὰ, οὐκ ὄντα δὲ <lb/>τὰ φαῦλα·
+   <lb/>εἰς ἐπιθυμίας τὸν ὀφθαλμὸν ἀποστρέφει <lb/>δεικνύουσα ὅτι καὶ τοῦτο δύναται <lb/>καὶ νομίζουσα ὅτι ἅπαξ κινουμένη, <lb/>σώζει τὴν ἑαυτῆς ἀξίαν, καὶ οὐχ <lb/>ἁμαρτάνει ποιοῦσα ὃ δύναται· καὶ <lb/>οὐκ εἰδυῖα ὅτι οὐχ ἁπλῶς κινεῖσθαι, <lb/>ἀλλ' εἰς ἃ δεῖ κινεῖσθαι γέγονε· τούτου <lb/>γὰρ χάριν καὶ ἀποστολικὴ φωνὴ <lb/> παρεγγυᾶ, πάντα ἔξεστιν, ἀλλ' οὐ <lb/>πάντα συμφέρει
+    <gap reason="damage" quantity="2" unit="page"/><pb n="258r" facs="https://gallica.bnf.fr/ark:/12148/btv1b103036803/f527.item"/><!-- Anschluss von fol. 255v --> ὀσφρανθήσονται. χεῖρας <lb/>ἔχουσι καὶ οὐ ψηλαφήσουσι· <lb/>πόδας ἔχουσι καὶ οὐ περιπα<lb break="no"/>τήσουσιν· οὐ φωνήσουσιν <del rend="strikethrough">ἐπὶ</del> <lb/>ἐν τῷ <del rend="strikethrough">το</del> λάρυγγι αὐτῶν· <del rend="strikethrough">ὅμως</del> <lb/>ὅμοιοι αὐτοῖς γένοιντο οἱ ποι<lb break="no"/>οῦντες αὐτά.
+                            </p>
+</div>
+            </div>
+        </body>
+    </text>
+</TEI>
