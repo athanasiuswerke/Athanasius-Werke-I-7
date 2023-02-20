@@ -34,10 +34,10 @@
                 <msDesc>
                     <msIdentifier xml:id="Mailand_BreraAF_XIV_14">
                         <settlement>Mailand</settlement>
-                        <repository>Biblioteca Ambrosiana</repository>
+                        <repository>Biblioteca nazionale Braidense</repository>
                         <idno>Mediolanus (Brera) AF XIV 14</idno>
                         <altIdentifier type="diktyon">
-                            <idno>g1</idno>
+                            <idno>43288</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <physDesc>
@@ -263,7 +263,10 @@
                             <abbr type="nomSac">
                                 <hi rend="overline">ἀνων</hi>
                             </abbr>
-                        </choice> γενόμενον, ὃς καὶ κατὰ τὴν τῶν ἑβραίων <lb/>γλῶτταν ἀδὰμ ὠνομάσθη, λέγουσιν αἱ ἱεραὶ <lb/>γραφαὶ κατὰ τὴν ἀρχὴν ἀνεπαισχύντῳ παῤῥησία <lb/>τὸν νοῦν ἐσχηκέναι πρὸς τὸν <choice>
+                        </choice> γενόμενον, ὃς καὶ κατὰ τὴν τῶν ἑβραίων <lb/>γλῶτταν ἀδὰμ ὠνομάσθη, λέγουσιν αἱ ἱεραὶ <lb/>γραφαὶ κατὰ τὴν ἀρχὴν ἀν<subst>
+                            <del rend="overwrite">αι</del>
+                            <add place="inline">ε</add>
+                        </subst>παισχύντῳ παῤῥησία <lb/>τὸν νοῦν ἐσχηκέναι πρὸς τὸν <choice>
                             <expan>θεὸν</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">θν</hi>

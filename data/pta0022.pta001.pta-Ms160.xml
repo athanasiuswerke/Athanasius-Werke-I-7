@@ -34,10 +34,10 @@
                 <msDesc>
         <msIdentifier xml:id="Genua_gr_23">
             <settlement>Paris</settlement>
-            <repository>Bibiotheque Nationale</repository>
+            <repository>Bibiothèque Nationale de France</repository>
             <idno>Parisinus gr. 3067</idno>
             <altIdentifier type="diktyon">
-                <idno>160</idno>
+                <idno>52712</idno>
             </altIdentifier>
         </msIdentifier>
         <physDesc>
@@ -63,8 +63,8 @@
                 <pb n="250r" facs="https://gallica.bnf.fr/ark:/12148/btv1b103036803/f511.item"/><head>
                     <title>Athanasii epi Alexandrini ex oratione <lb/>contra gentes</title></head>
                 <div type="textpart" subtype="section" n="1">
-                    <p>τί οὐκ οὔσης τῆς κακίας ἐξ ἀρχῆς <lb/>οἱ ἄνθρωποι αὐτὴν ἐπενόησαν, καὶ <lb/>καὶ ἑαυτοῖς ἀνετυπώσαντο· <del rend="strikethrough">δια</del> <lb/>ὅθεν καὶ τὴν τῶν <del rend="strikethrough">ὅλων</del> εἰδώλων ἐπί<lb break="no"/>νοιαν ἑαυτοῖς ἀνεπλάσαντο·<lb/><note place="inline"><gap reason="illegible" quantity="7" unit="line"/></note>
-                        <lb/>ὡς, ὁ ὑπερέκεινα πάσης οὐσί<lb break="no"/>ας καὶ ἀνθρωπίνης ἐπινοίας <lb/>ὑπάρχων δημιουργὸς καὶ παμ<lb break="no"/>βασιλεὺς, ἀγαθὸς καὶ ὑπέρκα<lb break="no"/>λος, καὶ ὢν διὰ τοῦ ἰδίου λόγου, τοῦ σωτῆρος ἡμῶν ἰησοῦ χριστοῦ.
+                    <p>τί οὐκ οὔσης τῆς κακίας ἐξ ἀρχῆς <lb/>οἱ ἄνθρωποι αὐτὴν ἐπενόησαν, καὶ <lb/>καὶ ἑαυτοῖς ἀνετυπώσαντο· <del rend="strikethrough">δια</del><lb/>ὅθεν καὶ τὴν τῶν <del rend="strikethrough">ὅλων</del> εἰδώλων ἐπί<lb break="no"/>νοιαν ἑαυτοῖς ἀνεπλάσαντο·<lb/><note place="inline"><gap reason="illegible" quantity="7" unit="line"/></note>
+                        <lb/>ὡς, ὁ ὑπερεπέκεινα πάσης οὐσί<lb break="no"/>ας καὶ ἀνθρωπίνης ἐπινοίας <lb/>ὑπάρχων δημιουργὸς καὶ παμ<lb break="no"/>βασιλεὺς, ἀγαθὸς καὶ ὑπέρκα<lb break="no"/>λος, καὶ ὢν διὰ τοῦ ἰδίου λόγου, τοῦ σωτῆρος ἡμῶν ἰησοῦ χριστοῦ.
                         <lb/>ἐσκεύαστο ὁ ἄνθρωπος τῶν ὄντων <lb/>θεωρητὴς καὶ ἐπιστήμων διὰ τῆς πρὸς <lb/>θεὸν ὁμοιότητος.<lb/>ἔσται τοῖς ἀνθρώποις ἔννοια καὶ γνῶσις <lb/>παρὰ θεοῦ τῆς αὐτοῦ ἀϊδιότητος, <lb/>καθ' ἃς μήτε τῆς περὶ θεοῦ φαντασίας <lb/>ἀφίσταται, μήτε τῆς τῶν ἁγίων συ<lb break="no"/>ζητήσεως ἀποπ<subst>
                             <del rend="overwrite">ο</del>
                             <add place="inline">η</add>
@@ -72,13 +72,13 @@
                         <lb/>ἔχων τὴν τοῦ δεδωκότος χάριν, <lb/>ἔχων καὶ τὴν ἰδίαν ἐκ τοῦ πατρικοῦ <lb/>λόγου δύναμιν, ἀγάλλεται καὶ συνο<lb break="no"/>μολογεῖ τῷ θείῳ
                         <lb/>ὁ ἄνθρωπος ἐξ ἀρχῆς γέγονεν ἑαυτῷ συνὼν ὅλος· mens humana <lb/>ut à principio conditio fuit<pb n="250v" facs="https://gallica.bnf.fr/ark:/12148/btv1b103036803/f512.item"/>λόγον ἰδὼν, ὁρᾷ ἐν αὐτῶ καὶ τὸν <lb/>τοῦ λόγου πατέρα ἥδόμενος <lb/>ἐπί τῇ τούτου θεωρίᾳ, καὶ ἀνα<lb break="no"/>καινούμενος ἐπὶ τῷ πρὸς τοῦ<lb break="no"/>τον πόθῳ.
                         <lb/>λέγουσιν αἱ ἱεραὶ γραφαὶ κατὰ <lb/>τὴν ἀρχὴν <del rend="strikethrough">ἠν</del> ἀνεπαι<lb break="no"/>σχύντῳ <note place="margin_outer">3</note>παῤῥησίᾳ τὸν νοῦν <lb/>ἐσχηκέναι πρὸς τὸν θεὸν, καὶ συν<lb break="no"/>διαιτᾶσθαι τοῖς ἁγίοις ἐν τῆ τῶν <lb/>νοητῶν θεωρίᾳ, ἣν εἶχεν ἐν ἐ<lb break="no"/>κείνῳ τῷ τόπῳ, ὃν καὶ ὁ ἅγιος <lb/>μωϋσῆς τροπικῶς παράδει<lb break="no"/>σον ὠνόμασεν·
-                        <lb/>διὰ τῆς ψυχῆς ὁ θεὸς κατοπτρίζεσθαι· <lb/><del rend="strikethrough">μκάριοι</del> μακάριοι γὰρ οἱ κα<lb break="no"/>θαροὶ τῇ καρδίᾳ ὅτι αὐτοὶ τὸν <lb/>θεὸν ὄψονται
-                        <lb/>τὰ ἐγγύτερα τῷ ἀνθρώπῳ, τὸ σῶμα <lb/>καὶ αἱ τούτου αἰσθήσεις
-                        <lb/>ταῖς τοῦ σώματος ἡδοναῖς συνέκλεισαν <lb/>ἑαυτῶν τὴν ψυχὴν, τεταραγμένην <lb/>καὶ πεφυρμένην πάσαις ἐπιθυμ<gap reason="damage" quantity="4" unit="character"/>
-                        <lb/>ἔγνωσαν δὲ ἑαυτοὺς γυμνοὺς, οὐ τοσοῦτον <lb/>ἀπὸ ἐνδυμάτων, ἀλλ' ὅτι γυμνοὶ <lb/>τῆς τῶν θείων θεωρίας γεγόνασι· καὶ <lb/>πρὸς τὰ ἐναντία τὴν διάνοιαν μετή<lb break="no"/>νεγκαν.
-                        <lb/>οὐ θέλουσα γὰρ ἀποστῆναι τῶν ἐπι<lb break="no"/>θυμιῶν, φοβεῖται τὸν θάνατον, καὶ τὸν <lb/>χωρισμὸν τοῦ σώματος· ἐπιθυμοῦ<gap reason="damage" quantity="2" unit="character"/><pb n="251r" facs="https://gallica.bnf.fr/ark:/12148/btv1b103036803/f513.item"/> δὲ πάλιν, καὶ μὴ τυγχάνουσα τῶν <lb/>ὁμοίων, ἔμαθε φονεύειν καὶ ἀδικεῖν
+                        <lb/>διὰ τῆς ψυχῆς ὁ θεὸς κατοπτρίζεται· <lb/><del rend="strikethrough">μκάριοι</del> μακάριοι γὰρ οἱ κα<lb break="no"/>θαροὶ τῇ καρδίᾳ ὅτι αὐτοὶ τὸν <lb/>θεὸν ὄψονται
+                        <lb/>τὰ ἐγγύτερα τῷ ἀνθρώπῳ, τὸ σῶμα <lb/>καὶ αἱ τούτου αἰσθήσεις
+                        <lb/>ταῖς τοῦ σώματος ἡδοναῖς συνέκλεισαν <lb/>ἑαυτῶν τὴν ψυχὴν, τεταραγμέν<gap reason="illegible" quantity="2" unit="character"/> <lb/>καὶ πεφυρμένην πάσαις ἐπιθυμ<gap reason="damage" quantity="4" unit="character"/>
+                        <lb/>ἔγνωσαν δὲ ἑαυτοὺς γυμνοὺς, οὐ τοσοῦτον <lb/>ἀπὸ ἐνδυμάτων, ἀλλ' ὅτι γυμνοὶ <lb/>τῆς τῶν θείων θεωρίας γεγόνασι· καὶ <lb/>πρὸς τὰ ἐναντία τὴν διάνοιαν μετ<gap reason="illegible" quantity="1" unit="character"/><lb break="no"/>νεγκαν.
+                        <lb/>οὐ θέλουσα γὰρ ἀποστῆναι τῶν ἐπι<gap reason="illegible" quantity="2" unit="character"/><lb break="no"/>μιῶν, φοβεῖται τὸν θάνατον, καὶ τ<gap reason="illegible" quantity="2" unit="character"/> <lb/>χωρισμὸν τοῦ σώματος· ἐπιθυμοῦ<gap reason="damage" quantity="2" unit="character"/><pb n="251r" facs="https://gallica.bnf.fr/ark:/12148/btv1b103036803/f513.item"/> δὲ πάλιν, καὶ μὴ τυγχάνουσα τῶν <lb/>ὁμοίων, ἔμαθε φονεύειν καὶ ἀδικεῖν
                         <lb/>ὄντα δὲ φημι τὰ καλὰ, καθ'ὅτι ἐκ <lb/>τοῦ ὄντος θεοῦ τὰ παραδείγματα <lb/>ἔχει· οὐκ ὄντα δὲ τὰ κακὰ λέγω, <lb/>καθότι ἐπινοίαις ἀνθρώπων οὐκ <lb/>ὄντα ἀναπέπλασται
-                        <lb/><gap reason="damage" quantity="2" unit="character"/>ᾶ καὶ τῆς παναρμονίου συντάξεως γινώ<lb break="no"/>σκεται ὁ δημιουργὸς
+                        <lb/><gap reason="damage" quantity="2" unit="character"/>ὰ τῆς παναρμονίου συντάξεως γινώ<lb break="no"/>σκεται ὁ δημιουργὸς
                         <lb/><gap reason="damage" quantity="2" unit="character"/>ιμίας, καὶ ἁμαρτίας ψυχῆς, αἰτία <lb/><gap reason="damage" quantity="2" unit="character"/> τούτων οὐδεμία, ἀλλ' ἡ τῶν κρειττό<lb break="no"/>νων ἀποστροφή.
                         <lb/><gap reason="damage" quantity="2" unit="character"/>αύνουσα παρὰ τὸ πρέπον τὰ τοῦ σώ<lb break="no"/>ματος μέλη, μᾶλλον δὲ καὶ αὐτὴ <lb/>μετ'αὐτῶν ὑφ' ἑαυτῆς ἐλαυνομένη, <lb/>ἁμαρτάνει, καὶ τὸ κακὸν ἑαυτῇ <del rend="strikethrough">πλά</del> <lb/>πλάττει· οὐχ ὁρῶσα ὅτι πεπλά<lb break="no"/>νηται τῆς ὁδοῦ, καὶ ἔξω γέγονε τοῦ τῆς <lb/>ἀληθείας σκοποῦ, εἰς ὃν ὁ χριστοφό<lb break="no"/>ρος πατὴρ ὁ μακάριος παῦλος <lb/>ἀποβλέπων ἔλεγε· κατὰ σκοπὸν <lb/>διώκω εἰς τὸ βραβεῖον τῆς ἄνω <lb/>κλήσεως <del rend="strikethrough">ἰησο</del> χριστοῦ ἰησοῦ· σκο<lb break="no"/>πὸν οὖν τὸ καλὸν ὁ ἅγιος οὐδέποτε τὸ <lb/>κακὸν ἐποίει.
                         <lb/><gap reason="damage" quantity="2" unit="character"/>γὰρ ἐκ τοῦ καλοῦ τὸ κακὸν, οὐδὲ ἐν αὐτῷ <lb/>ἐστιν, οὐδὲ δι' αὐτοῦ· ἐπεὶ οὐκ ἔτι κα<lb break="no"/>λὸν ἂν εἴη, μεμιγμένην ἔχ<subst>

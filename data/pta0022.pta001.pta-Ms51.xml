@@ -37,7 +37,7 @@
                         <repository>Biblioteca Apostolica Vaticana</repository>
                         <idno>Vaticanus gr. 1492</idno>
                         <altIdentifier type="diktyon">
-                            <idno>51</idno>
+                            <idno>n.n.</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <physDesc>
@@ -265,7 +265,7 @@
                                 <hi rend="overline">θυ</hi>
                             </abbr>
                         </choice> δυνάμεως· τοῦτο δ' ἄν τις ἴδοι καὶ ἐκ τοῦ πρώτου πλασθέντος <choice>
-                            <expan>ἀνθρώπου</expan>
+                            <expan>ἀνθρώπου</expan>
                             <abbr type="nomSac">
                                 <hi rend="overline">ἀνου</hi>
                             </abbr>
