@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https·//raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http·//relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http·//www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml·lang="la">Contra gentes (Ms 56)</title>
+                <title xml:lang="la">Contra gentes (Ms 56)</title>
                 <author>
                     <persName key="pta0022">Athanasius Alexandrinus</persName>
                 </author>
                 <respStmt>
                     <resp>transkribiert von</resp>
-                    <persName xml·id="KS">Kyriakos Savvidis</persName>
+                    <persName xml:id="KS">Kyriakos Savvidis</persName>
                 </respStmt>
                 <funder>Deutsche Forschungsgemeinschaft</funder>
             </titleStmt>
@@ -20,7 +20,7 @@
                 <authority>Patristische Arbeitsstelle Bochum</authority>
                 <distributor>Patristic Text Archive</distributor>
                 <availability>
-                    <licence target="https·//creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
                 </availability>
                 <date>2018</date>
                 <idno type="PTA">pta0022.pta001</idno>
@@ -32,17 +32,17 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-        <msIdentifier xml·id="Paris_Coislin_45">
+        <msIdentifier xml:id="London_Harl_5579">
             <settlement>London</settlement>
-            <repository>Bibiotheque Nationale</repository>
-            <idno>Coislinianus gr. 45</idno>
+            <repository>British Museum</repository>
+            <idno>Harleianus 5579</idno>
             <altIdentifier type="diktyon">
-                <idno>56</idno>
+                <idno>5579</idno>
             </altIdentifier>
         </msIdentifier>
         <physDesc>
             <handDesc hands="1">
-                <handNote xml·id="m1">Schreiber I</handNote>
+                <handNote xml:id="m1">Ῥωμανὸς Χαρτοφύλαξ</handNote>
             </handDesc>
         </physDesc>
     </msDesc>
@@ -50,7 +50,7 @@
         </fileDesc>
         <encodingDesc>
             <refsDecl n="CTS">
-                <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei·TEI/tei·text/tei·body/tei·div[@type='transcription']/tei·div[@n='$1'])"/>
+                <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='transcription']/tei:div[@n='$1'])"/>
             </refsDecl>
         </encodingDesc>
         <revisionDesc>
@@ -59,7 +59,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="transcription" xml·lang="grc" n="urn·cts·pta·pta0022.pta001.pta-Ms56">
+            <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-Ms56">
     <pb n="1r"/> <head>
         <title>τοῦ ἐν ἁγίοις <choice>
             <expan>πατρὸς</expan>
@@ -158,7 +158,7 @@
             <abbr type="nomSac">
                 <hi rend="overline">στροῦ</hi>
             </abbr>
-        </choice> ἀναβάντα· πάσχειν δὲ καὶ οὗτοι μοι δοκοῦσιν ὅμοιον, ὡς <lb/>εἴ τις τὸν μὲν ἥλιον ὑπὸ νεφῶν σκεπόμενον διαβάλλοι· τὸ δὲ τούτου φῶς, θαυμά<lb break="no"/>ζοι· βλέπων ὅτι πᾶσα ἡ κτίσις ὑπὸ τούτου καταλάμπεται. ὡς γὰρ καλὸν <lb/>τὸ φῶς, καὶ καλλίων ὁ τοῦ φωτὸς, ἀρχηγὸς ἥλιος, οὕτως θείου πράγματος ὄντος, τὸ <lb/>τὴν οἰκουμένην πᾶσαν τῆς αὐτοῦ γνώσεως πεπληρῶσθαι· ἀνάγκη τὸν ἀρχηγὸν <lb/>καὶ ἠγεμόνα τοῦ τοιούτου κατορθώματος· εἶναι
+        </choice> ἀναβάντα· πάσχειν δὲ καὶ οὗτοι μοι δοκοῦσιν ὅμοιον, ὡς <lb/>εἴ τις τὸν μὲν ἥλιον ὑπὸ νεφῶν σκεπόμενον διαβάλλοι· τὸ δὲ τούτου φῶς, θαυμά<lb break="no"/>ζοι· βλέπων ὅτι πᾶσα ἡ κτίσις ὑπὸ τούτου καταλάμπεται. ὡς γὰρ καλὸν <lb/>τὸ φῶς, καὶ καλλείων ὁ τοῦ φωτὸς, ἀρχηγὸς ἥλιος, οὕτως θείου πράγματος ὄντος, τὸ <lb/>τὴν οἰκουμένην πᾶσαν τῆς αὐτοῦ γνώσεως πεπληρῶσθαι· ἀνάγκη τὸν ἀρχηγὸν <lb/>καὶ ἠγεμόνα τοῦ τοιούτου κατορθώματος· εἶναι
             <choice>
             <expan>θεὸν</expan>
             <abbr type="nomSac">
@@ -169,7 +169,10 @@
             <abbr type="nomSac">
                 <hi rend="overline">θυ</hi>
             </abbr>
-        </choice> λόγον· λέγομεν οὖν ὡς ἐ<lb break="no"/>φικτὸν ἡμῖν, πρότερον διελέγξαντες τὴν τῶν ἀπίστων ἀμαθίαν· ἵνα τῶν ψευ<lb break="no"/>δῶν διελενχθέντων λοιπὸν ἡ ἀλήθεια δι' ἑαυτῆς ἐπιλάμψη· καὶ θαρρῆς καὶ <lb/>αὐτός ὦ <choice>
+        </choice> λόγον· λέγομεν οὖν ὡς ἐ<lb break="no"/>φικτὸν ἡμῖν, πρότερον διελέγξαντες τὴν τῶν ἀπίστων ἀμαθίαν· ἵνα τῶν ψευ<lb break="no"/>δῶν διελενχθέντων λοιπὸν ἡ ἀλήθεια δι' ἑαυτῆς ἐπιλάμψ<subst>
+            <del>ει</del>
+            <add place="above">η</add>
+        </subst>· καὶ θαρρῆς καὶ <lb/>αὐτός ὦ <choice>
             <expan>ἄνθρωπε</expan>
             <abbr type="nomSac">
                 <hi rend="overline">ἀνε</hi>
@@ -180,7 +183,7 @@
                 <abbr type="nomSac">
                     <hi rend="overline">χν</hi>
                 </abbr>
-            </choice> γινώσκων, οὐκ ἠπατή<pb n="1v" break="no"/>θης· πρέπειν δέ σοι ἡγοῦμαι φιλοχρίστω ὄντι, τὰ περὶ <choice>
+            </choice> γινώσκον, οὐκ ἠπατή<pb n="1v" break="no"/>θης· πρέπειν δέ σοι ἡγοῦμαι φιλοχρίστω ὄντι, τὰ περὶ <choice>
           <expan>χριστοῦ</expan>
                 <abbr type="nomSac">
                     <hi rend="overline">χυ</hi>
@@ -295,7 +298,7 @@
             <abbr type="nomSac">
                 <hi rend="overline">ἄνοι</hi>
             </abbr>
-        </choice> κατολιγωρήσαντες τῶν κρειττόνων καὶ <lb/>ὀκνήσαντες, περὶ τὴν τούτων κατάληψιν, τὰ ἐγγυτέρω μᾶλλον ἑαυτῶν ἐζήτησαν <lb/>ἐγγύτερα δὲ τούτοις ἦν τὸ σῶμα καὶ αἱ τούτου αἰσθήσεις· ὅθεν τῶν μὲν νοητῶν <lb/>ἀπέστησαν ἑαυτῶν τὸν νοῦν· ἑαυτοὺς δὲ κατανοεῖν ἤρξαντο· κατανοοῦντες δὲ <lb/>ἑαυτοὺς· καὶ τοῦ τε σώματος καὶ τῶν ἄλλων αἰσθητῶν, ἀντιλαμβανόμενοι, καὶ ὡς ἐν ἰδίοις <lb/>ἀπατώμενοι, εἰς ἑαυτῶν ἐπιθυμίαν ἔπεσαν· τὰ ἴδια προτιμήσαντες τῆς <lb/>πρὸς τὰ θεῖα θεωρίας. ἐνδιατρίψαντες δὲ τούτοις καὶ τῶν ἐγγυτέρω μὴ ἀπο<lb break="no"/>στῆναι θέλοντες, ταῖς μὲν τοῦ σώματος ἡδοναῖς συνέκλεισαν ἑαυτῶν τὴν ψυχὴν· τεταραγ<lb break="no"/>μένην καὶ πεφυρμένην πάσης ἐπιθυμίας· τέλεον δὲ ἐπελάθοντο τῆς ἐξ ἀρ<pb n="2r" break="no"/>χῆς αὐτῶν παρὰ <choice>
+        </choice> κατολιγωρήσαντες τῶν κρειττόνων καὶ <lb/>ὀκνήσαντες, περὶ τὴν τούτων κατάληψιν, τὰ ἐγγυτέρω μᾶλλον ἑαυτῶν ἐζήτησαν <lb/>ἐγγύτερα δὲ τούτοις ἦν τὸ σῶμα καὶ αἱ τούτου αἰσθήσεις· ὅθεν τῶν μὲν νοητῶν <lb/>ἀπέστησαν ἑαυτῶν τὸν νοῦν· ἑαυτοὺς δὲ κατανοεῖν ἤρξαντο· κατανοοῦντες δὲ <lb/>ἑαυτοὺς· καὶ τοῦ τε σώματος καὶ τῶν ἄλλων αἰσθητῶν, ἀντιλαμβανόμενοι, καὶ ὡς οὐοὐ ἰδίοις <lb/>ἀπατώμενοι, εἰς ἑαυτῶν ἐπιθυμίαν ἔπεσαν· τὰ ἴδια προτιμήσαντες τῆς <lb/>πρὸς τὰ θεῖα θεωρίας. ἐνδιατρίψαντες δὲ τούτοις καὶ τῶν ἐγγυτέρω μὴ ἀπο<lb break="no"/>στῆναι θέλοντες, ταῖς μὲν τοῦ σώματος ἡδοναῖς συνέκλεισαν ἑαυτῶν τὴν ψυχὴν· τεταραγ<lb break="no"/>μένην καὶ πεφυρμένην πάσης ἐπιθυμίας· τέλεον δὲ ἐπελάθοντο τῆς ἐξ ἀρ<pb n="2r" break="no"/>χῆς αὐτῶν περὶ <choice>
             <expan>θεοῦ</expan>
             <abbr type="nomSac">
                 <hi rend="overline">θῦ</hi>
@@ -315,7 +318,7 @@
             <abbr type="nomSac">
                 <hi rend="overline">θν</hi>
             </abbr>
-            </choice> διανοίας, ἑαυτὸν δὲ κατα<lb break="no"/>νοεῖν ἤρξατο· τηνικαῦτα καὶ εἰς ἐπιθυμίαν τοῦ σώματος ἔπεσαν· καὶ ἔγνωσαν ὅτι <lb/>γυμνοὶ ἦσαν· καὶ γνῶντες ᾔσχύνθησαν· ἔγνωσαν δὲ ἑαυτοὺς γυμνοὺς οὐ τοσοῦτον ἀπὸ ἐν<lb break="no"/>δύματος· ἀλλ' ὅτι γυμνοὶ τῆς τῶν θείων θεωρίας γεγόνασι· καὶ πρὸς τὰ ἐναντία <lb/>τὴν διάνοιαν μετήνεγκαν. ἄποστάντες γὰρ τῆς πρὸς τὸν ἕνα καὶ ὄντα <choice>
+            </choice> διανοίας, ἑαυτὸν δὲ κατα<lb break="no"/>νοεῖν ἤρξατο· τηνικαῦτα καὶ εἰς ἐπιθυμίαν τοῦ σώματος ἔπεσαν· καὶ ἔγνωσαν ὅτι <lb/>γυμνοὶ ἦσαν· καὶ γνῶντων ᾔσχύνθησαν· ἔγνωσαν δὲ ἑαυτοὺς γυμνοὺς οὐ τοσοῦτον ἀπὸ ἐν<lb break="no"/>δύματος· ἀλλ' ὅτι γυμνοὶ τῆς τῶν θείων θεωρίας γεγόνασι· καὶ πρὸς τὰ ἐναντία <lb/>τὴν διάνοιαν μετήνεγκαν. ἄποστάντες γὰρ τῆς πρὸς τὸν ἕνα καὶ ὄντα <choice>
             <expan>θεὸν</expan>
             <abbr type="nomSac">
                 <hi rend="overline">θν</hi>
@@ -1285,7 +1288,7 @@
             <abbr type="nomSac">
                 <hi rend="overline">θς</hi>
             </abbr>
-        </choice> θρησκευόμενος, τοῦτον οἱ ἀστυγείτονες, οὐ μόνον οὐ θρησκεύουσιν, ἀλ<lb break="no"/>λὰ καὶ εὑρόντες ἀποκτείνουσιν ὡς θηρίον· καὶ ὁ παρ' ἄλλοις ἀνατεθεὶς ἰχ<lb break="no"/>θῦς, οὗτος ἐν ἄλλω ἀλίσκεται· ὅθεν δὴ πόλεμοι καὶ στάσεις καὶ πᾶσα φόνων <lb/>πρόφασις· καὶ πᾶσα τῶν παθῶν ἡδονὴ, παρ' αὐτοῖς ἐστὶ· καὶ τό γε θαυμαστὸν <lb/>ὅτι ὡς οἱ ἱστορήσαντες ἐξηγοῦνται· παρ' αἰγυπτίων οἱ πελασγοὶ μαθόντες <lb/>τὰ ὀνόματα τῶν θεῶν οὐκ ἴσασιν οὗτοι τοὺς παρ' αἰγυπτίοις θεούς· ἀλλὰ ἄλλους παρ' ἐ<lb break="no"/>κείνους θρησκεύουσι· καὶ ὅλως πάντων τῶν ἐν εἰδώλοις μανέντων ἐθνῶν· διάφορός <lb/>ἐστιν ἡ δόξα καὶ ἡ θρησκεία. καὶ οὐ τὰ αὐτὰ παρὰ τοῖς αὐτοῖς εὑρίσκεται· καὶ εἰ<lb break="no"/>κότως γε τοῦτο πάσχουσιν· ἐκπεσόντες γὰρ ἀπὸ τῆς πρὸς τὸν ἕνα <choice>
+        </choice> θρησκευόμενος, τοῦτον οἱ ἀστυγείτονες, οὐ μόνον οὐ θρησκεύουσιν, ἀλ<lb break="no"/>λὰ καὶ εὑρόντες ἀποκτένουσιν ὡς θηρίον· καὶ ὁ παρ' ἄλλοις ἀνατεθεὶς ἰχ<lb break="no"/>θῦς, οὗτος ἐν ἄλλω ἀλίσκεται· ὅθεν δὴ πόλεμοι καὶ στάσεις καὶ πᾶσα φόνων <lb/>πρόφασις· καὶ πᾶσα τῶν παθῶν ἡδονὴ, παρ' αὐτοῖς ἐστὶ· καὶ τό γε θαυμαστὸν <lb/>ὅτι ὡς οἱ ἱστορήσαντες ἐξηγοῦνται· παρ' αἰγυπτίων οἱ πελασγοὶ μαθόντες <lb/>τὰ ὀνόματα τῶν θεῶν οὐκ ἴσασιν οὗτοι τοὺς παρ' αἰγυπτίοις θεούς· ἀλλὰ ἄλλους παρ' ἐ<lb break="no"/>κείνους θρησκεύουσι· καὶ ὅλως πάντων τῶν ἐν εἰδώλοις μανέντων ἐθνῶν· διάφορός <lb/>ἐστιν ἡ δόξα καὶ ἡ θρησκεία. καὶ οὐ τὰ αὐτὰ παρὰ τοῖς αὐτοῖς εὑρίσκεται· καὶ εἰ<lb break="no"/>κότως γε τοῦτο πάσχουσιν· ἐκπεσόντες γὰρ ἀπὸ τῆς πρὸς τὸν ἕνα <choice>
             <expan>θεὸν</expan>
             <abbr type="nomSac">
                 <hi rend="overline">θν</hi>
@@ -1777,7 +1780,7 @@
             <abbr type="nomSac">
                 <hi rend="overline">θν</hi>
             </abbr>
-        </choice>, καὶ τὰ οὐκ ὄντα ἀνεπλάσαντο εἰς θεοὺς, οὕτως ἀναβῆναι <lb/>τῷ νῷ τῆς ψυχῆς, καὶ πάλιν ἐπιστρέψαι πρὸς τὸν <choice>
+        </choice>, καὶ τὰ οὐκ ὄντα ἀνεπλάσαντο εἰς θεοὺς, οὕτως ἀναβῆναι <lb/>τῷ νῷ τῆς τῆς ψυχῆς, καὶ πάλιν ἐπιστρέψαι πρὸς τὸν <choice>
             <expan>θεόν</expan>
             <abbr type="nomSac">
                 <hi rend="overline">θν</hi>
@@ -1961,7 +1964,7 @@
             <abbr type="nomSac">
                 <hi rend="overline">κν</hi>
             </abbr>
-        </choice>· διὰ τοῦτο γὰρ καὶ αὐτὸς ὁ δημιουργὸς, <lb/>ἕνα τὸν σύμπαντα κόσμον πεποίηκεν, ἵνα μὴ τῇ τῶν πολλῶν συστάσει πολλοὶ <lb/>καὶ οἱ δημιουργοὶ νομίζοντο· ἀλλ' ἑνὸς ὄντος τοῦ ποιήματος, εἷς καὶ ὁ τούτου <lb/>ποιητὴς πιστεύηται. καὶ οὐχ' ὅτι εἷς ἐστιὶν ὁ δημιουργὸς διὰ τοῦτο καὶ εἷς ἐστὶν <lb/>ὁ κόσμος· ἠδύνατο γὰρ καὶ ἄλλους κόσμους ποιῆσαι ὁ <choice>
+        </choice>· διὰ τοῦτο γὰρ καὶ αὐτὸς ὁ δημιουργὸς, <lb/>ἕνα τὸν σύμπαντα κόσμον πεποίηκεν, ἵνα μὴ τῇ τῶν πολλῶν συστάσει πολλοὶ <lb/>καὶ οἱ δημιουργοὶ νομίζοντο· ἀλλ' ἑνὸς ὄντος τοῦ ποιήματος, εἷς καὶ ὁ τούτου <lb/>ποιητὴς πιστεύηται. καὶ οὐχ' ὅτι εἷς ἐστὶν ὁ δημιουργὸς διὰ τοῦτο καὶ εἷς ἐστὶν <lb/>ὁ κόσμος· ἠδύνατο γὰρ καὶ ἄλλους κόσμους ποιῆσαι ὁ <choice>
             <expan>θεός</expan>
             <abbr type="nomSac">
                 <hi rend="overline">θς</hi>
@@ -2027,7 +2030,7 @@
         </choice> ὑπάρχει λόγος· ὃς τόδε τὸ <lb/>πᾶν διεκόσμησε καὶ φωτίζει τῇ ἑαυτοῦ προνοία· ἀγαθοῦ γὰρ <choice>
             <expan>πατρὸς</expan>
             <abbr type="nomSac">
-                <hi rend="overline">πτρς</hi>
+                <hi rend="overline">πρς</hi>
             </abbr>
         </choice> ἀγαθὸς λόγος· <lb/>ὑπάρχων· αὐτὸς τὴν τῶν πάντων διεκόσμησε διάταξιν· τὰ μὲν ἐναντία τοῖς <lb/>ἐναντίοις συνάπτων· ἐκ τούτων δὲ μίαν διακοσμῶν ἁρμονίαν. οὗτος <choice>
             <expan>θεοῦ</expan>
@@ -2072,7 +2075,7 @@
         </choice> ἐστιν εἰκὼν ἀπαράλλακτος· <choice>
             <expan>ἄνθρωποι</expan>
             <abbr type="nomSac">
-                <hi rend="overline"><hi rend="ekthesis">ἄ</hi>νοι</hi>
+                <hi rend="overline">ἄνοι</hi>
             </abbr>
         </choice> μὲν γὰρ ἐκ μερῶν συγκείμενοι· καὶ ἐκ τοῦ <lb/>μὴ ὄντος γενόμενοι· συγκείμενον ἔχουσι καὶ διαλυόμενον τὸν ἑαυτῶν λόγον· ὁ δὲ <choice>
             <expan>θεὸς</expan>
