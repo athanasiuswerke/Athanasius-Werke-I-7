@@ -32,10 +32,10 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-        <msIdentifier xml·id="Paris_Coislin_45">
+        <msIdentifier xml:id="Paris_Coislin_45">
             <settlement>Paris</settlement>
             <repository>Bibiotheque Nationale</repository>
-            <idno>Coislinianus gr· 45</idno>
+            <idno>Coislinianus gr. 45</idno>
             <altIdentifier type="diktyon">
                 <idno>49187</idno>
             </altIdentifier>
@@ -60,7 +60,7 @@
     <text>
         <body>
             <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta002.pta-MsS">
-                <pb n="37v"facs="https://gallica.bnf.fr/ark:/12148/btv1b110046334/f41.item.r=45athanase%20athanase"/><head>
+                <pb n="37v" facs="https://gallica.bnf.fr/ark:/12148/btv1b110046334/f41.item.r=45athanase%20athanase"/><head>
                     <title>τοῦ αὐτοῦ λόγος περὶ τῆς ἐνανθρωπήσεως τοῦ λό<lb break="no"/>γου· καὶ τῆς διὰ σώματος πρὸς ἡμᾶς ἐπιφανεί<lb break="no"/>ας αὐτοῦ.</title></head>
                 <div type="textpart" subtype="section" n="1">
                     <p><hi rend="ekthesis">α</hi>ὐτάρκως ἐν τοῖς πρὸ τούτων ἐκ πολλῶν ὀλίγα διαλα<pb n="38r" break="no"/>βόντες περὶ τῆς τῶν ἐθνῶν περὶ τὰ εἴδωλα πλά<lb break="no"/>νης καὶ τῆς τούτων δεισιδαιμονίας· πῶς ἐξ ἀρχῆς <lb/>τούτων γέγονεν ἡ εὕρεσις· ὅτι ἐκ κακίας οἱ <choice>
@@ -199,7 +199,6 @@
                             <hi rend="overline">ἄνος</hi>
                         </abbr>
                     </choice> τὸν <choice>
-                        <expan><choice>
                         <expan>πατέρα</expan>
                         <abbr type="nomSac">
                             <hi rend="overline">πρα</hi>
@@ -230,7 +229,6 @@
                             <hi rend="overline">ἰω</hi>
                         </abbr>
                     </choice> <lb/><g type="doubled_diple"/><hi rend="ekthesis">π</hi>άντα περιλαβόντα καὶ λέγοντα πάντα δι' αὐ<lb break="no"/><g type="doubled_diple"/>τοῦ ἐγένετο· καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν, πῶς <lb/>ἂν ἄλλος εἴη ὁ δημιουργὸς· παρὰ τὸν <choice>
-                        <expan><choice>
                         <expan>πατέρα</expan>
                         <abbr type="nomSac">
                             <hi rend="overline">πρα</hi>
@@ -586,7 +584,6 @@
                             <hi rend="overline">πρὸς</hi>
                         </abbr>
                     </choice>· καὶ ὑπὲρ πάν<lb break="no"/>τας ὢν, ἀκολούθως καὶ ἀνακτίσαι τὰ ὅλα <lb/>μόνος ἦν δυνατὸς· καὶ ὑπὲρ πάντων παθεῖν· <lb/>καὶ πρεσβεῦσαι περὶ πάντων ἱκανὸς πρὸς τὸν <choice>
-                        <expan><choice>
                         <expan>πατέρα</expan>
                         <abbr type="nomSac">
                             <hi rend="overline">πρα</hi>
@@ -3862,7 +3859,7 @@
                     </choice> λόγος κατ' αὐτοὺς, οὐ κωλύεται <lb/>ὑπὸ τῶν παρ' αὐτοῖς θεῶν, εἰς τὴν αὐτὴν χώραν ἔν<lb break="no"/>θα εἰσὶ· τὸ τούτου σέβας δ<hi rend="underline">ια</hi>βῆναι· ἀλλὰ μᾶλλον αὐτὸς <lb/>ὁ λόγος ἐπιδημῶν τῆ διδασκαλία ἑαυτοῦ, τὴν ἐκείνων <lb/>θρησκείαν παύει· καὶ τὴν φαντασίαν αὐτῶν καταισχύνει· <lb/><hi rend="ekthesis">π</hi>ολλοὶ πρὸ τούτου γεγόνασι βασιλεῖς· καὶ τύραννοι γῆς πολ<lb break="no"/>λοὶ παρὰ χαλδαίοις ἱστοροῦνται· καὶ παρ' αἰγυπτίοις <lb/>καὶ ἰνδοῖς γενόμενοι σοφοὶ καὶ μάγοι· τίς τούτων <lb/>ποτὲ, οὐ λέγω μετὰ θάνατον, ἀλλὰ καὶ ἔτι  ζῶν ἠδυνή<lb break="no"/>θη τοσοῦτον ἰσχῦσαι, ὥστε τὴν σύμπασαν αὐτὸν γῆν πλη<lb break="no"/>ρῶσαι τῆς αὐτοῦ διδασκαλίας· καὶ τοσοῦτον πλῆθος <lb/>παιδεῦσαι ἀπὸ τῆς τῶν εἰδώλων δεισιδαιμονίας, ὅ<lb break="no"/>σους ὁ ἡμέτερος <choice>
                         <expan>σωτὴρ</expan>
                         <abbr type="nomSac">
-                            <hi rend="overli8ne">σὴρ</hi>
+                            <hi rend="overline">σὴρ</hi>
                         </abbr>
                     </choice> εἰς ἑαυτὸν ἀπὸ τῶν εἰδώλων με<pb n="75r" break="no"/>τήνεγκεν· <gap reason="fenestra" quantity="3" unit="character"/>ἑλλήνων οἱ φιλόσοφοι μετὰ πιθανότη<lb break="no"/><hi rend="ekthesis">τ</hi>ος καὶ τέχνης λόγων, πολλὰ συνέγραψαν· τί οὖν <lb/>τοσοῦτον ὅσον ὁ τοῦ <choice>
                         <expan>χριστοῦ</expan>

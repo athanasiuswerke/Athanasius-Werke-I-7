@@ -55,16 +55,16 @@
             </refsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change who="#KS" when="2022-15-11">Transkription des Textes anhand des Mikrofilms</change>
+            <change who="#KS" when="2022-11-15">Transkription des Textes anhand des Mikrofilms</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta002.pta-Ms74">
-                <pb n="26v"facs="https://digital.bodleian.ox.ac.uk/objects/23d9eb05-71e7-43b4-9695-0275a19bb3b8/surfaces/d33bac87-e7e0-4e14-a00e-28dcb5526379/"/><head>
+                <pb n="26v" facs="https://digital.bodleian.ox.ac.uk/objects/23d9eb05-71e7-43b4-9695-0275a19bb3b8/surfaces/d33bac87-e7e0-4e14-a00e-28dcb5526379/"/><head>
                     <title>τοῦ αὐτοῦ περὶ τῆς ἐνανθρωπήσεως τοῦ λόγου· καὶ <lb/>τῆς διὰ σώματος πρὸς ἡμᾶς ἐπιφανείας αὐτοῦ.</title></head>
                 <div type="textpart" subtype="section" n="1">
-                    <p>α</hi>ὐτάρκως ἐν τοῖς πρὸ τούτων ἐκ πολλῶν ὀλίγα διαλαβόντες· περὶ τῆς τῶν <lb/>ἐθνῶν περὶ τὰ εἴδωλα πλάνης· καὶ τῆς τούτων δεισιδαιμονίας· πῶς ἐξ ἀρ<lb break="no"/>χῆς τούτων γέγονεν ἡ εὕρεσις· ὅτι ἐκ κακίας οἱ <choice>
+                    <p><hi rend="ekthesis">α</hi>ὐτάρκως ἐν τοῖς πρὸ τούτων ἐκ πολλῶν ὀλίγα διαλαβόντες· περὶ τῆς τῶν <lb/>ἐθνῶν περὶ τὰ εἴδωλα πλάνης· καὶ τῆς τούτων δεισιδαιμονίας· πῶς ἐξ ἀρ<lb break="no"/>χῆς τούτων γέγονεν ἡ εὕρεσις· ὅτι ἐκ κακίας οἱ <choice>
                         <expan>ἄνθρωποι</expan>
                         <abbr type="nomSac">
                             <hi rend="overline">ἄνοι</hi>
@@ -210,7 +210,6 @@
                             <hi rend="overline">ἄνος</hi>
                         </abbr>
                     </choice> τὸν <lb/><g type="doubled_diple"/><choice>
-                        <expan><choice>
                         <expan>πατέρα</expan>
                         <abbr type="nomSac">
                             <hi rend="overline">πρα</hi>
@@ -236,7 +235,6 @@
                             <hi rend="overline">πρς</hi>
                         </abbr>
                     </choice> τὴν κτί<lb break="no"/><g type="doubled_diple"/>σιν εἰσάγουσιν· <gap reason="fenestra" quantity="3" unit="character"/>εἰ δὲ κατὰ τὸν ἰ<hi rend="overline">ω</hi>άννην πάντα περιλαβόντα καὶ λέγοντα· <lb/><hi rend="ekthesis">π</hi>άντα δι' αὐτοῦ ἐγένετο· καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν, πῶς ἂν ἄλλος <lb/>εἴη ὁ δημιουργὸς· παρὰ τὸν <choice>
-                        <expan><choice>
                         <expan>πατέρα</expan>
                         <abbr type="nomSac">
                             <hi rend="overline">πρα</hi>
@@ -359,7 +357,7 @@
                     </choice> ἐφιλανθρωπεύσατο· καὶ ἐν ἀνθρωπίνω γενέσθαι καὶ φα<lb break="no"/>νῆναι σώματι· οὕτως μὲν οὖν ὁ <choice>
                         <expan>θεὸς</expan>
                         <abbr type="nomSac">
-                            <hi rend="overline">θ</hi>ς</hi>
+                            <hi rend="overline">θς</hi>
                         </abbr>
                     </choice> τὸν <choice>
                         <expan>ἄνθρωπον</expan>
@@ -607,7 +605,6 @@
                             <hi rend="overline">πρς</hi>
                         </abbr>
                     </choice> καὶ ὑπὲρ πάντας <lb/>ὢν, ἀκολούθως καὶ ἀνακτίσαι τὰ ὅλα μόνος ἦν δυνατός· καὶ ὑπὲρ πάν<lb break="no"/>των παθεῖν, καὶ πρεσβεῦσαι περὶ πάντων ἱκανὸς πρὸς τὸν <choice>
-                        <expan><choice>
                         <expan>πατέρα</expan>
                         <abbr type="nomSac">
                             <hi rend="overline">πρα</hi>
@@ -2448,7 +2445,7 @@
                         <abbr type="nomSac">
                             <hi rend="overline">χῦ</hi>
                         </abbr>
-                    </choice> δύναμιν καὶ θεό<lb break="no"/>τητα· <gap reason="fenestra" quantity="3" unit="character"/>ἐπεὶ, καὶ τυφλὸς ἐὰν μὴ βλέπη τὸν ἥλιον, ἀλλὰ κἂν τῆς ὑ<lb break="no"/><hi rend="ekthesis">π<lb break="no"/>' αὐτοῦ γινομένης θέρμης ἀντιλαμβανόμενος, οἶδεν ὅτι ἥλιος ὑ<lb break="no"/>πὲρ γῆς ἐστιν· οὕτως καὶ οἱ ἀντιλέγοντες εἰ καὶ μήπω πιστεύουσιν, ἀκ<lb break="no"/>μὴν τυφλώττοντες περὶ τὴν ἀλήθειαν, ἀλλὰ κἂν ἑτέρων πιστευόντων <lb/>γινώσκοντες τὴν δύναμιν, μὴ ἀρνείσθωσαν τὴν τοῦ <choice>
+                    </choice> δύναμιν καὶ θεό<lb break="no"/>τητα· <gap reason="fenestra" quantity="3" unit="character"/>ἐπεὶ, καὶ τυφλὸς ἐὰν μὴ βλέπη τὸν ἥλιον, ἀλλὰ κἂν τῆς ὑ<lb break="no"/><hi rend="ekthesis">π</hi>' αὐτοῦ γινομένης θέρμης ἀντιλαμβανόμενος, οἶδεν ὅτι ἥλιος ὑ<lb break="no"/>πὲρ γῆς ἐστιν· οὕτως καὶ οἱ ἀντιλέγοντες εἰ καὶ μήπω πιστεύουσιν, ἀκ<lb break="no"/>μὴν τυφλώττοντες περὶ τὴν ἀλήθειαν, ἀλλὰ κἂν ἑτέρων πιστευόντων <lb/>γινώσκοντες τὴν δύναμιν, μὴ ἀρνείσθωσαν τὴν τοῦ <choice>
                         <expan>χριστοῦ</expan>
                         <abbr type="nomSac">
                             <hi rend="overline">χῦ</hi>
@@ -3729,7 +3726,7 @@
                     </choice> ἡ διδασκαλία, ἀ<lb break="no"/>πὸ περάτων ἕως περάτων γῆς, μία καὶ ἡ αὐτὴ δι' ὅλων ἴσχυσεν, ὥστε διὰ <lb/>πάσης γῆς τὸ σέβας αὐτοῦ διαπτῆναι· <note place="margin_outer" hand="#m2">ὅρα</note>ἢ διατί εἴπερ <choice>
                         <expan>ἄνθρωπός</expan>
                         <abbr type="nomSac">
-                            <hi rend="overline">ἄ</hi>νός</hi>
+                            <hi rend="overline">ἄνός</hi>
                         </abbr>
                     </choice> ἐστιν ὁ <choice>
                         <expan>χριστὸς</expan>
@@ -3744,7 +3741,7 @@
                     </choice> λόγος κατ' αὐτοὺς, οὐ κωλύεται ὑπὸ τῶν παρ' αὐτοῖς θεῶν εἰς τὴν αὐτὴν <lb/>χώραν ἔνθα εἰσὶ τὸ τούτου σέβας διαβῆναι, ἀλλὰ μᾶλλον αὐτὸς ὁ λόγος ἐπι<lb break="no"/>δημῶν τῆ διδασκαλία ἑαυτοῦ, τὴν ἐκείνων θρησκείαν παύει, καὶ τὴν φαν<lb break="no"/>τασίαν αὐτῶν καταισχύνει· <gap reason="fenestra" quantity="3" unit="character"/>πολλοὶ πρὸ τούτου γεγόνασι βασιλεῖς· καὶ τύ<lb break="no"/>ραννοι γῆς πολλοὶ παρὰ χαλδαίοις ἱστοροῦνται· καὶ παρ' αἰγυπτίοις καὶ ἰνδοῖς <lb/>γενόμενοι σοφοὶ καὶ μάγοι· <gap reason="fenestra" quantity="3" unit="character"/>τίς τούτων ποτὲ οὐ λέγω μετὰ θάνατον ἀλλὰ καὶ <lb/><hi rend="ekthesis">ἔ</hi>τι ζῶν ἠδυνήθη τοσοῦτον ἰσχῦσαι, ὥστε τὴν σύμπασαν αὐτὸν γῆν πληρῶσαι <pb n="51r"/>τῆς αὐτοῦ διδασκαλίας, καὶ τοσοῦτον πλῆθος παιδεῦσαι ἀπὸ τῆς τῶν εἰδώλων <lb/>δεισιδαιμονίας, ὅσους ὁ ἡμέτερος <choice>
                         <expan>σωτὴρ</expan>
                         <abbr type="nomSac">
-                            <hi rend="overli8ne">σὴρ</hi>
+                            <hi rend="overline">σὴρ</hi>
                         </abbr>
                     </choice>, εἰς ἑαυτὸν ἀπὸ τῶν εἰδώλων μετήνεγκεν· <lb/><hi rend="ekthesis">ἑ</hi>λλήνων οἱ φιλόσοφοι μετὰ πιθανότητος καὶ τέχνης λόγων, πολλὰ συνέ<lb break="no"/>γραψαν· τί οὖν τοσοῦτον ὅσον ὁ τοῦ <choice>
                         <expan>χριστοῦ</expan>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https·//raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -64,7 +64,7 @@
     <text>
         <body>
             <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta002.pta-Ms47">
-                <pb n="67"facs="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/B.9.7%2F073_B.9.7_p067.jp2/full/1000,1481/0/default.jpg"/><head>
+                <pb n="67" facs="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/B.9.7%2F073_B.9.7_p067.jp2/full/1000,1481/0/default.jpg"/><head>
                     <title>τοῦ ἐν ἁγίοις <choice>
                         <expan>πατρὸς</expan>
                         <abbr type="nomSac">
@@ -3907,7 +3907,7 @@
                     </choice> λόγος κατ' αὐτοὺς, οὐ κωλύεται ὑπὸ τῶν παρ' αὐτοῖς θεῶν, εἰς τὴν αὐτὴν χώραν ἔνθα εἰσὶ· τὸ τούτου σέβας δ<hi rend="underline">ια</hi>βῆναι· ἀλλὰ μᾶλλον αὐτὸς ὁ λόγος ἐπιδημῶν τῆ διδασκαλία ἑαυτοῦ, τὴν ἐκείνων θρησκείαν παύει· καὶ τὴν φαντασίαν αὐτῶν καταισχύνει· <hi rend="ekthesis">π</hi>ολλοὶ πρὸ τούτου γεγόνασι βασιλεῖς· καὶ τύραννοι γῆς πολλοὶ παρὰ χαλδαίοις ἱστοροῦνται· καὶ παρ' αἰγυπτίοις καὶ ἰνδοῖς γενόμενοι σοφοὶ καὶ μάγοι· τίς τούτων ποτὲ, οὐ λέγω μετὰ θάνατον, ἀλλὰ καὶ ἔτι  ζῶν ἠδυνήθη τοσοῦτον ἰσχῦσαι, ὥστε τὴν σύμπασαν αὐτὸν γῆν πληρῶσαι τῆς αὐτοῦ διδασκαλίας· καὶ τοσοῦτον πλῆθος παιδεῦσαι ἀπὸ τῆς τῶν εἰδώλων δεισιδαιμονίας, ὅσους ὁ ἡμέτερος <choice>
                         <expan>σωτὴρ</expan>
                         <abbr type="nomSac">
-                            <hi rend="overli8ne">σὴρ</hi>
+                            <hi rend="overline">σὴρ</hi>
                         </abbr>
                     </choice> εἰς ἑαυτὸν ἀπὸ τῶν εἰδώλων με<pb n="75r" break="no"/>τήνεγκεν· <gap reason="fenestra" quantity="3" unit="character"/>ἑλλήνων οἱ φιλόσοφοι μετὰ πιθανότη<hi rend="ekthesis">τ</hi>ος καὶ τέχνης λόγων, πολλὰ συνέγραψαν· τί οὖν τοσοῦτον ὅσον ὁ τοῦ <choice>
                         <expan>χριστοῦ</expan>
