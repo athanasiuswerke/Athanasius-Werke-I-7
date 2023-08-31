@@ -3,12 +3,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml·lang="la">De incarnatione</title>
+                <title xml:lang="la">De incarnatione</title>
                 <author>
                     <persName key="pta0022">Athanasius Alexandrinus</persName>
                 </author>
                 <editor>
-                <persName xml·id="KS">Kyriakos Savvidis</persName>
+                <persName xml:id="KS">Kyriakos Savvidis</persName>
                 </editor>
                 <funder>Deutsche Forschungsgemeinschaft</funder>
             </titleStmt>
@@ -95,7 +95,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="edition" xml·lang="grc" n="urn:cts:pta:pta0022.pta001.pta-edition">
+            <div type="edition" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-edition">
      <head>
         <title><pb edRef="#Migne" n="4"/><pb edRef="#Johnson" n="2"/>
             <persName ref="https://lobid.org/gnd/118504843">Ἀθανασίου ἀρχιεπισκόπου Ἀλεξανδρείας</persName>
