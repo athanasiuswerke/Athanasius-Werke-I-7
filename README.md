@@ -1,14 +1,23 @@
 # Athanasius Alexandrinus, Contra gentes und De incarnatione
 
-## Transkriptionen und Edition
+## Edition
 
-Die Transkriptionen und die Edition sind im Ordner `data`.
+Die Transkriptionen und die beiden Edition befinden sich im Ordner `data`. 
 
+**Stand 31.8.2023** ist die Edition von **„Contra gentes“** abgeschlossen und liegt in der Datei `pta0022.pta001.pta-grc1.xml` vor, die Transkriptionen aller Handschriften liegen in den Dateien `pta0022.pta001.pta-MsXX.xml` (wobei `XX` die jeweilige Handschriftensigle ist) vor. Diese Dateien werden nach kleineren, noch durchzuführenden technischen Korrekturen ins [Patristische Textarchiv (PTA)](https://pta.bbaw.de) überführt und sind dann unter der URL <https://pta.bbaw.de/text/urn:cts:pta:pta0022.pta001> zu erreichen.
+
+Die Transkriptionen `pta0022.pta002.pta-MsXX.xml` (wobei `XX` die jeweilige Handschriftensigle ist) und die Edition `pta0022.pta002.pta-grc1.xml` von **„De incarnatione“** stellen einen noch sehr vorläufigen Arbeitsstand dar. Die Weiterbearbeitung ist projektiert. 
+
+Alle vorliegende Transkriptionen und Editionen wurden von Kyriakos Savvidis erstellt.
+
+Dieser Stand hat die [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8377009.svg)](https://doi.org/10.5281/zenodo.8377009).
+
+## Technisches
 ### Transkriptionsregeln
 
-Die aktuellen Transkriptionsregeln sind am besten hier einzusehen: https://pta.bbaw.de/pta/project/encoding-guidelines.
+Die aktuellen Transkriptionsregeln sind am besten hier einzusehen: https://pta.bbaw.de/project/encoding-guidelines.
 
-## Preview-Funktion
+### Preview-Funktion (für Transkriptionen)
 
 - Python3: Mit Hilfe des Skriptes `server.py` kann ein Webserver gestartet werden:
 
