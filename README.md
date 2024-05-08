@@ -10,6 +10,8 @@ Die Transkriptionen `pta0022.pta002.pta-MsXX.xml` (wobei `XX` die jeweilige Hand
 
 Alle vorliegende Transkriptionen und Editionen wurden von Kyriakos Savvidis erstellt.
 
+Dieser Stand hat die [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8377009.svg)](https://doi.org/10.5281/zenodo.8377009).
+
 ## Technisches
 ### Transkriptionsregeln
 
