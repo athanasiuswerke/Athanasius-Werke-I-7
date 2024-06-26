@@ -10,6 +10,7 @@
             </author>
             <editor>
                <persName xml:id="KS">Kyriakos Savvidis</persName>
+               <roleName>Editor</roleName>
             </editor>
             <funder>Deutsche Forschungsgemeinschaft</funder>
          </titleStmt>
@@ -431,10 +432,86 @@
                <p><!--Usage (and/or normalisation) of full stop, comma, semicolon, question mark, dash and parenthesis--></p>
             </punctuation>
          </editorialDecl>
-         <variantEncoding method="parallel-segmentation" location="internal"/>
+         <classDecl>
+            <taxonomy xml:id="comphistsem">
+               <bibl>
+          Text Type Classification by <ref target="https://www.comphistsem.org/46.html">"Computational Historical Semantics</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="editionstatus">
+               <bibl>
+          Patristic Text Archive Status of edition
+        </bibl>
+               <category xml:id="critical-edition">
+                  <catDesc>
+            Critical edition in which the text-critical variants have been encoded.
+          </catDesc>
+               </category>
+               <category xml:id="critical-edition-no-app">
+                  <catDesc>
+            Critical edition in which the text-critical variants have not been encoded, e.g. because it is a retro-digitisation of a printed critical edition and for copyright reasons the apparatus cannot be included in the retro-digitisation.
+          </catDesc>
+               </category>
+               <category xml:id="critical-edition-outdated">
+                  <catDesc>
+              Edition which notes text-critical variants, but does not, for example, comprehensively include the manuscripts.
+            </catDesc>
+               </category>
+               <category xml:id="pre-critical-edition">
+                  <catDesc>
+              Pre-modern editions (e.g. editions in the Patrologia Graeca or Latina)
+            </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="annotationstatus">
+               <bibl>
+          Patristic Text Archive Status of annotation
+        </bibl>
+               <category xml:id="fully-annotated">
+                  <catDesc>
+            All instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+          </catDesc>
+               </category>
+               <category xml:id="partially-annotated">
+                  <catDesc>
+            Some instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+          </catDesc>
+               </category>
+               <category xml:id="not-annotated">
+                  <catDesc>
+            No instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+          </catDesc>
+               </category>
+               <category xml:id="fully-identified">
+                  <catDesc>
+            All encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data.
+          </catDesc>
+               </category>
+               <category xml:id="partially-identified">
+                  <catDesc>
+            Some encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data
+          </catDesc>
+               </category>
+               <category xml:id="not-identified">
+                  <catDesc>
+            No encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data.
+          </catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <schemaRef key="v3"
+                    url="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng"/>
       </encodingDesc>
       <profileDesc>
+         <creation>
+            <date notBefore="0328" notAfter="0373"/>
+            <placeName>?</placeName>
+         </creation>
          <textClass>
+            <keywords scheme="#comphistsem">
+               <term>Theological</term>
+               <term>Polemics</term>
+            </keywords>
             <keywords scheme="#editionstatus">
                <term>critical-edition</term>
             </keywords>
@@ -444,7 +521,7 @@
          <change when="2024-06-26" who="#AvS">
           Updated file to comply with version 3.0 of <ref target="https://github.com/PatristicTextArchive/Schema">TEI-PTA-Schema</ref>
          </change>
-         <change who="#KS" when="2023-08-31">Vorläufige FAssung</change>
+         <change who="#KS" when="2023-08-31">Vorläufige Fassung</change>
          <change who="#KS" when="2021-07-04">Beginn</change>
       </revisionDesc>
    </teiHeader>

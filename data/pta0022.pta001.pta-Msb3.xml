@@ -1,76 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="la">Contra gentes (Ms b3)</title>
-        <author>
-          <persName key="pta0022">Athanasius Alexandrinus</persName>
-        </author>
-        <respStmt>
-          <resp>transkribiert von</resp>
-          <persName xml:id="KS">Kyriakos Savvidis</persName>
-        </respStmt>
-        <funder>Deutsche Forschungsgemeinschaft</funder>
-      </titleStmt>
-      <editionStmt>
-        <p>New transcription.</p>
-      </editionStmt>
-      <publicationStmt>
-        <authority>Patristische Arbeitsstelle Bochum</authority>
-        <distributor>Patristic Text Archive</distributor>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
-        </availability>
-        <date>2018</date>
-        <idno type="PTA">pta0022.pta001</idno>
-        <idno type="TLG">tlg2035.tlg001</idno>
-        <idno type="CPG">2090</idno>
-        <idno type="BHG"/>
-        <idno type="Aldama"/>
-        <idno type="Pinakes-Oeuvre">1759</idno>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier xml:id="Genf_29_III_892">
-            <settlement>Genf</settlement>
-            <repository>Universitätsbibliothek</repository>
-            <idno>Genevensis gr. 29 Tomus III</idno>
-            <altIdentifier type="diktyon">
-              <idno>b3</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-            <handDesc hands="1">
-              <handNote xml:id="m1">Schreiber I</handNote>
-            </handDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='transcription']/tei:div[@n='$1'])"/>
-      </refsDecl>
-    </encodingDesc>
-    <revisionDesc>
-      <change who="#KS" when="2021-04-03">Transkription des Textes anhand des Mikrofilms</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="transcription" xml:lang="grc" n="urn:cts:pta:pta0022.pta001.pta-Msb3">
-        <pb n="2r"/>
-        <head>
-          <title>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="la">Contra gentes (Ms b3)</title>
+            <author>
+               <persName key="pta0022">Athanasius Alexandrinus</persName>
+            </author>
+            <respStmt>
+               <resp>transkribiert von</resp>
+               <persName xml:id="KS">Kyriakos Savvidis</persName>
+            </respStmt>
+            <funder>Deutsche Forschungsgemeinschaft</funder>
+         </titleStmt>
+         <editionStmt>
+            <p>New transcription.</p>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Patristische Arbeitsstelle Bochum</authority>
+            <distributor>Patristic Text Archive</distributor>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution ShareAlike 4.0 International License</licence>
+            </availability>
+            <date>2018</date>
+            <idno type="PTA">pta0022.pta001</idno>
+            <idno type="TLG">tlg2035.tlg001</idno>
+            <idno type="CPG">2090</idno>
+            <idno type="BHG"/>
+            <idno type="Aldama"/>
+            <idno type="Pinakes-Oeuvre">1759</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier xml:id="Genf_29_III_892">
+                  <settlement>Genf</settlement>
+                  <repository>Universitätsbibliothek</repository>
+                  <idno>Genevensis gr. 29 Tomus III</idno>
+                  <altIdentifier type="diktyon">
+                     <idno>b3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc hands="1">
+                     <handNote xml:id="m1">Schreiber I</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="section"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl xml:id="biblical">
+            <cRefPattern matchPattern="(.+):(.+):([0-9]+):([0-9]+)[\-\.]*[0-9]*"
+                         replacementPattern="https://www.bibelwissenschaft.de/bibelstelle/$2$3,$4/$1">
+               <p>Referenzen beziehen sich auf biblisches Buch, Kapitel, Vers, sc. LXX:Gn:1:1; ebenso möglich ist: LXX:Gn:1:1-3 für eine Reihe von Versenen oder LXX:Gn:1:1.3 für zwei Verse, die nicht aufeinander folgen.</p>
+               <p>Es werden die folgenden Abkürzungen verwendet: Gn, Ex, Lv, Num, Dt, Jos, Judg, Rt, 1Sa, 2Sa, 1Ko, 2Ko, 1Chr, 2Chr, 3Esr, Esr, Est, Jdt, Tob, 1Mak, 2Mak, 3Mak, 4Mak, Ps, Oden, Prov, Eccl, Song, Job, Wis, Sir, PsSal, Hos, Am, Mi, Joel, Ob, Jon, Nah, Hab, Zeph, Hag, Sach, Mal, Is, Jr, Bar, Lam, EpistJer, Hes, Sus, Dn, Bel; Mt, Mk, Lk, Jn, Act, Rom, 1Cor, 2Cor, Gal, Eph, Phil, Col, 1Th, 2Th, 1Tim, 2Tim, Tt, Phm, Heb, Jak, 1P, 2P, 1Jn, 2Jn, 3Jn, Jud, Rev.</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(.+):(.+):([0-9]+)[\-\.]*[0-9]*"
+                         replacementPattern="https://www.bibelwissenschaft.de/bibelstelle/$2$3/$1">
+               <p>Referenzen beziehen sich auf biblisches Buch, Kapitel, sc. LXX:Gn:1; ebenso möglich ist: LXX:Gn:1-3 für eine Reihe von Kapiteln oder LXX:Gn:1.3 für zwei Kapitel, die nicht aufeinander folgen.</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(.+):(.+)"
+                         replacementPattern="https://www.bibelwissenschaft.de/bibelstelle/$2/$1">
+               <p>Referenzen beziehen sich auf biblisches Buch, sc. LXX:Gn.</p>
+            </cRefPattern>
+         </refsDecl>
+         <refsDecl xml:id="pta">
+            <cRefPattern matchPattern="(.+)" replacementPattern="https://pta.bbaw.de/text/$1">
+               <p>References to PTA-CTS-URNs</p>
+            </cRefPattern>
+         </refsDecl>
+         <refsDecl xml:id="perseus">
+            <cRefPattern matchPattern="(.+)"
+                         replacementPattern="https://scaife.perseus.org/reader/$1">
+               <p>References to Perseus-CTS-URNs</p>
+            </cRefPattern>
+         </refsDecl>
+         <editorialDecl>
+            <interpretation>
+               <p>
+            This file is encoded according to the guidelines of the Patristic Text Archive (PTA). See <ref target="https://pta.bbaw.de/project/encoding-guidelines">https://pta.bbaw.de/project/encoding-guidelines</ref> and <ref target="https://doi.org/10.5281/zenodo.3737666">https://doi.org/10.5281/zenodo.3737666</ref>.
+          </p>
+               <p xml:id="biblical-quotations"
+                  ana="not-annotated not-identified">
+            Biblical quotations are not annotated and not referenced. References follow the scheme declared <ref target="#biblical">above</ref>.
+          </p>
+               <p xml:id="other-references"
+                  ana="not-annotated not-identified">
+            Other references are not annotated and not referenced. References to texts in the PTA follow the scheme declared <ref target="#pta">above (pta)</ref>, references to texts available in the <ref target="https://scaife.perseus.org/">Perseus Digital Library</ref> follow the scheme declared <ref target="#perseus">above (perseus)</ref>. If the referenced text is not available in either repository, the reference for the referenced text is given in the attribute @source in the form “Authorabbrev_Workabbrev_Location”; ancient Greek authors should be referenced according to the lists of H. G. Liddell/R. Scott/H. S. Jones, A Greek - English Lexicon, Oxford 1968 (9th edition) and G. W. H. Lampe, A Patristic Greek Lexicon, Oxford 1987 (3rd edition), for Latin ones the abbreviations of the Thesaurus Linguae Latinae (cf. Index librorum scriptorum inscriptionum ex quibus exempla afferuntur) should be used, with dots in the abbreviations deleted without replacement.
+          </p>
+               <p xml:id="persons"
+                  ana="not-annotated not-identified">
+            Persons are not annotated and not referenced with IDs according to the <ref target="https://github.com/PatristicTextArchive/tipnr_data">TIPNR - Tyndale Individualised Proper Names with all References</ref> list for biblical persons and IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_persons.json">PTA persons index</ref> for all other persons.
+          </p>
+               <p xml:id="groups"
+                  ana="not-annotated not-identified">
+            Groups of persons and organisations are not annotated and not referenced with IDs according to the IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_groups.json">PTA groups index</ref> for all other groups.
+          </p>
+               <p xml:id="places"
+                  ana="not-annotated not-identified">
+            Places are not annotated and not referenced with <ref target="https://pleiades.stoa.org/">Pleiades Gazetteer</ref> IDs.
+          </p>
+            </interpretation>
+            <normalization>
+               <p><!--Usage of capitalisation, ν-ephelkystikon, σ: οὕτως, Iota subscriptum/adscriptum, Trema, Enclitics, apostroph/elisions, number signs, splitting of words, nomina sacra, ...--></p>
+            </normalization>
+            <punctuation>
+               <p><!--Usage (and/or normalisation) of full stop, comma, semicolon, question mark, dash and parenthesis--></p>
+            </punctuation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="comphistsem">
+               <bibl>
+          Text Type Classification by <ref target="https://www.comphistsem.org/46.html">"Computational Historical Semantics</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="editionstatus">
+               <bibl>
+          Patristic Text Archive Status of edition
+        </bibl>
+               <category xml:id="critical-edition">
+                  <catDesc>
+            Critical edition in which the text-critical variants have been encoded.
+          </catDesc>
+               </category>
+               <category xml:id="critical-edition-no-app">
+                  <catDesc>
+            Critical edition in which the text-critical variants have not been encoded, e.g. because it is a retro-digitisation of a printed critical edition and for copyright reasons the apparatus cannot be included in the retro-digitisation.
+          </catDesc>
+               </category>
+               <category xml:id="critical-edition-outdated">
+                  <catDesc>
+              Edition which notes text-critical variants, but does not, for example, comprehensively include the manuscripts.
+            </catDesc>
+               </category>
+               <category xml:id="pre-critical-edition">
+                  <catDesc>
+              Pre-modern editions (e.g. editions in the Patrologia Graeca or Latina)
+            </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="annotationstatus">
+               <bibl>
+          Patristic Text Archive Status of annotation
+        </bibl>
+               <category xml:id="fully-annotated">
+                  <catDesc>
+            All instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+          </catDesc>
+               </category>
+               <category xml:id="partially-annotated">
+                  <catDesc>
+            Some instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+          </catDesc>
+               </category>
+               <category xml:id="not-annotated">
+                  <catDesc>
+            No instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+          </catDesc>
+               </category>
+               <category xml:id="fully-identified">
+                  <catDesc>
+            All encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data.
+          </catDesc>
+               </category>
+               <category xml:id="partially-identified">
+                  <catDesc>
+            Some encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data
+          </catDesc>
+               </category>
+               <category xml:id="not-identified">
+                  <catDesc>
+            No encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data.
+          </catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <schemaRef key="v3"
+                    url="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng"/>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore="0328" notAfter="0373"/>
+            <placeName>?</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="#comphistsem">
+               <term>Theological</term>
+               <term>Polemics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2024-06-26" who="#AvS">
+          Updated file to comply with version 3.0 of <ref target="https://github.com/PatristicTextArchive/Schema">TEI-PTA-Schema</ref>
+         </change>
+         <change who="#KS" when="2021-04-03">Transkription des Textes anhand des Mikrofilms</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              xml:lang="grc"
+              n="urn:cts:pta:pta0022.pta001.pta-Msb3">
+            <pb n="2r"/>
+            <head>
+               <title>
             τοῖς ἐν ἀγίοις πρὸς ἡμῶν ἀθανασίου ἀλεξανδρίας
             <lb/>
             ἀρχιεπισκόπου κατὰ εἰδώλων
           </title>
-        </head>
-        <div type="textpart" subtype="section" n="1">
-           <p> <hi rend="ekthesis">ἡ</hi> μὲν περὶ τῆς θεοσεβείας καὶ τῆς τῶν ὅλων ἀληθείας
+            </head>
+            <div type="textpart" subtype="section" n="1">
+               <p>
+                  <hi rend="ekthesis">ἡ</hi> μὲν περὶ τῆς θεοσεβείας καὶ τῆς τῶν ὅλων ἀληθείας
             <lb/>
             γνῶσις, οὐ τοσοῦτον περὶ τῆς τῶν ἀνθρώπων διδασκα
             <lb break="no"/>
@@ -95,9 +244,9 @@
             γάρ εἰσιν αἱ ἄγει καὶ θεόπνευσται γραφαὶ πρὸς
             <lb/>
             τὴν τῆς ἀληθείας ἀπαγγέλ<subst>
-                <del rend="strikethrough">ίεται</del>
-                <add place="above">ίεν</add>
-            </subst>· εἰσὶ δὲ καὶ
+                     <del rend="strikethrough">ίεται</del>
+                     <add place="above">ίεν</add>
+                  </subst>· εἰσὶ δὲ καὶ
             <lb/>
             πολλοὶ τῶν μακαριῶν ἡμῶν διδασκαλῶν,
             <lb/>
@@ -198,9 +347,9 @@
             πεπίστευκας· καὶ τὸν χριστὸν γινώσκων, οὐκ ἠπατήθες
             <lb/>
             πατήθες· πρέπ<subst>
-                <del rend="strikethrough">η</del>
-                <add place="above">ει</add>
-            </subst>ειν δὲ, σοι ἡγοῦμαι φιλο
+                     <del rend="strikethrough">η</del>
+                     <add place="above">ει</add>
+                  </subst>ειν δὲ, σοι ἡγοῦμαι φιλο
             <lb break="no"/>
             χριστώ ὄντι τὰ περὶ χριστοῦ διαλέγεσθαι·
             <lb/>
@@ -208,7 +357,7 @@
             <lb/>
             γνῶσιν καὶ πίστιν· ἤγεῖσθαι σε πεπίστευκα.
             <lb/>
-            <hi rend="ekthesis">ἐ</hi>
+                  <hi rend="ekthesis">ἐ</hi>
             ξ ἀρχῆς μὲν οὐκ ἦν κακία, οὐδὲ γὰρ
             <lb/>
             οὐδὲ νῦν ἐν τοῖς ἁγίοις ἐστὶν, οὐδ’ ὅλως
@@ -257,11 +406,11 @@
             <lb/>
             φαντασίας γινόμενος πρὸς δὲ τὰ ἐν
             <choice>
-              <expan>οὐρανοῖς</expan>
-              <abbr type="nomSac">
-                <hi rend="overline">οὐνοῖς</hi>
-              </abbr>
-            </choice>
+                     <expan>οὐρανοῖς</expan>
+                     <abbr type="nomSac">
+                        <hi rend="overline">οὐνοῖς</hi>
+                     </abbr>
+                  </choice>
             θεῖα καὶ
             <lb/>
             νοητὰ, τῇ δυνάμει τῶν σρι συναπτόμενος· ὅτι γὰρ
@@ -301,10 +450,10 @@
             οὕτω μὲν οὖν ὁ δημιουργὸς ὥσπερ εἴριται τὸ τῶν ἀνθρώπων
             <lb/>
             γένος
-            <subst>κατεσ
+            κατεσ<subst>
               <del>χ</del>
-              <add place="inline">κ</add>εύασθαι
-            </subst>
+                     <add place="inline">κ</add>
+            </subst>εύασθαι
             ἠθέλεν μένειν. oἱ δὲ ἄνθρωποι κατο
             <lb break="no"/>
             λιγωρίσαντες τῶν κρειττόνων καὶ ὀκνήσαντες περὶ τὴν τούτων
@@ -375,9 +524,9 @@
             <lb/>
             καὶ ταῖς κατὰ μέρος τοῦ σώματος ἐν ἐργείαις
             <subst>
-              <del>χρωμένη</del>
-              <add place="inline">χειρωμένη</add>
-            </subst>
+                     <del>χρωμένη</del>
+                     <add place="inline">χειρωμένη</add>
+                  </subst>
             . καὶ ἡσθεῖσα
             <lb/>
             τῆ τοῦ σώματος θεωρία καὶ ἰδοῦσα καλὸν ἐαυτῆ εἶναι τὴν
@@ -403,20 +552,21 @@
             πενόημεν ἐπιθυμίας· ἐπ’εἰ καὶ αὐτερουσιος γέγονε. δύναται
             <lb/>
             γὰρ ὥστε πρὸς τὸ καλὸν νεύειν. οὕτως καὶ τὰ καλὰ ἀποστρέ<subst>
-                <del rend="strikethrough">σθαι</del>
-                <add place="inline"><lb break="no"/>φεσθαι</add>
-            </subst>
+                     <del rend="strikethrough">σθαι</del>
+                     <add place="inline">
+                        <lb break="no"/>φεσθαι</add>
+                  </subst>
             · ἀποστρεφομένη δὲ τὸ καλον, πάντως τὰ ἐναντία
             <lb/>
             λογίζεται· παύσασθαι γᾶρ καθόλου τοῦ κινεῖσθαι οὐ δύναται
             <lb/>
             τὴν φύσιν οὖ<subst>
-                <del rend="overwrite">του</del>
-                <add place="above">σα</add>
-            </subst> ὡς προ εἶπ<subst>
-                <del rend="overwrite">ες</del>
-                <add place="inline">ον</add>
-            </subst> εὐκίνητος. καὶ γινώσκουσα τὸ
+                     <del rend="overwrite">του</del>
+                     <add place="above">σα</add>
+                  </subst> ὡς προ εἶπ<subst>
+                     <del rend="overwrite">ες</del>
+                     <add place="inline">ον</add>
+                  </subst> εὐκίνητος. καὶ γινώσκουσα τὸ
             <lb/>
             αὐτερούσιον ἐαυτῆς· ὁρᾶ ἐαυτὴν δύνασθαι κατ’ ἀμφότερα
             <lb/>
@@ -433,16 +583,16 @@
             δὲ καὶ διὰ τῆς παναρμονίου ταύτα συντάξεως γινώσκον·
             <lb/>
             τὸν δημιουργὸν· ἔχοντος δὲ ἀκοὴν εἰς ἐπακρόασ<subst>
-                <del rend="overwrite">ει</del>
-                <add place="inline">ὴ</add>
-            </subst>ν τῶν
+                     <del rend="overwrite">ει</del>
+                     <add place="inline">ὴ</add>
+                  </subst>ν τῶν
             <lb/>
             θειῶν λογῶν. καὶ τῶν τοῦ θεοῦ νόμων. ἔχοντος δὲ χεῖρας
             <lb/>
             εἴς τα τὴν τῶν ἀναγκαίων ἐνέργειαν· καὶ ἔκτασ<subst>
-                <del rend="strikethrough">ει</del>
-                <add place="above">ιν</add>
-            </subst> τῆς
+                     <del rend="strikethrough">ει</del>
+                     <add place="above">ιν</add>
+                  </subst> τῆς
             <lb/>
             πρὸς τὸν θεὸν εὐχῆς· ἡ ψυχῆ ἀποστᾶσα τῆς πρὸς τὰ καλὰ
             <lb/>
@@ -788,7 +938,7 @@
             <lb/>
             καὶ τὴν ξηρὰν καὶ τὴν ὑγρὰν οὐσίαν θεοὺς ἀν
             <gap reason="damage" quantity="7" unit="character"/>
-            <lb/>
+                  <lb/>
             ὡς δὴ ἱ τέλεον πεσόντος περὶ τὴν γῆν. ἰλυσπῶνται δήκην
             <lb/>
             τῶν ἐν τη χέρσω κοχλιων αὐτως οἱὰ σεβέστατοι τῶν
@@ -817,7 +967,7 @@
             <lb/>
             τόλμα· καὶ μὴπερ αἰτέρω βαίνοντες ἐαυτους ταῖς ἀσεβε
             <gap reason="damage" quantity="4" unit="character"/>
-            <pb n="7r"/>ἐν ἐφυρον, τοσοῦτον γάρ τινες καταπεπτώκασι τῇ διανοία<lb/>
+                  <pb n="7r"/>ἐν ἐφυρον, τοσοῦτον γάρ τινες καταπεπτώκασι τῇ διανοία<lb/>
             καὶ ἐσκοτίσθηνεν τὸν νοῦν ὡστε καὶ τὰ μὴ δόλως μὴ δαμῶς<lb/>
             ἁπαρχοντι μὴ δ’ἐν τοῖς γενομέθα φαινόμεθα, ὅμως ἐαυτοὺς <lb/>
             ἐπὶ νοῆσαι καὶ θεος ποιῆται. λογικὰ γὰρ ἀλόγοις ἐπιμίξαντες <lb/>
@@ -895,7 +1045,7 @@
             <lb/>
             ἀπεχθάνονται τούτους ὡς πολεμίους τὴν φ
             <gap reason="damage" quantity="5" unit="character"/>
-            <lb/>
+                  <lb/>
             ὁμολογοῦσι καὶ ἀνθρώπους ὁνομάζουσιν· οὓς δὲ καταθι
             <lb break="no"/>
             μίους ἔχουσι τούτους δι’ ἀγραθίαν θρησκεύεσθαι
@@ -996,10 +1146,10 @@
             <lb/>
             δόκησιν ὁρῶντες παραμυθῶνται· τούτοις ὅμως
             <subst>
-              <del rend="strikethrough">αἵ</del>
-              <add place="inline">οἵ</add>
-            </subst>
-            <lb/>
+                     <del rend="strikethrough">αἵ</del>
+                     <add place="inline">οἵ</add>
+                  </subst>
+                  <lb/>
             ἄφρονες ὡς θεοῖς εὔχωνται, καὶ τὴν τοῦ ἀληθινοῦ θεοῦ
             <lb/>
             τιμὴν τούτοις περὶ τιθέασιν· ἐν γοῦν αἰγύπτῳ εἰς ἔτι
@@ -1044,9 +1194,9 @@
             <gap reason="fenestra" quantity="4" unit="character"/>
             ὡς νόμος
             <subst>
-              <del rend="strikethrough">ἐφυλόχριστος</del>
-              <add place="inline">ἐφυλό</add>
-            </subst>
+                     <del rend="strikethrough">ἐφυλόχριστος</del>
+                     <add place="inline">ἐφυλό</add>
+                  </subst>
             · καὶ τυράννων
             <lb/>
             ἐπὶ ταγεις ἐθρησκεύετο γλυπατον οὒς ἐν ὄψει μὴδενα
@@ -1064,18 +1214,18 @@
             μία· ὁ μὲν γὰρ ἴσως τῷ κρατοῦντι· βουλόμενος ἀρέσθαι
             <lb/>
             ἐξεβιάσατο τῇ τεχνὴ τὴν ὁμο<subst>
-                <del rend="overwrite">ώ</del>
-                <add place="inline">ό</add>
-            </subst>τητι ἐπὶ τὸ κάλλιον
+                     <del rend="overwrite">ώ</del>
+                     <add place="inline">ό</add>
+                  </subst>τητι ἐπὶ τὸ κάλλιον
             <lb/>
             τὸ δὲ πλῆθους ἐφελκόμεν διὰ τὸ εὐχαρην τῆς ἐργασίας
             <lb/>
             τὸν προ ὁλίγον τιμη θνι
             <gap reason="fenestra" quantity="3" unit="character"/>
             ἄνθρώ<subst>
-                <del rend="overwrite">πινον</del>
-                <add place="inline">πον</add>
-            </subst>· νῦν σέβασμα
+                     <del rend="overwrite">πινον</del>
+                     <add place="inline">πον</add>
+                  </subst>· νῦν σέβασμα
             <lb/>
             ἐλογίσαντο καὶ τοῦτο ἐγεγόνει τῷ βίῳ εἰς ἔνεδρον· ὅτι ἢ
             <lb/>
@@ -1095,14 +1245,14 @@
             <lb break="no"/>
             βανόντας εἰ γὰρ τις
             <subst>
-              <del rend="strikethrough">τῶν</del>
-              <add place="inline">τοὺς</add>
-            </subst>
+                     <del rend="strikethrough">τῶν</del>
+                     <add place="inline">τοὺς</add>
+                  </subst>
             παρ’ αὐτοῖς λεγομένον
             <subst>
-              <del rend="strikethrough">θεοὺς</del>
-              <add place="inline">θεῶν</add>
-            </subst>
+                     <del rend="strikethrough">θεοὺς</del>
+                     <add place="inline">θεῶν</add>
+                  </subst>
             .
             <lb/>
             ἴνα πρῶτον ἀπὸ τούτων κάτα ἀρξωμενοι λάβοι τὰς
@@ -1117,14 +1267,14 @@
             <lb/>
             γανυμήδην καὶ τὰς κλοπιμαίους ἐργαζόμενον
             <subst>
-              <del rend="strikethrough">μαιχεζῖας</del>
-              <add place="inline">μοιχείας</add>
-            </subst>
+                     <del rend="strikethrough">μαιχεζῖας</del>
+                     <add place="inline">μοιχείας</add>
+                  </subst>
             δεδιῶ τὰ δὲ καὶ δηλιῶντα μὴ παρὰ
             <subst>
-              <del rend="strikethrough">γνώμμον</del>
-              <add place="inline">γνώμην</add>
-            </subst>
+                     <del rend="strikethrough">γνώμμον</del>
+                     <add place="inline">γνώμην</add>
+                  </subst>
             αὐτοῦ τὰ τῶν τρωῶν ἀπόχηται τείχη. οἷόν
             <lb/>
             ἐστὶν ἰδεῖν αὐτὸν ἀχθόμενον ἐπὶ τῷ θανάτω τοῦ ὑέος
@@ -1176,17 +1326,17 @@
             τίς ἰδὼν τὴν τῶν <del rend="strikethrough">μεν</del> λεγομένων θεῶν ἀκατάλλακτον πρὸς
             <lb/>
             ἐαυτοὺς ἔριν, ἐν ἰλί<subst>
-                <del rend="overwrite">ου</del>
-                <add place="inline">ῳ</add>
-            </subst> τῶν ἑλλήνων καὶ την πρῶ χάριν οὐ
+                     <del rend="overwrite">ου</del>
+                     <add place="inline">ῳ</add>
+                  </subst> τῶν ἑλλήνων καὶ την πρῶ χάριν οὐ
             <lb/>
             καταγνώσεται τῆς ἀυθονήας αὐτῶν· ὄτι διὰ τὴν πρὸς ἀλλή
             <lb break="no"/>
             λους
             <subst>
-              <del rend="strikethrough">φιλονεικίαν</del>
-              <add place="inline">φιλονηκίαν</add>
-            </subst>
+                     <del rend="strikethrough">φιλονεικίαν</del>
+                     <add place="inline">φιλονηκίαν</add>
+                  </subst>
             , καὶ τοὺς ἀνθρωπους παρόξυνεν· τίς ἰδὼν<lb/>
             μὲν διομήδους τι τρωσκομένους ἄρεα καὶ ἀφροδίτην.
             <lb/>
@@ -1287,9 +1437,9 @@
             αὐτοὺς προσκυνεῖν· ἤπερ τὰ ὑπ’ αὐτοῦ πεποιημένα· ὅτι τὲ καὶ
             <lb/>
             ὑπῆρχε τῶν ἐκ τέχνεῖς θεῶν· καὶ ὅτι ὡς ἰβο<subst>
-                <del rend="overwrite">ύλη</del>
-                <add place="inline">υλή</add>
-            </subst>θα, οὐτω καὶ
+                     <del rend="overwrite">ύλη</del>
+                     <add place="inline">υλή</add>
+                  </subst>θα, οὐτω καὶ
             <lb/>
             γεγόνασι. νῦν δὲ παρεικήνυνισάμενοι τὸ δίκαιον. καὶ τὴν
             <lb/>
@@ -1326,10 +1476,10 @@
             <lb/>
             ἐστὶ περ τῆς θείας γραφῆς προδιδασκούσης
             <subst>
-              <del rend="strikethrough">ἄνθρωπου</del>
-              <add place="inline">ἄν</add>
-            </subst>
-            <lb/>καὶ λέγούσης· τὰ ειδωλα τῶν ἐθνῶν ἀργύριον καὶ χρυσίον ἔργα
+                     <del rend="strikethrough">ἄνθρωπου</del>
+                     <add place="inline">ἄν</add>
+                  </subst>
+                  <lb/>καὶ λέγούσης· τὰ ειδωλα τῶν ἐθνῶν ἀργύριον καὶ χρυσίον ἔργα
             <lb/>
             χεῖρ ἀνθρώπων· στόμα ἐχουσι καὶ οὐ λαλήσουσιν· ὀφθαλμοὺς
             <lb/>
@@ -1344,18 +1494,18 @@
             μέμψις, ἀλλ’ ἐστὶ καὶ ἐν τούτοις ὁ κατ’ αὐτῶν ἔλεγχος λέγοντος
             <lb/>
             τοῦ πνεῦματος· <subst>
-              <del rend="strikethrough">
-                <hi rend="initial">ε</hi>
+                     <del rend="strikethrough">
+                        <hi rend="initial">ε</hi>
                 ἰσχυνθήσ<subst>
-                    <del rend="overwrite">α</del>
-                    <add place="inline">ο</add>
-                </subst>νται
+                           <del rend="overwrite">α</del>
+                           <add place="inline">ο</add>
+                        </subst>νται
               </del>
-              <add place="inline">
-                <add place="above">α</add>
+                     <add place="inline">
+                        <add place="above">α</add>
                 ἰσχυνθήσονται
               </add>
-            </subst> οἱ πλάσαντες θεὸν καὶ γλύ
+                  </subst> οἱ πλάσαντες θεὸν καὶ γλύ
             <lb break="no"/>
             φοντες πάντες μάταιας, καὶ πάντες ὁ θεὸν ἐγένοντο ἐξηράν
             <lb break="no"/>
@@ -1372,9 +1522,9 @@
             ἔστησεν αὐτὸ ἐν μέτρω· καὶ ἐν κόλλη ἐρύθρωασεν αὐτὸ,
             <lb/>
             καὶ ἐποίησιν αὐτὸ ὡς μορφὴν ἀνδρὸς· καὶ ὡς <subst>
-                <del rend="overwrite">ὠ</del>
-                <add place="inline">ὡ</add>
-            </subst>ραιότητα
+                     <del rend="overwrite">ὠ</del>
+                     <add place="inline">ὡ</add>
+                  </subst>ραιότητα
             <lb/>
             ἀνθρώπου· ἔστη ἐν αὐτὸ ἐν οἴκῳ ὥ ἐκοψε ξύλον ἐκ τοῦ
             <lb/>
@@ -1405,16 +1555,16 @@
             ἀνθράκων αὐτοῦ ἀρτοὺς καὶ ὁπτήας κρέας ἔφαγε, καὶ τὸ
             <lb/>
             λοιπὸν αὐτοῦ εἰς βδέλυ<subst>
-                <del>μ</del>
-                <add place="above">γ</add>
-            </subst>μα ἐποίησε, καὶ προσκυνοῦσιν
+                     <del>μ</del>
+                     <add place="above">γ</add>
+                  </subst>μα ἐποίησε, καὶ προσκυνοῦσιν
             <lb/>
             αὐτό. γνῶθι ὅτις ποδὸς ἡ καρδία αὐτοῦ καὶ πλανῶνται
             <lb/>
             καὶ οὐδεὶς δύναται ἐξελέσθαι τὴν ψυχὴν αὐτοῦ· ἵδετε καὶ
             <lb/>
             οὐκ ἐρεῖτε ὅτι ψεῦδος ἐν τῇ δεξιᾶ μου. πῶς οὖν οὐκ <del rend="strikethrough">και</del>
-            <lb/>
+                  <lb/>
             ἄθεοι παρὰ πᾶσι κριθεῖεν καὶ περὶ τῆς θείας γραφῆς ἀσε
             <lb break="no"/>
             βείας κατηγορούμενοι· ἢ πῶς οὐκ ἂν εἶεν κακοδαίμονες
@@ -1433,9 +1583,9 @@
             <gap reason="fenestra" quantity="2" unit="character"/>
             ἴνα μὴ τῆς ἀναισθησιας φανερὸν ἔχ
             <subst>
-              <del rend="strikethrough">ου</del>
-              <add place="above">ω</add>
-            </subst>
+                     <del rend="strikethrough">ου</del>
+                     <add place="above">ω</add>
+                  </subst>
             ωσι
             <lb/>
             τὸν ἔλεγχον. ὑπέκλεψᾶν γὰρ ἄν τὴν ὑπόνοιαν τῶν ἀκε
@@ -1490,9 +1640,9 @@
             <lb/>
             τὰ μὴ ὄντα πλάττεσθαι καὶ ψεύδεσθαι
             <subst>
-              <del rend="strikethrough">περὶ</del>
-              <add place="above">ἐπὶ</add>
-            </subst>
+                     <del rend="strikethrough">περὶ</del>
+                     <add place="above">ἐπὶ</add>
+                  </subst>
             μύθων εἰς ἠδονὴν
             <lb/>
             τῶν ἀκούον τῶν· οὐ χάριν καὶ τὰ περὶ θεῶν αὐτοὺς πεποιηκένειν
@@ -1564,18 +1714,18 @@
             αὐτοῖς συγγραφεῖς· καὶ μάλιστα ὁ παντων ἐξοχώτατος ποιητὴς
             <lb/>
             εἴπερ εἴδεισαν θεοὺς εἶναι τὴν διὰ καὶ τοὺς ἀλλους. τοιαύτας αὐτ<subst>
-                <del>αις</del>
-                <add place="above">οις</add>
-            </subst>
-            <lb/>
+                     <del>αις</del>
+                     <add place="above">οις</add>
+                  </subst>
+                  <lb/>
             περιέθηκαν πράξεις· αἳ μὴ εἶναι θεοὺς αὐτοὺς ἐλέγχουσιν· ἀλλὰ
             <lb/>
             μᾶλλον ἀνθρώπους· καὶ ἀνθρώπους οὐ σώφρονας· ἢ εἰ ἐψεύσαντο
             <lb/>
             ὡς ποιηταὶ. καὶ σ<subst>
-                <del rend="overwrite">ύ</del>
-                <add place="inline">ὺ</add>
-            </subst> τουτῶν καταψεύδο διατίμο καὶ ἐπὶ ταῖς ἀν
+                     <del rend="overwrite">ύ</del>
+                     <add place="inline">ὺ</add>
+                  </subst> τουτῶν καταψεύδο διατίμο καὶ ἐπὶ ταῖς ἀν
             <lb break="no"/>
             δρίας τῶν ἡρῶν ἐψεύσαντο. καὶ ἀντι μὲν ἀνδρειας ἀσθένειαν·
             <lb/>
@@ -1746,10 +1896,10 @@
             καὶ σόλων ὁ ἀθηναῖος· τῶν δὲ γραμματῶν τὴν σύνταξιν, καὶ
             <lb/>
             ἀριθμοὺς καὶ μέτρα καὶ στάθμια παλαμήδης ἐφεῦρε, καὶ ἄλλ<subst>
-                <del rend="strikethrough">ως</del>
-                <add place="above">οι</add>
-            </subst>
-            <lb/>
+                     <del rend="strikethrough">ως</del>
+                     <add place="above">οι</add>
+                  </subst>
+                  <lb/>
             ἄλλα· καὶ διάφορα τοῦ βίω του ἀνθρώπων ἀπήγγειλεν χρή
             <lb break="no"/>
             σιμα, κατὰ τὴν τῶν ἱστορησάντῶν μαρτυρίαν· ἰπερ οὖν αἱ
@@ -1774,7 +1924,10 @@
             <lb break="no"/>
             κων· καὶ τῶν ἔτι κατατέρω τουτων, καὶ ἀλογῶν ὄντων τὴν φύσιν
             <lb/>
-            πετεινῶν <subst><del rend="strikethrough">παντων</del><add><!-- place?? --> παντοιῶν</add></subst>, τεράποδων ἡμέρων τε καὶ ἀγρίων
+            πετεινῶν <subst>
+                     <del rend="strikethrough">παντων</del>
+                     <add><!-- place?? --> παντοιῶν</add>
+                  </subst>, τεράποδων ἡμέρων τε καὶ ἀγρίων
             <lb/>
             καὶ ἑρπετῶν ὅσα γῆ καὶ θάλαττα καὶ παντῶν τῶν ὑδατῶν ἡ φύσις φέρι
             <lb/>
@@ -1784,9 +1937,9 @@
             <lb/>
             τούτοις τοῖς ἀλόγοις τὴν διάνοιαν ἔχοντ
             <subst>
-              <del rend="strikethrough">ε</del>
-              <add place="inline">α</add>
-            </subst>
+                     <del rend="strikethrough">ε</del>
+                     <add place="inline">α</add>
+                  </subst>
             ς· ἐν ἀλόγοις καὶ τὶ
             <lb/>
             θεῖον ἀνεπλάσαντο· κατὰ τὴν ποικιλίαν τῶν παθῶν ἐαυτῶν
@@ -1853,9 +2006,9 @@
             <lb/>
             μετ’ ἐπιμελεία εὐρήσεν τοῦτον οὐκ ἔλαττον τῶν πρότερ
             <subst>
-              <del rend="strikethrough">ω</del>
-              <add place="above">ο</add>
-            </subst>
+                     <del rend="strikethrough">ω</del>
+                     <add place="above">ο</add>
+                  </subst>
             ν
             <lb/>
             δειχθέντων τὴν θοίεν εἶναι ψευδῆ. εἴποι γὰρ ἄν τις πρὸς
@@ -1908,9 +2061,9 @@
             <lb/>
             τὸ θεῖον ἐκ
             <subst>
-              <del rend="strikethrough">β</del>
-              <add place="above">κ</add>
-            </subst>
+                     <del rend="strikethrough">β</del>
+                     <add place="above">κ</add>
+                  </subst>
             αλεῖται· ἄτε δημίμα τῆς φύσεως αὔτι τυνχ
             <lb break="no"/>
             άνουσιν· ἀλλ’ εἰ διὰ τὸν ἐπιστήμειν ἐπὶ φοιτα τὸ θεῖον
@@ -2018,9 +2171,9 @@
             ἀνθρώπων γλυφήν· καὶ οὐ πάντοτε ἐξ ἀμφοτέρων αὐτὸν γλύ
             <lb break="no"/>
             φουσιν, ὁποῖα τὰ παρὰ τοῖς μύθοις ἐστὶ πλάσματα· <subst>
-                <del rend="overwrite">ὁ</del>
-                <add place="inline">ἡ</add>
-            </subst> σκύλλα
+                     <del rend="overwrite">ὁ</del>
+                     <add place="inline">ἡ</add>
+                  </subst> σκύλλα
             <lb/>
             καὶ ἡ χάρυβδις, καὶ ὁ ἱπποκένταυρος· καὶ ὁ παρ’ αἰγυπτίοις
             <lb/>
@@ -2086,7 +2239,7 @@
             <lb/>
             εἶναι, παρὰ τουτῶν αὐτοὶ
             <gap reason="fenestra" quantity="17" unit="character"/>
-            <lb/>
+                  <lb/>
             καὶ οὓς οὐκ ἀγνωοῦσι δεομένους τοῖς αὐτοῖς ἐπιμελίας
             <lb/>
             παρὰ τουτων αὐτοὶ τὰς ἐαυτῶν χρείας ἀξιοῦσιν ἀπο
@@ -2104,9 +2257,9 @@
             θεοὶ εἰσὶν ὡς λέγουσι καὶ περὶ αὐτῶν φιλοσοφοῦσι,
             <lb/>
             τίνι τίς πρ<subst>
-                <del rend="overwrite">οσθή</del>
-                <add place="inline">όσθη</add>
-            </subst>ται τουτῶν· καὶ ποίους ἂν αὐτῶν κρί
+                     <del rend="overwrite">οσθή</del>
+                     <add place="inline">όσθη</add>
+                  </subst>ται τουτῶν· καὶ ποίους ἂν αὐτῶν κρί
             <lb break="no"/>
             νη κυριωτέρους· ἴνα ἡ τὸν θεὸν θαρρήση πρὸς κῦν
             <lb/>
@@ -2250,17 +2403,17 @@
             <lb/>
             θύουσι καὶ λόγικὰ τοῖς ἀκινήτοις προσείγουσι· σκύθαι γὰρ οἱ
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             καλούμενοι ταύρειοι, τῇ παρ’ αὐτοῖς παρθένῳ καλουμένη,
             <lb/>
             τοὺς ἀπονα ἀγίων καὶ ὅσους ἂν λάβ<subst>
-              <del>ου</del>
-              <add place="above">ω</add>
-            </subst>σι τῶν ἑλλήνων
+                     <del>ου</del>
+                     <add place="above">ω</add>
+                  </subst>σι τῶν ἑλλήνων
             <lb/>
             εἰς θυσίας ἀναφέρουσι, τοσαῦτον ἀσεβοῦντες κατὰ
             <lb/>
-            <del rend="strikethrough">το</del> τῶν ὁμογένῶν ἀνθρώπων, καὶ οὕτως ἐλένχοντες τῶν
+                  <del rend="strikethrough">το</del> τῶν ὁμογένῶν ἀνθρώπων, καὶ οὕτως ἐλένχοντες τῶν
             <lb/>
             θεῶν αὐτων τὰ ὠμότητα· ὅτι οὕς ἡ πρόνοια ἀποθαλλα
             <lb/>
@@ -2282,10 +2435,10 @@
             <lb/>
             τοιαῦτα μυσαρὰ δρῶσιν, ἀλλ’ ἴδιον ἐστὶ ταῖς τῶν εἰδώλω
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             καὶ δαιμονῶν κακίας. τοῦτο τὸ δρᾶμα καὶ γὰρ καὶ αἰγύπτιο
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             ἔθυον μὲν πάλαι τῇ ἤρα τοιαῦτα ἀφάγια· φοίνικες δὲ καὶ
             <lb/>
             κρῆτες τὸν κρόνον ἐν ταῖς τεκνοθυσίαις ἐαυτῶν ἱλάσκον
@@ -2294,7 +2447,7 @@
             <lb/>
             δία, ἀνθρωθυσι ἐθρήσκευον· καὶ ἄλλοι καὶ ἄλλως· καὶ πάντε
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             ἀπλῶς ἐμίαινον καὶ ἐμιαίνοντο, ἐμιαινόντομεν αὐτοὶ
             <pb n="16r"/>
             δρῶντες τὰ φονικὰ ἐμιαινον δὲ, τοὺς ἑαυτῶν νεοὺς τοιαύταῖς
@@ -2305,7 +2458,7 @@
             <lb/>
             ἠδομένους δαιμονας, εὐθέως καὶ αὐτοὶ ταῖς τοιούταις πλημμ
             <gap reason="damage" quantity="5" unit="character"/>
-            <lb/>
+                  <lb/>
             τοὺς ἐαυτων θεοὺς ἐμιμήσαντο· ἴδιον ἡγούμενοι κατόρθωμα
             <lb/>
             τὴν πρὸς τὰ κρείττονα ὡς αὐτοὶ  νομίζουσι μίμησιν. ἔνθεν ἀνδρο
@@ -2313,9 +2466,9 @@
             φονίαις καὶ τεκτονίαις καὶ πᾶνθες ἀσελγείαις ἡττήθειαν οἱ
             <lb/>
             ἀνθρώποι καὶ γὰρ σχεδὸν πᾶσα πόλις πάσ<subst>
-              <del rend="strikethrough">ει</del>
-              <add place="inline">η</add>
-            </subst>ς ἀσελγείας ἐστὶ
+                     <del rend="strikethrough">ει</del>
+                     <add place="inline">η</add>
+                  </subst>ς ἀσελγείας ἐστὶ
             <lb/>
             μεταστή, δι’ ώμότητον τρόπον τῶν παρ’ αὐτοῖς θεοῖς γιγνομένειν
             <lb/>
@@ -2333,9 +2486,9 @@
             <lb/>
             τὴν γυναικῶν πλάττονται φύσιν ὡς ἐκ τουτῶν καταθύμια καὶ
             <subst>
-              <del rend="strikethrough">τημ</del>
-              <add place="inline">τιμὴν</add>
-            </subst>
+                     <del rend="strikethrough">τημ</del>
+                     <add place="inline">τιμὴν</add>
+                  </subst>
             τῇ μερὶ τῶν παρ’ αὐτοῦ δεγομένων θεῶν ποι
             <lb break="no"/>
             οῦντες, πάντες δὲ ὁμοῦ τοῖς αἰσχίτοις βιοῦσι καὶ τοῖς χείροσιν
@@ -2355,9 +2508,9 @@
             χουσι καὶ τους λεγομένους αὐτῶν θεοὺς τοιοῦτον ἐσχηκένειν
             <lb/>
             τὸν βίον. ἐκ μὲν γὰρ <subst>
-                <del rend="strikethrough">θ</del>
-                <add place="above">δ</add>
-            </subst>ιὸς τὴν παιδοφθορίαν καὶ τὴν μοιχείαν,
+                     <del rend="strikethrough">θ</del>
+                     <add place="above">δ</add>
+                  </subst>ιὸς τὴν παιδοφθορίαν καὶ τὴν μοιχείαν,
             <lb/>
             ἐκ δὲ ἀφροδίτης τὴν πορνίαν ἐκ μὲν ῥίας τὴν ἀσέλγειαν· ἐκ
             <lb/>
@@ -2384,16 +2537,16 @@
             περὶ τὴν κτίσιν ἐπτοημένος δυσωπούμενοι τοῦ περὶ τῶν
             <lb/>
             βδελυγμάτων ἐλέγχειν, εὐ κατ<subst>
-                <del rend="overwrite">ε</del>
-                <add place="inline">ὰ</add>
-            </subst>γνωστα μὲν καὶ εὐέλεκ
+                     <del rend="overwrite">ε</del>
+                     <add place="inline">ὰ</add>
+                  </subst>γνωστα μὲν καὶ εὐέλεκ
             <lb break="no"/>
             τα παρὰ πᾶσιν ὄντα ταῦτα οὐκ ἀρνήσονται καὶ αὐτοὶ
             <lb/>
             ἐκείνην δὲ αὐτοῖς ἀσφαλῆ τὴν δόξαν καὶ ἀνα<subst>
-                <del rend="overwrite">ρ</del>
-                <add place="above">ν</add>
-            </subst>τίρρητον
+                     <del rend="overwrite">ρ</del>
+                     <add place="above">ν</add>
+                  </subst>τίρρητον
             <lb/>
             εἶναι οἱ ήσονται τὴν πρὸς τὸν κόσμον καὶ τὰ τοῦ κόσμου
             <lb/>
@@ -2405,7 +2558,7 @@
             <lb/>
             τὸν κατ’ ὀῦρανὸν· κόσμον καὶ γὴν ἀῦ πάλιν καὶ σύμπασαν
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             τοῦ ὑγροῦ τὴν φύσιν σεβοντες καὶ θρησκεύοντες· καὶ φή
             <lb break="no"/>
             σουσι μὴ δυνασθαί τινας ἀποδεῖξαι καὶ τουτοὺς μὴ
@@ -2433,9 +2586,9 @@
             τὴν δὲ παρ’ αὐτοῦ γενομένειν κτίσιν, προσκυνοῦσι καὶ
             <lb/>
             θεοποιοῦσι, καὶ τοι προσκυνοῦσαν καὶ αὐτ<subst>
-                <del rend="overwrite">ο</del>
-                <add place="inline">ὴ</add>
-            </subst>ν καὶ ὁμολο
+                     <del rend="overwrite">ο</del>
+                     <add place="inline">ὴ</add>
+                  </subst>ν καὶ ὁμολο
             <lb break="no"/>
             γοῦσαν, ὃν ἐκεῖνοι δι’ αὐτην ἀρνοῦνται κυριὸν, οὕτω
             <lb/>
@@ -2465,15 +2618,15 @@
             <gap reason="damage" quantity="1" unit="character"/>
             χωρὶ
             <gap reason="damage" quantity="1" unit="character"/>
-            <pb n="17r"/>
+                  <pb n="17r"/>
             χωρὶς καὶ γῆν αὖ καὶ ἀέρα, καὶ τὴν θερμὴν καὶ ψυχρὰν καὶ
             <lb/>
             ὑγρὰν οὐσίαν διελων ἀπὸ ταῖς προσάλληλα συναφῆς
             <lb/>
             ἔκαστον ἐκλάβοι καθ’ ἐαυτὸ καὶ ἰδία θεωρήσοιεν, εὐρήσει πάντ<subst>
-                <del rend="overwrite">α</del>
-                <add place="inline">ῶ</add>
-            </subst>ς
+                     <del rend="overwrite">α</del>
+                     <add place="inline">ῶ</add>
+                  </subst>ς
             <lb/>
             μὴ δὲν ἱκανούμενον ἐαυτῶ, ἀλλ’ ἄπαντα τῆς ἀλλήλων
             <lb/>
@@ -2528,9 +2681,9 @@
             καὶ καθ’ ἑαυτὰ γινόμενα λοιπὸν καὶ ἀλλήλων εἰσὶν ἀναιρε
             <lb break="no"/>
             τικὰ ταῦτα, κατὰ τὴν τοῦ πλεονά<subst>
-                <del rend="overwrite">ξ</del>
-                <add place="inline">ζ</add>
-            </subst>οντος ἐν αὐτοῖς ἐπικρά
+                     <del rend="overwrite">ξ</del>
+                     <add place="inline">ζ</add>
+                  </subst>οντος ἐν αὐτοῖς ἐπικρά
             <lb break="no"/>
             τειεν θερμόν τε γὰρ ὑπὸ ψυχροῦ πλεονάσαντος ἀναιρεῖται.
             <lb/>
@@ -2594,9 +2747,9 @@
             <lb break="no"/>
             στηκεν αὐτὸς
             <subst>
-              <del rend="strikethrough">πάνθῶς</del>
-              <add place="inline">πάντως</add>
-            </subst>
+                     <del rend="strikethrough">πάνθῶς</del>
+                     <add place="inline">πάντως</add>
+                  </subst>
             ἐαυτου ἀνόμοιος φανήσεται
             <lb/>
             καὶ ἐξ ἀνομοίων ἐχῶν τὴν συμπλήρην. εἰ γὰρ ἤλιος ἐστὶν,
@@ -2695,7 +2848,7 @@
             <lb/>
             τὴν φύσιν ἔχοντα. πῶς ἀν ἄλλοις εὐχομένου εἶρ
             <gap reason="fenestra" quantity="6" unit="character"/>
-            <lb/>
+                  <lb/>
             παρίχοιεν καὶ ὁμονοίας αὐτοῖς γένοιτο πρυτάνις· οὕτο οὖ ἥλιος
             <lb/>
             εἰκότως. ὄντε σελήνη, οὔτ’ ἀλλό τι μέρος τῆς κτίσεως, πολλὰ
@@ -2709,15 +2862,15 @@
             ἀλλὰ τὰ μὲν αὐτων μέρη τῆς κτίσεως ἐστὶ· τὰ δὲ αὐτῶν ἄψυλα
             <pb n="18v"/>
             τυνχάνει, τὰ δὲ μόνον ἄνθρωποι θνητοὶ γ<subst>
-                <del rend="overwrite">έγο</del>
-                <add place="inline">εγό</add>
-            </subst>νασι. διὸ καὶ
+                     <del rend="overwrite">έγο</del>
+                     <add place="inline">εγό</add>
+                  </subst>νασι. διὸ καὶ
             <lb/>
             ἡ περὶ ταῦτα θρησκεία καὶ θεοποιία, οὐκ εὐσ
             <subst>
-              <del rend="strikethrough">ε</del>
-              <add place="above">α</add>
-            </subst>
+                     <del rend="strikethrough">ε</del>
+                     <add place="above">α</add>
+                  </subst>
             ίβειας, ἀλλὰ
             <lb/>
             ἀθεότητος καὶ πάσης ἀσεβείας ἐστὶν εἰσήγησις, καὶ μεγάλης
@@ -2743,9 +2896,9 @@
             δι’ αὐτοῦ καὶ τὸν τούτο πατέρα θεὸν κατανοήσωμεν καὶ γνώσιν
             <lb/>
             ἔλληνες ὅσον τῆς ἀληθείας <subst>
-                <del rend="overwrite">α</del>
-                <add place="inline">ἑ</add>
-            </subst>ἑαυτοὺς ἀπεσχοίνισεν τὰ μὲν
+                     <del rend="overwrite">α</del>
+                     <add place="inline">ἑ</add>
+                  </subst>ἑαυτοὺς ἀπεσχοίνισεν τὰ μὲν
             <lb/>
             προειρημένα οὐδὲν ἔτερον ἢ πλάη τῷ βίω διηλέχθη, ἡ δὲ
             <lb/>
@@ -2760,9 +2913,9 @@
             ρωθιην ἡ ἐξωθεν ἡμῶν ἐστὶν, ἀλλ’ ἐν ἡμῶν ἐστὶ, καὶ ἀφ’
             <lb/>
             ἠμῶν εὐρὸν τῆν ἀρχὴν δ<subst>
-                <del rend="overwrite">ύνατο</del>
-                <add place="inline">υνατό</add>
-            </subst>ν, καθὼς καὶ μωυσῆς ἐδίδασκε
+                     <del rend="overwrite">ύνατο</del>
+                     <add place="inline">υνατό</add>
+                  </subst>ν, καθὼς καὶ μωυσῆς ἐδίδασκε
             <lb/>
             λεγὼν, τὸ ρῆμα τῆς πίστεως ἐν τὴς τῆς καρδίας σου ἐστίν,
             <lb/>
@@ -2778,18 +2931,18 @@
             <lb/>
             λεγων· καὶ μὴ προφασιζέσθωνῶν ἔλληνες· οἱ τοῖς εἰδώλ
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             θρησκεύοντες, μὴ δ’ ἄλλ’όστις <subst>
-                <del rend="overwrite">ἀ</del>
-                <add place="inline">ἁ</add>
-            </subst>πλῶς ἑαυτὸν ἀπατάται
+                     <del rend="overwrite">ἀ</del>
+                     <add place="inline">ἁ</add>
+                  </subst>πλῶς ἑαυτὸν ἀπατάται
             <lb/>
             ὡς τὴν τοιαύτην ὁδὸν οὐκ ἰχῶν, καὶ διὰ τοῦτο τῆς ἀθεότητος
             <lb/>
             αὐτων πρόφασιν εὐρίσκων· πάντες γὰρ <subst>
-                <del rend="overwrite">ἐν</del>
-                <add place="inline">εἰς</add>
-            </subst> αὐτὴν ἐπιβεβήκαμεν
+                     <del rend="overwrite">ἐν</del>
+                     <add place="inline">εἰς</add>
+                  </subst> αὐτὴν ἐπιβεβήκαμεν
             <lb/>
             καὶ ἔχομεν, εἰ καὶ μὴ πάντες αὐτὴν ὁδεύειν, ἀλλὰ παροδεύειν ἐκ
             <lb/>
@@ -2802,9 +2955,9 @@
             θεοῦ θεωρεῖθαι καὶ νοεῖσθαι· ἐκτὸς εἰ μὴ ὥσπερ τὸν θεὸν ἠρ
             <lb/>
             νήσαντο, οὕτως καὶ ψυχὶν ἔχ<subst>
-                <del rend="overwrite">ο</del>
-                <add place="inline">ε</add>
-            </subst>ν παραιτήσονται οἱ ἀσεβεῖς
+                     <del rend="overwrite">ο</del>
+                     <add place="inline">ε</add>
+                  </subst>ν παραιτήσονται οἱ ἀσεβεῖς
             <lb/>
             εἰκότως τοῦτο πρὸ τῶν ἄλλων λέγοντες, οὐ γὰρ ἐχόντων
             <lb/>
@@ -2829,9 +2982,9 @@
             γὰρ ἐκεῖν ἄλογα καλεῖν ἡ φύσις εἵωθεν, ἐπειδὴ τῶν ἄνθρώπων
             <lb/>
             τὸ γένος ἐστὶ λογικὸν· ἔπειτα δὲ καὶ τοῦτο πρὸς ἀπόδειξ<subst>
-                <del rend="overwrite">ειν</del>
-                <add place="above">ιν</add>
-            </subst> οὐ τοῦ
+                     <del rend="overwrite">ειν</del>
+                     <add place="above">ιν</add>
+                  </subst> οὐ τοῦ
             <lb/>
             τυχὸν ἀνθρωπειη ἐκ τοῦ μόνον τὸν ἄνθρωπον τὰ ἔξω τα ἑαυτο λο
             <lb break="no"/>
@@ -2846,15 +2999,15 @@
             οὐ πρὸς τὰ βλεπόμενα ὁρμαῖ ἀλλὰ τῷ λογισμω τὰ διὰ τῶν ὀφ
             <lb break="no"/>
             θαλμῶν ὁρώμενα κρίν<subst>
-              <del rend="strikethrough">ο</del>
-              <add place="inline">ε</add>
-            </subst>ι πολλάκις γοῦν ὁρμίσας κεκράτηται τῷ
+                     <del rend="strikethrough">ο</del>
+                     <add place="inline">ε</add>
+                  </subst>ι πολλάκις γοῦν ὁρμίσας κεκράτηται τῷ
             <lb/>
             λογισμῷ· καὶ λογισάμενος πάλιν ἐπιλογίσατο, καὶ αἰσθάνοται ἔκαστος
             <lb/>
             εἰ τῆς ἀληθείας γένοιτο φίλος. ὅτι ἄλλος παρὰ τὰς σωματ
             <gap reason="fenestra" quantity="4" unit="character"/>
-            <lb/>
+                  <lb/>
             αἰσθήσεις ἐστὶν ὁ τῶν ἀνθρωπώνοὺς διὰ τοῦτο γοῦν ὡς ἄλλος
             <lb/>
             ὦν αὐτῶν τῶν αἰσθήσεων
@@ -2871,13 +3024,13 @@
             <lb/>
             καὶ ὧν ἅπτεσθαι δεῖ καὶ γεύεσθαι καὶ ὀδμᾶσθαι οὐκ ἐστὶ τῶν αἰσθ
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb break="no"/>
+                  <lb break="no"/>
             είῶν ἐστὶν, ἀλλὰ ψυχαὶς καὶ τοῦ ταύτης νοῦ διακρίνειν. ἀμέλε
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             καὶ ξίφους λάβεσθαι δύναται ἡ χεὶρ· καὶ δηλητηρίου γεύσασθ
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             τὸ στόμα, ἀλλ’ οὐκ οἱ δυότι βλάπτει ταῦτα εἰ μὴ ὁνους δια
             <lb break="no"/>
             κρίνει. καὶ ἔοικε γε τὸ τοιοῦτον ἴνἐπὶ εἰκόνος αὐτὸ θεωρήσομεν
@@ -2935,7 +3088,7 @@
             <lb/>
             φύσιν ὄντος, λογίζεται ἄνθρωπος τὰ περὶ ἀθανασίης καὶ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             πολλοὺς ἐαυτῶ τὸν θάνατον ὑπὲρ ἀρετῆς προκαλεῖται. ἠπὲρ
             <lb/>
             πρὸς καίρου τοῦ σώματος ὅντος, τὰ αἰώνια φαντάζεται ἂν
@@ -2963,9 +3116,9 @@
             ὁρᾶν ἀποστρέφων· ἢ τίς τὴν ἀκοεὶν κατὰ φύσιν οὖσαν ἀκουσ
             <lb break="no"/>
             ικ<subst>
-                <del rend="overwrite">ὸ</del>
-                <add place="inline">ὴ</add>
-            </subst>ν. ἀποκλείει τοῦ αινούν. ἤ τις τὸν γευσὶν κατὰ φύσιν
+                     <del rend="overwrite">ὸ</del>
+                     <add place="inline">ὴ</add>
+                  </subst>ν. ἀποκλείει τοῦ αινούν. ἤ τις τὸν γευσὶν κατὰ φύσιν
             <lb/>
             οὖσαν γευστικὶν. κωλύει πολλου τῆς φυσικῆς ὁρμαῖς,
             <lb/>
@@ -2984,7 +3137,7 @@
             ἡνιοχεῖται.
             <lb/>
             ταῦτα γὰρ οὐδὲν ἔτρον. ἢ ψύχιν λογικὴν ἀποδείκνυσιν <del rend="strikethrough">ικουσεν</del>
-            <lb/>
+                  <lb/>
             ἡγεμονεύουσιν τοῦ σώματος. <del rend="strikethrough">ἰπως</del> οὐδε γὰρ ἑαυτὸ τὸ σώμα
             <lb/>
             πέφυκεν ἐλαύνον, ἀλλ’ ἐφ’ ἑτέρου ἄγεται καὶ φέρεται. ὥσπερ
@@ -3081,26 +3234,26 @@
             <lb/>
             δέποτε αὐτὴν ἀφίουσι μένοηται ἐν αὐτῇ, καὶ ὡσπὲρ ἔκκαυμ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
-            <gap reason="fenestra" quantity="8" unit="character"/>
+                  <lb/>
+                  <gap reason="fenestra" quantity="8" unit="character"/>
             ὁδός, οὐκ ἕξωθεν ἀλλ’ ἐξ ἑαυτης λαμβάνουσι τὴν τοῦ
             <lb/>
             θεοῦ λόγον γνῶσιν καὶ κατάληψιν. λέγομεν οὖν καταπέρ εἵρητ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             πρότερον, ὥσπερ τὸν θεὸν ἑννήσαντο καὶ ἅψυχα σέβουσιν·
             <lb/>
             οὕτως καὶ ψυχὴν οὐκ ἔχειν λογικὴν νομίζοντες, αὐτόθεν ἔχουσι
             <lb/>
             τῆς παρασφροσύνης τὴν ἐπιμισθίαν ἐν <subst>
-                <del rend="overwrite">ἄλο</del>
-                <add place="inline">ἀλό</add>
-            </subst>γοις καταριθμούμενο
+                     <del rend="overwrite">ἄλο</del>
+                     <add place="inline">ἀλό</add>
+                  </subst>γοις καταριθμούμενο
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             καὶ διὰ τοῦτο ὡς ἄψυχοι ἐν ἀψύχα ἔχοντες τὴν δεισιδαιμονία
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             ἐλέους καὶ χειραγωγίας εἰσὶν ἄξιοι. εἰ δὲ ψυχὴν ἀξιοῦσιν ἔχειν
             <lb/>
             καὶ ἐπὶ τῷ λογικῷ μεγάφρονοῦσιν εἰκότως τοῦτο ποιοῦντες,
@@ -3123,7 +3276,7 @@
             <lb/>
             τῷ νῷ τῆς ψυχῆς, καὶ πάλιν ἐπιστρέψαι πρὸς τον θεὸν, ἐπιστρέψ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             δὲ δύναται, ἐὰν ὃν ἐνεδύσαντο ῥύπον πᾶσης ἐπιθιμίας
             <lb/>
             ἀπόδωνται· καὶ τοσοῦτον ἀπονήψονται ἕως ἂν ἀπόθωνται πᾶν
@@ -3244,7 +3397,7 @@
             <lb/>
             τὰ μὲν διατρέχοντα καὶ ποικίλως ἐν ἀλάττοντο τοὺς δρόμο
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             τὰ εν ἀπλανως κινούμενα, οὐκ ἂν ἔννοιαν λάβον ὅτι πάν
             <lb break="no"/>
             τως των ὁ κυβερνῶν αὐτὰ δημιουργός· τίς ὁρῶν τὰ ἐναν
@@ -3259,7 +3412,7 @@
             <lb/>
             τουτῶν τὸν ταῦτα γράψαντα τίς ἰδὼν χειμῶνα παραχωροῦντ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             ἔαρι. καὶ ἔαρ θέρει, καὶ θέρος μετοπώρῳ. καὶ ὅτι ἐναντία ὄντα
             <lb/>
             ταῦτα τῆ φύσει· τὸν μὲν γὰρ ψύχει τὸ δὲ καίνη, τὸ δὲ
@@ -3280,7 +3433,7 @@
             <lb/>
             ἢ τίς ὁρῶν αὐτὴν τὴν γὴν βαρυτατιν οὖσαν τῆ φύσει
             <gap reason="damage" quantity="4" unit="character"/>
-            <lb/>
+                  <lb/>
             ἐπὶ τὸ ὕδωρ ἑδρασθεῖναν καὶ ἀκινηται μένουσεν ἐπὶ τὸ
             <lb/>
             φύσι κινούμενον οὐ διανοηθήσεται εἶναί τιναν τὸν ταῦτα
@@ -3295,15 +3448,15 @@
             <lb/>
             ὡρισμένους γινόμενα. καὶ ὅλως τίς κατανοήσας ἐν ἀν
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb break="no"/>
+                  <lb break="no"/>
             μοιοις καὶ ἐναντίοις τὴν ἵσην καὶ ὁμοίαν παρ’ αὐτῶν
             <lb/>
             ἀποτελουμένην καὶ διέπουσα, ὡς ἂν αὐτὴ δοκεῖ
             <lb/>
             μένουσα καλῶς. αὐτὰ μὲν γὰρ καθ’ <subst>
-                <del rend="overwrite">ἐ</del>
-                <add place="inline">ἑ</add>
-            </subst>αυτὰ οὐκ ἂν
+                     <del rend="overwrite">ἐ</del>
+                     <add place="inline">ἑ</add>
+                  </subst>αυτὰ οὐκ ἂν
             <lb/>
             συσταί καὶ φανῆναι ποτε δυνηθείη διὰ τὴν πρὸς ἄλλη
             <lb/>
@@ -3419,14 +3572,14 @@
             <gap reason="fenestra" quantity="1" unit="character"/>
             ἂν συστεῖναι χωρὶς ταῖς τῶν ἄλλ
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             ἐπικουρίας· οὕτω γὰρ καὶ νῦν συνέστηκεν. ἐπὶ οὖν οὐ
             <lb/>
             καταξία, ἀλλα τάξις ἐστὶν ἐν τῷ παντὶ· καὶ οὐκ ἀμε
             <lb break="no"/>
             τρία ἀλλὰ σιμμετρία, καὶ οὐκ ἀκοσμία, ἀλλὰ κόσμι
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             καὶ κοσμια παναρμόνιος σύνταξις, ἀνάγκη λογίζεσθαι καὶ
             <lb/>
             λαμβάνειν ἔννοιαν τοῦ ταῦτα συναγόντος καὶ συφέγξαντος
@@ -3518,9 +3671,9 @@
             κινεῖν τὴν λύραν ἀλλ’ οὐδ’ ὑπὸ πολλῶν αὐτὴν τύπτεσθαι
             <lb/>
             ἕνα δ’ εἶναι μουσικὸν <subst>
-                <del rend="overwrite">ἐ</del>
-                <add place="inline">ἑ</add>
-            </subst>κάστης νευρὰς ἧχον πρὸς τὴν ἐν ἀρ
+                     <del rend="overwrite">ἐ</del>
+                     <add place="inline">ἑ</add>
+                  </subst>κάστης νευρὰς ἧχον πρὸς τὴν ἐν ἀρ
             <lb break="no"/>
             μόνιον, συμφωνίαν κεράσαντα τῇ επιστήμη κἂν μὴ
             <lb/>
@@ -3570,8 +3723,8 @@
             <lb/>
             ἔλλειψιν ἐν θεῷ δὲ λογὸν εἶν αί τι ἐλλειπὲς
             <gap reason="fenestra" quantity="6" unit="character"/>
-            <lb/>
-            <gap reason="fenestra" quantity="8" unit="character"/>
+                  <lb/>
+                  <gap reason="fenestra" quantity="8" unit="character"/>
             ἀλλὰ καὶ πέρα τῶν ἀθεμιτων ἐστὶ· καὶ γὰρ καὶ τεχνί
             <lb/>
             την ἐν ἀνθρώποις ἄν τις εἵπον τέλειον, ἀλλ’ ἀσθενῆ
@@ -3585,11 +3738,11 @@
             κοινωνίαν.
             <del rend="strikethrough">λεγ</del>
             γελοῖον μὲν ἂν εἵη τὸ τοιοῦτον· ε<subst>
-                <del rend="overwrite">ἰ</del>
-                <add place="inline">ἱ</add>
-            </subst>δικ
+                     <del rend="overwrite">ἰ</del>
+                     <add place="inline">ἱ</add>
+                  </subst>δικ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             διόχεν ἔκαστος εἰργάσατο· ἵνα μὴ ὡς ἀδύνατος ὑπο
             <lb break="no"/>
             νοηθῆ· κενοδοξίαν δὲ πάλιν λέγειν ἐν θεοῖς, τῶν
@@ -3598,10 +3751,10 @@
             <lb/>
             τὴν τοῦ ὄλου δημιουργίαν τὶς ἡ χρειᾶ τῶν πολλῶν
             <lb/>
-            <subst>
-                <del rend="erasure">ἓ</del>
-                <add place="inline">ἑ</add>
-            </subst>νὸς αὐτάρκως γιγνομένου πρὸς τὸ πᾶν· ἄλλως τε
+                  <subst>
+                     <del rend="erasure">ἓ</del>
+                     <add place="inline">ἑ</add>
+                  </subst>νὸς αὐτάρκως γιγνομένου πρὸς τὸ πᾶν· ἄλλως τε
             <lb/>
             ἀσεβὲς καὶ ἄτοπον ἂν φανείη· εἰ τὸ μὲν ποίημα
             <lb/>
@@ -3620,14 +3773,14 @@
             ἀποβλέπων, διαφόρους εἴχε καὶ τὰς κινήσεις, καὶ
             <lb/>
             ἀνομοίους <subst>
-                <del rend="overwrite">ἐ</del>
-                <add place="inline">ἑ</add>
-            </subst>αυτῶ, ἐν δὲ τῇ διαφορα κα<subst>
-                <del rend="overwrite">τ</del>
-                <add place="inline">θ</add>
-            </subst>άπερ εἴρητ
+                     <del rend="overwrite">ἐ</del>
+                     <add place="inline">ἑ</add>
+                  </subst>αυτῶ, ἐν δὲ τῇ διαφορα κα<subst>
+                     <del rend="overwrite">τ</del>
+                     <add place="inline">θ</add>
+                  </subst>άπερ εἴρητ
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             πρότερον. πάλιν ἦν ἀκοσμία καὶ τοῦ παντὸς ἀταξία
             <lb/>
             ἐπεὶ οὐδὲ ναυς ὑπὸ πολλῶν κυβερνωμένη κατ’ὀρθὴν
@@ -3638,11 +3791,11 @@
             <lb/>
             κυβερνήτης οὐδὲ λύρα ὑπὸ πολλων κρουομένοη συμφ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb break="no"/>
+                  <lb break="no"/>
             νειν ἀποτελέσει τὸν ἦχον, εἰ μὴ εἶς ὁ ταύτην πλήττο
             <gap reason="damage" quantity="1" unit="character"/>
-            <pb n="24r"/>
-            <del rend="strikethrough">εἰπε</del>
+                  <pb n="24r"/>
+                  <del rend="strikethrough">εἰπε</del>
             εἵη τέχνιτης· οὐκοῦν μιας οὔσης τῆς κτίσεως καὶ
             <lb/>
             ἑνὸς ὄντος κόσμου καὶ μιᾶς τῆς τούτο τάξεως ἕνα δεῖν
@@ -3654,9 +3807,9 @@
             κόσμον περιπόιηκεν ἵνα μὴ τῇ τῶν πολλῶν συστάσει πολλοὶ
             <lb/>
             καὶ οἱ δημιουργοὶ νομίζοιντ<subst>
-                <del rend="strikethrough">ες</del>
-                <add place="above">ο</add>
-            </subst>· ἀλλ’ ἐνὸς ὄντος τοῦ ποιήματος,
+                     <del rend="strikethrough">ες</del>
+                     <add place="above">ο</add>
+                  </subst>· ἀλλ’ ἐνὸς ὄντος τοῦ ποιήματος,
             <lb/>
             εἶς καὶ ὁ τούτου ποιητὴς πιστεύηται. καὶ οὐχ’ ὅτι εἴς ἐστὶν ὁ δημι
             <lb break="no"/>
@@ -3680,7 +3833,7 @@
             <lb/>
             θεοὺς οὐκ εἶναι θεοὺς ὁ λόγος ἔδειξε· καὶ τοὺς τὴν κτίσιν
             <del rend="strikethrough">θεο</del>
-            <lb/>
+                  <lb/>
             θεοποιοῦντας ἥλανξι πλανομένους· καὶ καθόλου τὴν τῶν
             <lb/>
             ἐθνῶν εἰδωλολατρίαν ἀθεότητα καὶ ἀσεβειαν οὖσαν ἀπέ
@@ -3706,9 +3859,9 @@
             δοκεῖ, ἔχει δὲ καλῶς, ὡς γεγόνει καὶ ὁρῶμεν γινόμενα
             <lb/>
             ἐπεὶ δὴ καὶ τοῦτο βούλεται, καὶ τοῦτο οὐκ ἄν τις ἀπ’οστ<subst>
-                <del rend="overwrite">ησεί</del>
-                <add place="inline">ήσει</add>
-            </subst>εν·
+                     <del rend="overwrite">ησεί</del>
+                     <add place="inline">ήσει</add>
+                  </subst>εν·
             <lb/>
             εἰ μὲν γὰρ ἄλογος ἢν ἡ τὴς κτίσεως κίνησις καὶ ἀπλῶς
             <lb/>
@@ -3732,7 +3885,7 @@
             <lb/>
             ἐνεργοῦντα κατὰ τὴν τοῦ ἐπιβάλλαντος αὐτὸν ἐπιστήμ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             οὐδὲ οἵον ἔχει τὴ λογικὴ ἕννος λόγοντον ἐς συλλαγων
             <lb/>
             συνκείμενον καὶ ἐν ἀέρι σημαινόμενον, ἀλλὰ τὸν τοῦ
@@ -3741,34 +3894,34 @@
             <lb break="no"/>
             λόγον λέγω· ὃς ἄλλος μὲν ἐστὶ τῶν γεννητῶν καὶ πάση
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             κτίσεως· ἵδιος δὲ καὶ μόνος τοῦ ἀγαθοῦ πατρὸς ὑπάρχ
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             λόγος, ὃς τ’οδε τὸ πᾶν διεκόσμος καὶ φωτίζει τῇ ἑαυτ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             προνοία. ἀγαθοῦ πατρὸς ἀγαθὸς λόγος ὑπαρχὼν, αὐτὸ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             τὸν τῶν παντων διεκόσμος διάταξεν· τὰ μὲν εναντία τοῖ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             ἐναντίοις συναπτων, ἐκ τουτῶν δὲ μίαν διακοσμῶν ἀρμο
             <lb break="no"/>
             νίαν οὗτος θεοῦ δύναμις καὶ θεοῦ σοφία ὣν· οὖν ον μὲν
             <lb/>
             περ στρέφει· γὴν δὲ ἀναρτίσως καὶ ἐπὶ μηδενὸς κειμέν
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             τῷ ἰδίῳ νεύματι ἤδρασε. τούτω φωτιζόμενος ἥλιος
             <lb/>
             τὴν οἰκουμένην καταγήζει· καὶ σελήνη μιμετριμένον
             <lb/>
             ἔχει τὸ φῶς· διὰ τ<subst>
-                <del rend="overwrite">ὸ ὑπ</del>
-                <add place="inline">οῦτὸ</add>
-            </subst> καὶ τὸ ὑδωρ ἐπὶ νεφελῶν κρεμ
+                     <del rend="overwrite">ὸ ὑπ</del>
+                     <add place="inline">οῦτὸ</add>
+                  </subst> καὶ τὸ ὑδωρ ἐπὶ νεφελῶν κρεμ
             <lb/>
             μᾶται· καὶ ὑετοὶ τὴν γὴν ἐπικλύζουσι· καὶ ἡ μὲν θαλάλαττα
             <lb/>
@@ -3778,15 +3931,15 @@
             <lb/>
             θεοῦ, μαίνοιτο μὲν ὁ ποιοῦτος ἀμφιβάλλαν περὶ λόγου θε
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             ἔχει δὲ ὅμως ἐκ τῶν ὁρωμένων τὴν ἀπόδειξιν· ὅτι πάντα
             <lb/>
             λόγῳ καὶ θεοῦ καὶ σοφία συνέστηκε· καὶ οὐκ ἄν ἠδράθη τι τῶν
             <lb/>
             γινομένων· εἰ μὴ λόγῳ ἐγεγόνει, καὶ λόγω τῳ θείῳ κα<subst>
-                <del rend="overwrite">τ</del>
-                <add place="inline">θ</add>
-            </subst>ά
+                     <del rend="overwrite">τ</del>
+                     <add place="inline">θ</add>
+                  </subst>ά
             <lb break="no"/>
             περ ἐλέγχθη λόγος δὲ ὤν οὐ κατὰ τὴν τῶν ἀνθρώπων ὁμι
             <lb/>
@@ -3810,10 +3963,10 @@
             <lb/>
             διακοσμεῖ καὶ συνέχει· εἰ δὲ αἰτία <add place="above">δ’</add> ἣν ὁ λόγος ὁ τοῦ θεο
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             λόγος τοῖς γινομένου ἐπιβέβηκεν, ἔστιν ἀληθῶς θαυμαστ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             καὶ γνωρίζουσα ὅτι οὐκ ἄλλως ἔπρεπεν ἢ οὕτως γενέσθαι
             <lb/>
             ὥσπερ καὶ ἐστὶ. τῶν μὲν γὰρ γενητῶν ἡ φύσις, ἄτε δὴ
@@ -3822,25 +3975,25 @@
             <lb/>
             καθ’ ἑαυτὴν συνκρινομένη τυνχάνει· ὁ δὲ τῶν ὅλων θεὸ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             ἀγαθὸς καὶ
             <pb n="25r"/>
             αγαθὸς καὶ ὑπέρκαλλος τὴν φύσιν ἐστὶ. διὸ καὶ φιλανθρωπός
             <lb/>
             ἐστὶ. <subst>
-                <del rend="strikethrough">μων</del>
-                <add place="above">ἐστι</add>
-            </subst> ἀγαθῷ γὰρ περὶ οὑδενὸς ἄν γένοιτο φθόνος· ὅθεν οὐ δὲ
+                     <del rend="strikethrough">μων</del>
+                     <add place="above">ἐστι</add>
+                  </subst> ἀγαθῷ γὰρ περὶ οὑδενὸς ἄν γένοιτο φθόνος· ὅθεν οὐ δὲ
             <lb/>
             τὸ εἶναί τινι φθονεῖ ἀλλὰ πάντα εἶναι βούλεται, ἵνα <subst>
-                <del rend="overwrite">καὶ φ</del>
-                <add place="inline">,</add>
-            </subst> καὶ
+                     <del rend="overwrite">καὶ φ</del>
+                     <add place="inline">,</add>
+                  </subst> καὶ
             <lb/>
             φιλανθρωπεύεσθαι δύνηται. ὁρῶν οὖν των γενητ<subst>
-                <del rend="overwrite">ω</del>
-                <add place="inline">ὴ</add>
-            </subst>ν πᾶσαν
+                     <del rend="overwrite">ω</del>
+                     <add place="inline">ὴ</add>
+                  </subst>ν πᾶσαν
             <lb/>
             φύσον, ὅσον κατὰ τοὺς ἰδίους αὐτῆς λόγους, ῥευστιν οὖσαν
             <lb/>
@@ -3898,7 +4051,7 @@
             <lb/>
             τὴν αὐτοῦ δυνάμιν,  οὐτε τὸ πῦρ τῷ ψυχρῶ μάχεται οὔτε
             <lb/>
-            <del rend="strikethrough">τω</del> τὸ ὑγρὸν τῷ ξηρῷ· ἀλλ’ ὡς φίλα καὶ ἀδειφὰ τὰ
+                  <del rend="strikethrough">τω</del> τὸ ὑγρὸν τῷ ξηρῷ· ἀλλ’ ὡς φίλα καὶ ἀδειφὰ τὰ
             <lb/>
             καθ’ ἐαυτὰ ὄντα ἐναντιά συνελθόντα ὂμοῦ, τά τέ φαινό
             <lb break="no"/>
@@ -3911,9 +4064,9 @@
             τα
             <pb n="25v"/>
             μὲν πᾶσα καὶ ὁ μέγας ὡκεανὸς <subst>
-                <del rend="overwrite">ὄ</del>
-                <add place="inline">ὅ</add>
-            </subst>ροις ἰδίοις ἔχουσι
+                     <del rend="overwrite">ὄ</del>
+                     <add place="inline">ὅ</add>
+                  </subst>ροις ἰδίοις ἔχουσι
             <lb/>
             τὴν ἑαυτῶν κίνησιν, ἡ δὲ ξῆρᾶ πᾶσα χλοηφορεῖ
             <lb/>
@@ -3947,7 +4100,7 @@
             <lb/>
             καὶ μίαν τὴν τούτου τάξιν ἀποτελεῖ καλῶς καὶ ἡρμοσμένη
             <gap reason="damage" quantity="5" unit="character"/>
-            <lb/>
+                  <lb/>
             αὐτὸς μὲν ἀκίνητος μενῶν παρὰ τῷ πατρι. πάντα δὲ κινῶν
             <lb/>
             τῇ ἑαυτοῦ συστάσεον, ὡς ἂν ἔκαστον τῷ ἐαυτοῦ πατρὶ
@@ -3968,7 +4121,7 @@
             <lb/>
             τὸ δε περιφερὲς περιγεται, τὸ δὲ μέσον ὡς ἐστὶ κινεῖτα
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             τὸ θερμὸν θερμαίνεται, καὶ τὸ ξηρὸν ξηραίνεται, καὶ
             <lb/>
             τὰ ὅλα ὡς ἔχει φύσεως ζωοποιεῖται καὶ συνίστυται
@@ -3985,7 +4138,7 @@
             <lb/>
             ἕτινεων, καὶ ἑνὸς τοῦ καθηγεμόνος σημαίνοντος, ἔκαστ
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             μὲν κατὰ
             <pb n="26r"/>
             μὲν κατὰ τὴν φύσιν ἑαυτοῦ καὶ δύναμιν φωνεῖ, ὁ μὲν
@@ -4051,9 +4204,9 @@
             παρ’ ἐκάστου γινεται, καὶ παρὰ πάντων ὁμοῦ μιά τάξις
             <lb/>
             ἀποτ<subst>
-                <del rend="overwrite">·έλει</del>
-                <add place="inline">ελεῖ</add>
-            </subst>ται. νεύματι γὰρ καὶ ταῖς δυνάμεσι τοῦ ἐπι
+                     <del rend="overwrite">·έλει</del>
+                     <add place="inline">ελεῖ</add>
+                  </subst>ται. νεύματι γὰρ καὶ ταῖς δυνάμεσι τοῦ ἐπι
             <lb break="no"/>
             στατοῦντος καὶ ἠγεμονεύοντος τῶν παντων θείου καὶ
             <lb/>
@@ -4068,9 +4221,9 @@
             νεται, καὶ ἄνεμοι πνέουσι τὰ ὄρη εἰς ὑψος ἀνατεια
             <lb break="no"/>
             μένα ἵστενται ἡ θ<subst>
-                <del rend="erasure">αλά</del>
-                <add place="inline">άλα</add>
-            </subst>ττα κυμαίνει καὶ τὰ ἐν αὐτῆ
+                     <del rend="erasure">αλά</del>
+                     <add place="inline">άλα</add>
+                  </subst>ττα κυμαίνει καὶ τὰ ἐν αὐτῆ
             <lb/>
             ζῶα τρέφεται, ἡ γῆ ἀκίνητος μένουσι καρποφορεῖ,
             <lb/>
@@ -4096,7 +4249,7 @@
             <lb/>
             ταῦτα καὶ ἐπὶ πλείω τούτων, ἂ διὰ τὸ πλῆθος οὐκ ἰσχύ
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb/>
+                  <lb/>
             μὲν ἡμεῖο λόγον ὁ παραδοξοποιὸς τοῦ θεοῦ λόγος
             <lb/>
             φωτίζων καὶ ζωοποιῶν τῷ ἑαυτοῦ νεύματι κινεῖ καὶ
@@ -4110,17 +4263,17 @@
             ἐν τοῖς ὅλοις συνέχει, καὶ ζωοποιει πάλιν τῷ ἑαυτοῦ
             <lb/>
             νεύματι καὶ τῇ αὐτοῦ προνοία, καὶ τούτου οὐκ ἄν τι <del rend="strikethrough">γε</del>
-            <lb/>
+                  <lb/>
             γένοιτο πρὸς ἀπ<subst>
-                <del rend="overwrite">ο</del>
-                <add place="inline">ι</add>
-            </subst>στίαν ἐφόδιον, ὡς γὰρ τῇ αὐτου προ
+                     <del rend="overwrite">ο</del>
+                     <add place="inline">ι</add>
+                  </subst>στίαν ἐφόδιον, ὡς γὰρ τῇ αὐτου προ
             <lb/>
             νοία, καὶ σώματα μὲν αὔξει. ψύχη δὲ ἡ λογικῆ κ<subst>
-                <del rend="overwrite">ε</del>
-                <add place="inline">ι</add>
-            </subst>
-            <lb break="no"/>
+                     <del rend="overwrite">ε</del>
+                     <add place="inline">ι</add>
+                  </subst>
+                  <lb break="no"/>
             νεῖται, καὶ τὸ λογίζεσθαι καὶ τὸ ζῆν ἔχει. καὶ τοῦτ’ου
             <lb/>
             πολλῆς ἀποδείξεως δεῖται· ὁρωμεν γὰρ τὰ γινόμενα
@@ -4134,9 +4287,9 @@
             ἰδίαν ἐνεργαν ἀποδιδούς· ὥστε τὰς μὲν θείας θειο
             <lb break="no"/>
             τέρ<subst>
-                <del rend="strikethrough">ου</del>
-                <add place="above">ω</add>
-            </subst>ς κινεῖσθαι, τὰς δὲ ὁρα τὰς ὥσπερ καὶ ὁρᾶται
+                     <del rend="strikethrough">ου</del>
+                     <add place="above">ω</add>
+                  </subst>ς κινεῖσθαι, τὰς δὲ ὁρα τὰς ὥσπερ καὶ ὁρᾶται
             <lb/>
             αὐτὸς δὲ ἐπὶ πάντων ἠγεμών τε καὶ βασιλεὺς καὶ σύστησις
             <lb/>
@@ -4144,7 +4297,7 @@
             <lb/>
             τοῦ ἑαυτοῦ πατρὸς ἐργάζεται, μονονουχι διὰ τῶν γενο
             <gap reason="damage" quantity="3" unit="character"/>
-            <lb break="no"/>
+                  <lb break="no"/>
             μένων ἔργων αὐτοῦ διδάσκων καὶ λογῶν. ἐκ μεγέθους
             <lb/>
             καὶ καλλονῆς κτισμάτων, ἀναλόγως ὁ γενεσιουργὸς
@@ -4184,9 +4337,9 @@
             δύνησαι τῶν λεγομένων ἔχειν τὴν πίστην. λόγος γὰρ
             <lb/>
             ἐκ μειζόν<subst>
-                <del rend="strikethrough">αν</del>
-                <add place="above">ων</add>
-            </subst> βεβαιούμενος, ἀναντίρρητον ἔχει τὴν
+                     <del rend="strikethrough">αν</del>
+                     <add place="above">ων</add>
+                  </subst> βεβαιούμενος, ἀναντίρρητον ἔχει τὴν
             <lb/>
             ἀπόδειξιν· ἄνωθεν τοίνυν περὶ τῆς τῶν εἰδώλων ἀναι
             <lb break="no"/>
@@ -4197,9 +4350,9 @@
             ὼμὰ ὅσα ἐν τῷ οὐρὰνῳ ἄν ῳ καὶ ἐπὶ τῆς γῆς κάτω. τὴν
             <lb/>
             δὲ αἰτίαν τῆς τοῦτων κα<subst>
-                <del rend="overwrite">τ</del>
-                <add place="inline">θ</add>
-            </subst>αιρέ<add place="above">σεως</add> ἐτέρω σημαίνων λέγῶν
+                     <del rend="overwrite">τ</del>
+                     <add place="inline">θ</add>
+                  </subst>αιρέ<add place="above">σεως</add> ἐτέρω σημαίνων λέγῶν
             <lb/>
             τὰ εἴδωλα τῶν ἐθνῶν ἀργύριον καὶ χρύσιον ἔργα
             <lb/>
@@ -4248,18 +4401,18 @@
             σοι θεοὶ ἔτεροι· πλὴν ἐμοῦ, οὐχ’ ὡς ὄντων δε θεῶν
             <lb/>
             ἅλλων κωλύει τούτους αὐτοὺς ἔχον, ἀλλ’ <subst>
-                <del rend="overwrite">ἔ</del>
-                <add place="inline">ἴ</add>
-            </subst>να
+                     <del rend="overwrite">ἔ</del>
+                     <add place="inline">ἴ</add>
+                  </subst>να
             <lb/>
             μήτις τὸν ἀληθινὸν ἀποστραφεὶς θεὸν ἑαυτῶ
             <lb/>
             τὰ μὴ ὄντα θεοποιειν ἄρξηται· ὁποίοί εἰσεν οἱ παρὰ
             <lb/>
             ποιητ<subst>
-                <del rend="overwrite">ους</del>
-                <add place="inline">αῖς</add>
-            </subst> καὶ συγγραφεῦσιν ὁνομασθέντες καὶ δειχ
+                     <del rend="overwrite">ους</del>
+                     <add place="inline">αῖς</add>
+                  </subst> καὶ συγγραφεῦσιν ὁνομασθέντες καὶ δειχ
             <lb break="no"/>
             θέντες οὐκ ὄντες θεοὶ, καὶ αὐτὴ δὲ ἡ λέξις τὸ
             <lb/>
@@ -4293,7 +4446,7 @@
             <lb/>
             μαρτυρεῖται, ἀρκεῖ τὰ νῦν λεγόμενα δεῖξαι τοῦ λόγ
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             τὴν πίστιν, ἧ ἔφα, οἱ θέολογοί ἄνδρες, ἐθεμελίωσας
             <lb/>
             τὴν γὴν καὶ διαμένει τῇ διὰ τάξει σου, διαμένει ἡ ἡ
@@ -4397,21 +4550,21 @@
             καιοσύνη, αὐτο ἀρετή, καὶ μενὴ, καὶ χαρακτὴρ, καὶ ἀπαγ
             <lb/>
             καὶ εἰκὼν καὶ συνε<subst>
-                <del rend="strikethrough">χ</del>
-                <add place="above">λθ</add>
-            </subst>όντι φράσαι καρπὸς παντέλειος τοῦ
+                     <del rend="strikethrough">χ</del>
+                     <add place="above">λθ</add>
+                  </subst>όντι φράσαι καρπὸς παντέλειος τοῦ
             <lb/>
             πατρὸς ὑπάρχων, καὶ μόνος ἐστὶν υἱὸς· εἰκὼν ἀπαράλλακτος
             <lb/>
             τοῦ πατρὸς, τίς οὖν ἄν τις ἐξαριθμήσεις τὸν πατέρα <subst>
-                <del rend="overwrite">ἴ</del>
-                <add place="inline">ἵ</add>
-            </subst>να
+                     <del rend="overwrite">ἴ</del>
+                     <add place="inline">ἵ</add>
+                  </subst>να
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             καὶ τοῦ λόγου τούτου τὰς δυνάμεις ἐξεύροι, ἐστὶ γὰρ ἕσπ
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             τοῦ πατρὸς λόγος καὶ σοφία, οὐτω καὶ τοῖς γενιτοῖς συνκα
             <lb break="no"/>ταβαίνων, γίνεται πρὸς τὴν τοῦ γεννήτατος γνῶσιν καὶ
             <lb/>
@@ -4419,14 +4572,14 @@
             <lb/>
             ὁδός, βασιλεὺς καὶ ἠγεμὼν καὶ ἐπὶ πᾶσι σωτηρ καὶ ζωοπο
             <gap reason="damage" quantity="1" unit="character"/>
-            <lb break="no"/>ὸς, φῶς καὶ πρόνοια τῶν πάν<subst>
-                <del rend="overwrite">θ</del>
-                <add place="inline">τ</add>
-            </subst>ων· τοιοῦτον ἀρ’ ἀγαθὸν
+                  <lb break="no"/>ὸς, φῶς καὶ πρόνοια τῶν πάν<subst>
+                     <del rend="overwrite">θ</del>
+                     <add place="inline">τ</add>
+                  </subst>ων· τοιοῦτον ἀρ’ ἀγαθὸν
             <lb/>
             καὶ δημιουργὸν υἱὸν ἔχων ἐξ ἑαυτοῦ ὁ πατηρ, οὐκ ἀφαν
             <gap reason="damage" quantity="2" unit="character"/>
-            <lb/>
+                  <lb/>
             αὐτὸν τοῖς γενητοῖς ἀπέκρυψεν, ἀλλὰ καὶ ὁσ’ημέραι τοῦ
             <lb break="no"/>
             τον ἀποκαλύπτει τοῦ πᾶσι διὰ τῆς τῶν παντῶν δι’ αὐτοῦ
@@ -4481,12 +4634,12 @@
             νώσκοντες, καὶ τὸν τούτοῦ λόγον μὴ θρησκεύοντες,
             <lb/>
             τὸν σωτήρα τῶν παν<subst>
-                <del rend="overwrite">θ</del>
-                <add place="inline">τ</add>
-            </subst>ῶν, τὸν κ<subst>
-                <del rend="erasure">ύριο</del>
-                <add place="inline">υριό</add>
-            </subst>ν ἡμῶν ἰησοῦν χριστὸν,
+                     <del rend="overwrite">θ</del>
+                     <add place="inline">τ</add>
+                  </subst>ῶν, τὸν κ<subst>
+                     <del rend="erasure">ύριο</del>
+                     <add place="inline">υριό</add>
+                  </subst>ν ἡμῶν ἰησοῦν χριστὸν,
             <lb/>
             δι’ οὕ τὰ πάντα ὁ πατὴρ διακοσμεῖ καὶ συνέχει καὶ προ
             <lb break="no"/>
@@ -4514,8 +4667,8 @@
             <lb/>
             κατὰ εἰδώλων, καὶ τοὺς τῶν ἑλλήνων θεοὺς.
           </p>
-        </div>
-      </div>
-    </body>
-  </text>
+            </div>
+         </div>
+      </body>
+   </text>
 </TEI>

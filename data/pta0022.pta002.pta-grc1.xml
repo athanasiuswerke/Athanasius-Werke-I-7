@@ -10,6 +10,7 @@
             </author>
             <editor>
                <persName xml:id="KS">Kyriakos Savvidis</persName>
+               <roleName>Editor</roleName>
             </editor>
             <funder>Deutsche Forschungsgemeinschaft</funder>
          </titleStmt>
@@ -89,8 +90,8 @@
       <encodingDesc>
          <refsDecl n="CTS">
             <cRefPattern n="section"
-               matchPattern="(.+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
          </refsDecl>
          <refsDecl xml:id="biblical">
             <cRefPattern matchPattern="(.+):(.+):([0-9]+):([0-9]+)[\-\.]*[0-9]*"
@@ -205,7 +206,7 @@
       <body>
          <div type="edition"
               xml:lang="grc"
-              n="urn:cts:pta:pta0022.pta001.pta-grc1">
+              n="urn:cts:pta:pta0022.pta002.pta-grc1">
             <head>
                <title>
                   <pb edRef="#Migne" n="4"/>
